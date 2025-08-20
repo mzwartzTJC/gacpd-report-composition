@@ -60,7 +60,7 @@
                 <fo:flow flow-name = "xsl-region-body">
                     
                     <fo:block>
-                        <fo:external-graphic src="stylesheets\images\327660034JC_logo_RGB_TM.svg" content-width = "180" content-height = "36" fox:alt-text="Joint Commission Logo"/>
+                        <fo:external-graphic src="../../../stylesheets/images/327660034JC_logo_RGB_TM.svg"  content-width = "180" content-height = "36" fox:alt-text="Joint Commission Logo"/>
                     </fo:block>
                     <fo:block font-size="16pt" text-align="center">
                         <xsl:value-of select="CRSWLK/title_text"/>

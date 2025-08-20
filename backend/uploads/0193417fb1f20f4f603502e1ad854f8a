@@ -1,0 +1,1293 @@
+﻿<CRSWLK>
+  <ix_nm>CAH Deemed</ix_nm>
+  <ix_id>3066</ix_id>
+  <ix_ds>Critical Access Hospital Deemed</ix_ds>
+  <efc_dt>July 01, 2025</efc_dt>
+  <title_text>Medicare Critical Access Hospital Requirements to 2025 Joint Commission Critical Access Hospital Standards &amp; EPs</title_text>
+  <run_date>March 18, 2025</run_date>
+  <COP>
+    <cop_nm>§412.25</cop_nm>
+    <cop_seq_qt>20</cop_seq_qt>
+    <cop_ttl_ds>Excluded Hospital Units: Common Requirements</cop_ttl_ds>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25</cop_rqr_nm>
+      <cop_tx>§412.25 Excluded hospital units: Common Requirements</cop_tx>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)</cop_rqr_nm>
+      <cop_tx>(a) Basis for exclusion. In order to be excluded from the prospective payment systems as specified in §412.1(a)(1) and be paid under the inpatient psychiatric facility prospective payment system as specified in §412.1(a)(2) or the inpatient rehabilitation facility prospective payment system as specified in §412.1(a)(3), a psychiatric or rehabilitation unit must meet the following requirements.</cop_tx>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(1)</cop_rqr_nm>
+      <cop_tx>(1) Be part of an institution that—</cop_tx>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(1)(i)</cop_rqr_nm>
+      <cop_tx>(i) Has in effect an agreement under part 489 of this chapter to participate as a hospital;</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(1)(ii)</cop_rqr_nm>
+      <cop_tx>(ii) Is not excluded in its entirety from the prospective payment systems; and</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(1)(iii)</cop_rqr_nm>
+      <cop_tx>(iii) Unless it is a unit in a critical access hospital, the hospital of which an IRF is a unit must have at least 10 staffed and maintained hospital beds that are not excluded from the inpatient prospective payment system, or at least 1 staffed and maintained hospital bed for every 10 certified inpatient rehabilitation facility beds, whichever number is greater. Otherwise, the IRF will be classified as an IRF hospital, rather than an IRF unit. In the case of an inpatient psychiatric facility unit, the hospital must have enough beds that are not excluded from the inpatient prospective payment system to permit the provision of adequate cost information, as required by §413.24(c) of this chapter.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(2)</cop_rqr_nm>
+      <cop_tx>(2) Have written admission criteria that are applied uniformly to both Medicare and non-Medicare patients.</cop_tx>
+      <TAG>
+        <TAG_NM>C-0504</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0704</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+      <STD>
+        <std_lbl>PC.01.01.01</std_lbl>
+        <std_tx>The critical access hospital accepts the patient for care, treatment, and services based on its ability to meet the patient’s needs.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>2</mc_tx_seq_qt>
+          <mc_body_tx>The critical access hospital follows a written process for accepting a patient that addresses the following:
+- Criteria to determine the patient's eligibility for care, treatment, and services
+- Procedures for accepting referrals
+Note: For rehabilitation distinct part units in critical access hospitals: A rehabilitation physician reviews and approves the patient’s preadmission screening prior to the patient’s admission to the unit.</mc_body_tx>
+        </EP>
+      </STD>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(2)</cop_rqr_nm>
+      <cop_tx>(2) Have written admission criteria that are applied uniformly to both Medicare and non-Medicare patients.</cop_tx>
+      <TAG>
+        <TAG_NM>C-0504</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0704</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+      <STD>
+        <std_lbl>PC.01.01.01</std_lbl>
+        <std_tx>The critical access hospital accepts the patient for care, treatment, and services based on its ability to meet the patient’s needs.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>2</mc_tx_seq_qt>
+          <mc_body_tx>The critical access hospital follows a written process for accepting a patient that addresses the following:
+- Criteria to determine the patient's eligibility for care, treatment, and services
+- Procedures for accepting referrals
+Note: For rehabilitation distinct part units in critical access hospitals: A rehabilitation physician reviews and approves the patient’s preadmission screening prior to the patient’s admission to the unit.</mc_body_tx>
+        </EP>
+      </STD>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(3)</cop_rqr_nm>
+      <cop_tx>(3) Have admission and discharge records that are separately identified from those of the hospital in which it is located and are readily available.</cop_tx>
+      <TAG>
+        <TAG_NM>C-0505</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0705</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+      <STD>
+        <std_lbl>RC.01.01.01</std_lbl>
+        <std_tx>The critical access hospital maintains complete and accurate medical records for each individual patient.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>12</mc_tx_seq_qt>
+          <mc_body_tx>For rehabilitation and psychiatric distinct part units in critical access hospitals: Admission and discharge records for rehabilitation and psychiatric distinct part units are separately identified from those of the critical access hospital in which the units are located.</mc_body_tx>
+        </EP>
+      </STD>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(3)</cop_rqr_nm>
+      <cop_tx>(3) Have admission and discharge records that are separately identified from those of the hospital in which it is located and are readily available.</cop_tx>
+      <TAG>
+        <TAG_NM>C-0505</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0705</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+      <STD>
+        <std_lbl>RC.01.01.01</std_lbl>
+        <std_tx>The critical access hospital maintains complete and accurate medical records for each individual patient.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>12</mc_tx_seq_qt>
+          <mc_body_tx>For rehabilitation and psychiatric distinct part units in critical access hospitals: Admission and discharge records for rehabilitation and psychiatric distinct part units are separately identified from those of the critical access hospital in which the units are located.</mc_body_tx>
+        </EP>
+      </STD>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(4)</cop_rqr_nm>
+      <cop_tx>(4) Have policies specifying that necessary clinical information is transferred to the unit when a patient of the hospital is transferred to the unit.</cop_tx>
+      <TAG>
+        <TAG_NM>C-0506</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0706</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+      <STD>
+        <std_lbl>LD.04.01.07</std_lbl>
+        <std_tx>The critical access hospital has policies and procedures that guide and support patient care, treatment, and services.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>1</mc_tx_seq_qt>
+          <mc_body_tx>Leaders review, approve, and manage the implementation of policies and procedures that guide and support patient care, treatment, and services. 
+(See also  NR.02.03.01, EP 2; RI.01.07.01, EP 1)</mc_body_tx>
+        </EP>
+      </STD>
+      <STD>
+        <std_lbl>PC.02.02.01</std_lbl>
+        <std_tx>The critical access hospital coordinates the patient’s care, treatment, and services based on the patient’s needs.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>1</mc_tx_seq_qt>
+          <mc_body_tx>The critical access hospital follows a process to receive or share patient information when the patient is referred to other internal or external providers of care, treatment, and services. 
+(See also  PC.04.02.01, EP 1)</mc_body_tx>
+        </EP>
+        <EP>
+          <mc_tx_seq_qt>2</mc_tx_seq_qt>
+          <mc_body_tx>The critical access hospital's process for hand-off communication provides for the opportunity for discussion between the giver and receiver of patient information.
+Note: Such information may include the patient’s condition, care, treatment, medications, services, and any recent or anticipated changes to any of these.</mc_body_tx>
+        </EP>
+        <EP>
+          <mc_tx_seq_qt>3</mc_tx_seq_qt>
+          <mc_body_tx>The critical access hospital coordinates the patient’s care, treatment, and services within a time frame that meets the patient’s needs.  
+Note: Coordination involves resolving scheduling conflicts and duplication of care, treatment, and services.</mc_body_tx>
+        </EP>
+      </STD>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(4)</cop_rqr_nm>
+      <cop_tx>(4) Have policies specifying that necessary clinical information is transferred to the unit when a patient of the hospital is transferred to the unit.</cop_tx>
+      <TAG>
+        <TAG_NM>C-0506</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0706</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+      <STD>
+        <std_lbl>LD.04.01.07</std_lbl>
+        <std_tx>The critical access hospital has policies and procedures that guide and support patient care, treatment, and services.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>1</mc_tx_seq_qt>
+          <mc_body_tx>Leaders review, approve, and manage the implementation of policies and procedures that guide and support patient care, treatment, and services. 
+(See also  NR.02.03.01, EP 2; RI.01.07.01, EP 1)</mc_body_tx>
+        </EP>
+      </STD>
+      <STD>
+        <std_lbl>PC.02.02.01</std_lbl>
+        <std_tx>The critical access hospital coordinates the patient’s care, treatment, and services based on the patient’s needs.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>1</mc_tx_seq_qt>
+          <mc_body_tx>The critical access hospital follows a process to receive or share patient information when the patient is referred to other internal or external providers of care, treatment, and services. 
+(See also  PC.04.02.01, EP 1)</mc_body_tx>
+        </EP>
+        <EP>
+          <mc_tx_seq_qt>2</mc_tx_seq_qt>
+          <mc_body_tx>The critical access hospital's process for hand-off communication provides for the opportunity for discussion between the giver and receiver of patient information.
+Note: Such information may include the patient’s condition, care, treatment, medications, services, and any recent or anticipated changes to any of these.</mc_body_tx>
+        </EP>
+        <EP>
+          <mc_tx_seq_qt>3</mc_tx_seq_qt>
+          <mc_body_tx>The critical access hospital coordinates the patient’s care, treatment, and services within a time frame that meets the patient’s needs.  
+Note: Coordination involves resolving scheduling conflicts and duplication of care, treatment, and services.</mc_body_tx>
+        </EP>
+      </STD>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(5)</cop_rqr_nm>
+      <cop_tx>(5) Meet applicable State licensure laws.</cop_tx>
+      <TAG>
+        <TAG_NM>C-0507</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0707</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+      <STD>
+        <std_lbl>LD.04.01.01</std_lbl>
+        <std_tx>The critical access hospital complies with law and regulation.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>1</mc_tx_seq_qt>
+          <mc_body_tx>The critical access hospital is licensed, is certified, or has a permit, in accordance with law and regulation, to provide the care, treatment, or services for which the critical access hospital is seeking accreditation from The Joint Commission. 
+Note 1: Each service location that performs laboratory testing (waived or nonwaived) must have a Clinical Laboratory Improvement Amendments of 1988 (CLIA ’88) certificate as specified by the federal CLIA regulations (42 CFR 493.55 and 493.3) and applicable state law.
+Note 2: For more information on how to obtain a CLIA certificate, see http://www.cms.gov/Regulations-and-Guidance/Legislation/CLIA/How_to_Apply_for_a_CLIA_Certificate_International_Laboratories.html.
+(See also  WT.01.01.01, EP 1)</mc_body_tx>
+        </EP>
+      </STD>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(5)</cop_rqr_nm>
+      <cop_tx>(5) Meet applicable State licensure laws.</cop_tx>
+      <TAG>
+        <TAG_NM>C-0507</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0707</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+      <STD>
+        <std_lbl>LD.04.01.01</std_lbl>
+        <std_tx>The critical access hospital complies with law and regulation.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>1</mc_tx_seq_qt>
+          <mc_body_tx>The critical access hospital is licensed, is certified, or has a permit, in accordance with law and regulation, to provide the care, treatment, or services for which the critical access hospital is seeking accreditation from The Joint Commission. 
+Note 1: Each service location that performs laboratory testing (waived or nonwaived) must have a Clinical Laboratory Improvement Amendments of 1988 (CLIA ’88) certificate as specified by the federal CLIA regulations (42 CFR 493.55 and 493.3) and applicable state law.
+Note 2: For more information on how to obtain a CLIA certificate, see http://www.cms.gov/Regulations-and-Guidance/Legislation/CLIA/How_to_Apply_for_a_CLIA_Certificate_International_Laboratories.html.
+(See also  WT.01.01.01, EP 1)</mc_body_tx>
+        </EP>
+      </STD>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(6)</cop_rqr_nm>
+      <cop_tx>(6) Have utilization review standards applicable for the type of care offered in the unit.</cop_tx>
+      <TAG>
+        <TAG_NM>C-0508</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0708</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+      <STD>
+        <std_lbl>LD.04.01.01</std_lbl>
+        <std_tx>The critical access hospital complies with law and regulation.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>9</mc_tx_seq_qt>
+          <mc_body_tx>For rehabilitation and psychiatric distinct part units in critical access hospitals: The critical access hospital has utilization review standards appropriate to rehabilitation or psychiatric services, or verification that the quality improvement organization (QIO) is conducting review activities.</mc_body_tx>
+        </EP>
+      </STD>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(6)</cop_rqr_nm>
+      <cop_tx>(6) Have utilization review standards applicable for the type of care offered in the unit.</cop_tx>
+      <TAG>
+        <TAG_NM>C-0508</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0708</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+      <STD>
+        <std_lbl>LD.04.01.01</std_lbl>
+        <std_tx>The critical access hospital complies with law and regulation.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>9</mc_tx_seq_qt>
+          <mc_body_tx>For rehabilitation and psychiatric distinct part units in critical access hospitals: The critical access hospital has utilization review standards appropriate to rehabilitation or psychiatric services, or verification that the quality improvement organization (QIO) is conducting review activities.</mc_body_tx>
+        </EP>
+      </STD>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(7)</cop_rqr_nm>
+      <cop_tx>(7) Have beds physically separate from (that is, not commingled with) the hospital’s other beds.</cop_tx>
+      <TAG>
+        <TAG_NM>C-0509</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0709</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+      <STD>
+        <std_lbl>LD.04.01.01</std_lbl>
+        <std_tx>The critical access hospital complies with law and regulation.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>11</mc_tx_seq_qt>
+          <mc_body_tx>For rehabilitation and psychiatric distinct part units in critical access hospitals: The rehabilitation or psychiatric distinct part unit(s) beds are physically separate from the critical access hospital’s other beds.</mc_body_tx>
+        </EP>
+      </STD>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(7)</cop_rqr_nm>
+      <cop_tx>(7) Have beds physically separate from (that is, not commingled with) the hospital’s other beds.</cop_tx>
+      <TAG>
+        <TAG_NM>C-0509</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0709</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+      <STD>
+        <std_lbl>LD.04.01.01</std_lbl>
+        <std_tx>The critical access hospital complies with law and regulation.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>11</mc_tx_seq_qt>
+          <mc_body_tx>For rehabilitation and psychiatric distinct part units in critical access hospitals: The rehabilitation or psychiatric distinct part unit(s) beds are physically separate from the critical access hospital’s other beds.</mc_body_tx>
+        </EP>
+      </STD>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(8)</cop_rqr_nm>
+      <cop_tx>(8) Be serviced by the same fiscal intermediary as the hospital.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0510</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0710</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(8)</cop_rqr_nm>
+      <cop_tx>(8) Be serviced by the same fiscal intermediary as the hospital.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0510</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0710</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(9)</cop_rqr_nm>
+      <cop_tx>(9) Be treated as a separate cost center for cost finding and apportionment purposes.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0511</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0711</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(9)</cop_rqr_nm>
+      <cop_tx>(9) Be treated as a separate cost center for cost finding and apportionment purposes.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0511</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0711</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(10)</cop_rqr_nm>
+      <cop_tx>(10) Use an accounting system that properly allocates costs.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0512</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0712</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(10)</cop_rqr_nm>
+      <cop_tx>(10) Use an accounting system that properly allocates costs.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0512</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0712</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(11)</cop_rqr_nm>
+      <cop_tx>(11) Maintain adequate statistical data to support the basis of allocation.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0513</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0713</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(11)</cop_rqr_nm>
+      <cop_tx>(11) Maintain adequate statistical data to support the basis of allocation.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0513</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0713</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(12)</cop_rqr_nm>
+      <cop_tx>(12) Report its costs in the hospital’s cost report covering the same fiscal period and using the same method of apportionment as the hospital.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0514</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0714</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(12)</cop_rqr_nm>
+      <cop_tx>(12) Report its costs in the hospital’s cost report covering the same fiscal period and using the same method of apportionment as the hospital.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0514</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0714</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(13)</cop_rqr_nm>
+      <cop_tx>(13) As of the first day of the first cost reporting period for which all other exclusion requirements are met, the unit is fully equipped and staffed and is capable of providing hospital inpatient psychiatric or rehabilitation care regardless of whether there are any inpatients in the unit on that date.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0515</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0715</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+      <STD>
+        <std_lbl>LD.01.03.01</std_lbl>
+        <std_tx>The governing body is ultimately accountable for the safety and quality of care, treatment, and services.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>2</mc_tx_seq_qt>
+          <mc_body_tx>For rehabilitation and psychiatric distinct part units in critical access hospitals: The governing body provides for organization management and planning.</mc_body_tx>
+        </EP>
+      </STD>
+      <STD>
+        <std_lbl>LD.03.03.01</std_lbl>
+        <std_tx>Leaders use critical access hospitalwide planning to establish structures and processes that focus on safety and quality.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>2</mc_tx_seq_qt>
+          <mc_body_tx>Planning is hospitalwide, systematic, and involves designated individuals and information sources.</mc_body_tx>
+        </EP>
+      </STD>
+      <STD>
+        <std_lbl>LD.03.06.01</std_lbl>
+        <std_tx>Those who work in the critical access hospital are focused on improving safety and quality.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>2</mc_tx_seq_qt>
+          <mc_body_tx>Leaders provide for a sufficient number and mix of individuals to support safe, quality care, treatment, and services. 
+Note: The number and mix of individuals is appropriate to the scope and complexity of the services offered.
+(See also NR.02.03.01, EP 5)</mc_body_tx>
+        </EP>
+      </STD>
+      <STD>
+        <std_lbl>LD.04.01.11</std_lbl>
+        <std_tx>The critical access hospital makes space and equipment available as needed for the provision of care, treatment, and services.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>2</mc_tx_seq_qt>
+          <mc_body_tx>The arrangement and allocation of space supports safe, efficient, and effective care, treatment, and services.</mc_body_tx>
+        </EP>
+        <EP>
+          <mc_tx_seq_qt>5</mc_tx_seq_qt>
+          <mc_body_tx>The leaders provide for equipment, information systems, supplies, and other resources.</mc_body_tx>
+        </EP>
+      </STD>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(a)(13)</cop_rqr_nm>
+      <cop_tx>(13) As of the first day of the first cost reporting period for which all other exclusion requirements are met, the unit is fully equipped and staffed and is capable of providing hospital inpatient psychiatric or rehabilitation care regardless of whether there are any inpatients in the unit on that date.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0515</TAG_NM>
+        <TAG_HDG>Basis for exclusion</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0715</TAG_NM>
+        <TAG_HDG>Basis for Exclusion</TAG_HDG>
+      </TAG>
+      <STD>
+        <std_lbl>LD.01.03.01</std_lbl>
+        <std_tx>The governing body is ultimately accountable for the safety and quality of care, treatment, and services.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>2</mc_tx_seq_qt>
+          <mc_body_tx>For rehabilitation and psychiatric distinct part units in critical access hospitals: The governing body provides for organization management and planning.</mc_body_tx>
+        </EP>
+      </STD>
+      <STD>
+        <std_lbl>LD.03.03.01</std_lbl>
+        <std_tx>Leaders use critical access hospitalwide planning to establish structures and processes that focus on safety and quality.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>2</mc_tx_seq_qt>
+          <mc_body_tx>Planning is hospitalwide, systematic, and involves designated individuals and information sources.</mc_body_tx>
+        </EP>
+      </STD>
+      <STD>
+        <std_lbl>LD.03.06.01</std_lbl>
+        <std_tx>Those who work in the critical access hospital are focused on improving safety and quality.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>2</mc_tx_seq_qt>
+          <mc_body_tx>Leaders provide for a sufficient number and mix of individuals to support safe, quality care, treatment, and services. 
+Note: The number and mix of individuals is appropriate to the scope and complexity of the services offered.
+(See also NR.02.03.01, EP 5)</mc_body_tx>
+        </EP>
+      </STD>
+      <STD>
+        <std_lbl>LD.04.01.11</std_lbl>
+        <std_tx>The critical access hospital makes space and equipment available as needed for the provision of care, treatment, and services.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>2</mc_tx_seq_qt>
+          <mc_body_tx>The arrangement and allocation of space supports safe, efficient, and effective care, treatment, and services.</mc_body_tx>
+        </EP>
+        <EP>
+          <mc_tx_seq_qt>5</mc_tx_seq_qt>
+          <mc_body_tx>The leaders provide for equipment, information systems, supplies, and other resources.</mc_body_tx>
+        </EP>
+      </STD>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(b)</cop_rqr_nm>
+      <cop_tx>(b) Changes in the size of excluded units. Except in the special cases noted at the end of this paragraph, changes in the number of beds or square footage considered to be part of an excluded unit under this section are allowed one time during a cost reporting period if the hospital notifies its Medicare contractor and the CMS RO in writing of the planned change at least 30 days before the date of the change. The hospital must maintain the information needed to accurately determine costs that are attributable to the excluded unit. A change in bed size or a change in square footage may occur at any time during a cost reporting period and must remain in effect for the rest of that cost reporting period. Changes in bed size or square footage may be made at any time if these changes are made necessary by relocation of a unit to permit construction or renovation necessary for compliance with changes in Federal, State, or local law affecting the physical facility or because of catastrophic events such as fires, floods, earthquakes, or tornadoes.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0516</TAG_NM>
+        <TAG_HDG>Changes in the size of excluded units</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0716</TAG_NM>
+        <TAG_HDG>Changes in the size of excluded units</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(b)</cop_rqr_nm>
+      <cop_tx>(b) Changes in the size of excluded units. Except in the special cases noted at the end of this paragraph, changes in the number of beds or square footage considered to be part of an excluded unit under this section are allowed one time during a cost reporting period if the hospital notifies its Medicare contractor and the CMS RO in writing of the planned change at least 30 days before the date of the change. The hospital must maintain the information needed to accurately determine costs that are attributable to the excluded unit. A change in bed size or a change in square footage may occur at any time during a cost reporting period and must remain in effect for the rest of that cost reporting period. Changes in bed size or square footage may be made at any time if these changes are made necessary by relocation of a unit to permit construction or renovation necessary for compliance with changes in Federal, State, or local law affecting the physical facility or because of catastrophic events such as fires, floods, earthquakes, or tornadoes.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0516</TAG_NM>
+        <TAG_HDG>Changes in the size of excluded units</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0716</TAG_NM>
+        <TAG_HDG>Changes in the size of excluded units</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(c)</cop_rqr_nm>
+      <cop_tx>(c) Changes in the status of hospital units. For purposes of exclusions from the prospective payment systems under this section, the status of each hospital unit (excluded or not excluded) is determined as specified in paragraphs (c)(1) and (c)(2) of this section.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(c)(1)</cop_rqr_nm>
+      <cop_tx>(1) The status of a hospital unit may be changed from not excluded to excluded only at the start of the cost reporting period. If a unit is added to a hospital after the start of a cost reporting period, it cannot be excluded from the prospective payment systems before the start of a hospital’s next cost reporting period.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0519</TAG_NM>
+        <TAG_HDG>Changes in the status of hospital units</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0719</TAG_NM>
+        <TAG_HDG>Changes in the status of hospital units</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(c)(1)</cop_rqr_nm>
+      <cop_tx>(1) The status of a hospital unit may be changed from not excluded to excluded only at the start of the cost reporting period. If a unit is added to a hospital after the start of a cost reporting period, it cannot be excluded from the prospective payment systems before the start of a hospital’s next cost reporting period.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0519</TAG_NM>
+        <TAG_HDG>Changes in the status of hospital units</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0719</TAG_NM>
+        <TAG_HDG>Changes in the status of hospital units</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(c)(2)</cop_rqr_nm>
+      <cop_tx>(2) The status of a hospital unit may be changed from excluded to not excluded at any time during a cost reporting period, but only if the hospital notifies the fiscal intermediary and the CMS Regional Office in writing of the change at least 30 days before the date of the change, and maintains the information needed to accurately determine costs that are or are not attributable to the excluded unit. A change in the status of a unit from excluded to not excluded that is made during a cost reporting period must remain in effect for the rest of that cost reporting period.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0520</TAG_NM>
+        <TAG_HDG>Changes in the status of hospital units</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0720</TAG_NM>
+        <TAG_HDG>Changes in the status of hospital units</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(c)(2)</cop_rqr_nm>
+      <cop_tx>(2) The status of a hospital unit may be changed from excluded to not excluded at any time during a cost reporting period, but only if the hospital notifies the fiscal intermediary and the CMS Regional Office in writing of the change at least 30 days before the date of the change, and maintains the information needed to accurately determine costs that are or are not attributable to the excluded unit. A change in the status of a unit from excluded to not excluded that is made during a cost reporting period must remain in effect for the rest of that cost reporting period.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0520</TAG_NM>
+        <TAG_HDG>Changes in the status of hospital units</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0720</TAG_NM>
+        <TAG_HDG>Changes in the status of hospital units</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(d)</cop_rqr_nm>
+      <cop_tx>(d) Number of excluded units. Each hospital may have only one unit of each type (psychiatric or rehabilitation) excluded from the prospective payment systems.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0521</TAG_NM>
+        <TAG_HDG>Number of excluded units</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0721</TAG_NM>
+        <TAG_HDG>Number of excluded units</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(d)</cop_rqr_nm>
+      <cop_tx>(d) Number of excluded units. Each hospital may have only one unit of each type (psychiatric or rehabilitation) excluded from the prospective payment systems.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0521</TAG_NM>
+        <TAG_HDG>Number of excluded units</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0721</TAG_NM>
+        <TAG_HDG>Number of excluded units</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)</cop_rqr_nm>
+      <cop_tx>(e) Satellite facilities.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(1)</cop_rqr_nm>
+      <cop_tx>(1) For purposes of paragraphs (e)(2) through (e)(5) of this section, a satellite facility is a part of a hospital unit that provides inpatient services in a building also used by another hospital, or in one or more entire buildings located on the same campus as buildings used by another hospital.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0522</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0722</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(1)</cop_rqr_nm>
+      <cop_tx>(1) For purposes of paragraphs (e)(2) through (e)(5) of this section, a satellite facility is a part of a hospital unit that provides inpatient services in a building also used by another hospital, or in one or more entire buildings located on the same campus as buildings used by another hospital.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0522</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0722</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)</cop_rqr_nm>
+      <cop_tx>(2) Except as provided in paragraphs (e)(3) and (e)(6) of this section, effective for cost reporting periods beginning on or after October 1, 1999, a hospital that has a satellite facility must meet the following criteria in order to be excluded from the acute care hospital inpatient prospective payment systems for any period:</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0523</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0723</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)</cop_rqr_nm>
+      <cop_tx>(2) Except as provided in paragraphs (e)(3) and (e)(6) of this section, effective for cost reporting periods beginning on or after October 1, 1999, a hospital that has a satellite facility must meet the following criteria in order to be excluded from the acute care hospital inpatient prospective payment systems for any period:</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0523</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0723</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(i)</cop_rqr_nm>
+      <cop_tx>(i) In the case of a unit excluded from the prospective payment systems for the most recent cost reporting period beginning before October 1, 1997, the unit’s number of State-licensed and Medicare-certified beds, including those at the satellite facility, does not exceed the unit’s number of State-licensed and Medicare-certified beds on the last day of the unit’s last cost reporting period beginning before October 1, 1997.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0523</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0723</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(i)</cop_rqr_nm>
+      <cop_tx>(i) In the case of a unit excluded from the prospective payment systems for the most recent cost reporting period beginning before October 1, 1997, the unit’s number of State-licensed and Medicare-certified beds, including those at the satellite facility, does not exceed the unit’s number of State-licensed and Medicare-certified beds on the last day of the unit’s last cost reporting period beginning before October 1, 1997.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0523</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0723</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(ii)</cop_rqr_nm>
+      <cop_tx>(ii) The satellite facility independently complies with—</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0524</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0724</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(ii)</cop_rqr_nm>
+      <cop_tx>(ii) The satellite facility independently complies with—</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0524</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0724</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(ii)(A)</cop_rqr_nm>
+      <cop_tx>(A) For a rehabilitation unit, the requirements under §412.29; or</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0524</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0724</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(ii)(A)</cop_rqr_nm>
+      <cop_tx>(A) For a rehabilitation unit, the requirements under §412.29; or</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0524</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0724</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(ii)(B)</cop_rqr_nm>
+      <cop_tx>(B) For a psychiatric unit, the requirements under §412.27(a).</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0524</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0724</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(ii)(B)</cop_rqr_nm>
+      <cop_tx>(B) For a psychiatric unit, the requirements under §412.27(a).</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0524</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0724</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(iii)</cop_rqr_nm>
+      <cop_tx>(iii) The satellite facility meets all of the following requirements:</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0525</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0725</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(iii)</cop_rqr_nm>
+      <cop_tx>(iii) The satellite facility meets all of the following requirements:</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0525</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0725</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(iii)(A)</cop_rqr_nm>
+      <cop_tx>(A) Effective for cost reporting periods beginning on or after October 1, 2002, it is not under the control of the governing body or chief executive officer of the hospital in which it is located, and it furnishes inpatient care through the use of medical personnel who are not under the control of the medical staff or chief medical officer of the hospital in which it is located.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0525</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0725</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(iii)(A)</cop_rqr_nm>
+      <cop_tx>(A) Effective for cost reporting periods beginning on or after October 1, 2002, it is not under the control of the governing body or chief executive officer of the hospital in which it is located, and it furnishes inpatient care through the use of medical personnel who are not under the control of the medical staff or chief medical officer of the hospital in which it is located.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0525</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0725</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(iii)(B)</cop_rqr_nm>
+      <cop_tx>(B) It maintains admission and discharge records that are separately identified from those of the hospital in which it is located and are readily available.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0526</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0726</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(iii)(B)</cop_rqr_nm>
+      <cop_tx>(B) It maintains admission and discharge records that are separately identified from those of the hospital in which it is located and are readily available.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0526</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0726</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(iii)(C)</cop_rqr_nm>
+      <cop_tx>(C) It has beds that are physically separate from (that is, not commingled with) the beds of the hospital in which it is located.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0527</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0727</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(iii)(C)</cop_rqr_nm>
+      <cop_tx>(C) It has beds that are physically separate from (that is, not commingled with) the beds of the hospital in which it is located.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0527</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0727</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(iii)(D)</cop_rqr_nm>
+      <cop_tx>(D) It is serviced by the same fiscal intermediary as the hospital unit of which it is a part.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0528</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0728</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(iii)(D)</cop_rqr_nm>
+      <cop_tx>(D) It is serviced by the same fiscal intermediary as the hospital unit of which it is a part.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0528</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0728</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(iii)(E)</cop_rqr_nm>
+      <cop_tx>(E) It is treated as a separate cost center of the hospital unit of which it is a part.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0529</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0729</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(iii)(E)</cop_rqr_nm>
+      <cop_tx>(E) It is treated as a separate cost center of the hospital unit of which it is a part.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0529</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0729</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(iii)(F)</cop_rqr_nm>
+      <cop_tx>(F) For cost reporting and apportionment purposes, it uses an accounting system that properly allocates costs and maintains adequate statistical data to support the basis of allocation.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0530</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0730</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(iii)(F)</cop_rqr_nm>
+      <cop_tx>(F) For cost reporting and apportionment purposes, it uses an accounting system that properly allocates costs and maintains adequate statistical data to support the basis of allocation.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0530</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0730</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(iii)(G)</cop_rqr_nm>
+      <cop_tx>(G) It reports its costs on the cost report of the hospital of which it is a part, covering the same fiscal period and using the same method of apportionment as the hospital of which it is a part.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0531</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0731</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(iii)(G)</cop_rqr_nm>
+      <cop_tx>(G) It reports its costs on the cost report of the hospital of which it is a part, covering the same fiscal period and using the same method of apportionment as the hospital of which it is a part.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0531</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0731</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(2)(iv)</cop_rqr_nm>
+      <cop_tx>(iv) Effective for cost reporting periods beginning on or after October 1, 2019, the requirements of paragraph (e)(2)(iii)(A) of this section do not apply to a satellite facility of a unit that is part of a hospital excluded from the prospective payment systems specified in §412.1(a)(1) that does not furnish services in a building also used by another hospital that is not excluded from the prospective payment systems specified in §412.1(a)(1), or in one or more entire buildings located on the same campus as buildings used by another hospital that is not excluded from the prospective payment systems specified in §412.1(a)(1).</cop_tx>
+      <TAG>
+        <TAG_NM>C-0731</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(3)</cop_rqr_nm>
+      <cop_tx>(3) Except as specified in paragraphs (e)(4) and (e)(5) of this section, the provisions of paragraph (e)(2) of this section do not apply to any unit structured as a satellite facility on September 30, 1999, and excluded from the prospective payment systems on that date, to the extent the unit continues operating under the same terms and conditions, including the number of beds and square footage considered to be part of the unit at the satellite facility on September 30, 1999.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0532</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0732</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(3)</cop_rqr_nm>
+      <cop_tx>(3) Except as specified in paragraphs (e)(4) and (e)(5) of this section, the provisions of paragraph (e)(2) of this section do not apply to any unit structured as a satellite facility on September 30, 1999, and excluded from the prospective payment systems on that date, to the extent the unit continues operating under the same terms and conditions, including the number of beds and square footage considered to be part of the unit at the satellite facility on September 30, 1999.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0532</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0732</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(4)</cop_rqr_nm>
+      <cop_tx>(4) In applying the provisions of paragraph (e)(3) of this section, any unit structured as a satellite facility on September 30, 1999, may increase or decrease the square footage of the satellite facility or may decrease the number of beds in the satellite facility considered to be part of the satellite facility at any time, if these changes are made by the relocation of a facility—</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0533</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0733</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(4)</cop_rqr_nm>
+      <cop_tx>(4) In applying the provisions of paragraph (e)(3) of this section, any unit structured as a satellite facility on September 30, 1999, may increase or decrease the square footage of the satellite facility or may decrease the number of beds in the satellite facility considered to be part of the satellite facility at any time, if these changes are made by the relocation of a facility—</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0533</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0733</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(4)(i)</cop_rqr_nm>
+      <cop_tx>(i) To permit construction or renovation necessary for compliance with changes in Federal, State, or local law affecting the physical facility; or</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0533</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0733</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(4)(i)</cop_rqr_nm>
+      <cop_tx>(i) To permit construction or renovation necessary for compliance with changes in Federal, State, or local law affecting the physical facility; or</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0533</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0733</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(4)(ii)</cop_rqr_nm>
+      <cop_tx>(ii) Because of catastrophic events such as fires, floods, earthquakes, or tornadoes.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0533</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0733</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(4)(ii)</cop_rqr_nm>
+      <cop_tx>(ii) Because of catastrophic events such as fires, floods, earthquakes, or tornadoes.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0533</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0733</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(5)</cop_rqr_nm>
+      <cop_tx>(5) For cost reporting periods beginning on or after October 1, 2006, in applying the provisions of paragraph (e)(3) of this section—</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0534</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0734</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(5)</cop_rqr_nm>
+      <cop_tx>(5) For cost reporting periods beginning on or after October 1, 2006, in applying the provisions of paragraph (e)(3) of this section—</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0534</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0734</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(5)(i)</cop_rqr_nm>
+      <cop_tx>(i) Any unit structured as a satellite facility on September 30, 1999, may increase the square footage of the unit only at the beginning of a cost reporting period or decrease the square footage or number of beds considered to be part of the satellite facility subject to the provisions of paragraph (b)(2) of this section, without affecting the provisions of paragraph (e)(3) of this section; and</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0534</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0734</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(5)(i)</cop_rqr_nm>
+      <cop_tx>(i) Any unit structured as a satellite facility on September 30, 1999, may increase the square footage of the unit only at the beginning of a cost reporting period or decrease the square footage or number of beds considered to be part of the satellite facility subject to the provisions of paragraph (b)(2) of this section, without affecting the provisions of paragraph (e)(3) of this section; and</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0534</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0734</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(5)(ii)</cop_rqr_nm>
+      <cop_tx>(ii) If the unit structured as a satellite facility decreases its number of beds below the number of beds considered to be part of the satellite facility on September 30, 1999, subject to the provisions of paragraph (b)(2) of this section, it may subsequently increase the number of beds at the beginning or a cost reporting period as long as the resulting total number of beds considered to be part of the satellite facility does not exceed the number of beds at the satellite facility on September 30, 1999.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0534</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0734</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(5)(ii)</cop_rqr_nm>
+      <cop_tx>(ii) If the unit structured as a satellite facility decreases its number of beds below the number of beds considered to be part of the satellite facility on September 30, 1999, subject to the provisions of paragraph (b)(2) of this section, it may subsequently increase the number of beds at the beginning or a cost reporting period as long as the resulting total number of beds considered to be part of the satellite facility does not exceed the number of beds at the satellite facility on September 30, 1999.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0534</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0734</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(6)</cop_rqr_nm>
+      <cop_tx>(6) The provisions of paragraph (e)(2)(i) of this section do not apply to any inpatient rehabilitation facility that is subject to the inpatient rehabilitation facility prospective payment system under subpart P of this part, effective for cost reporting periods beginning on or after October 1, 2003.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0534</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0734</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(e)(6)</cop_rqr_nm>
+      <cop_tx>(6) The provisions of paragraph (e)(2)(i) of this section do not apply to any inpatient rehabilitation facility that is subject to the inpatient rehabilitation facility prospective payment system under subpart P of this part, effective for cost reporting periods beginning on or after October 1, 2003.</cop_tx>
+      <COMMENT>Critical access hospitals are not permitted to have satellite facilities per 485.610(e).  See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0534</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0734</TAG_NM>
+        <TAG_HDG>Satellite facilities</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(f)</cop_rqr_nm>
+      <cop_tx>(f) Changes in classification of hospital units. For purposes of exclusions from the prospective payment system under this section, the classification of a hospital unit is effective for the unit’s entire cost reporting period. Any change in the classification of a hospital unit is made only at the start of a cost reporting period.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0535</TAG_NM>
+        <TAG_HDG>Changes in classification</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0735</TAG_NM>
+        <TAG_HDG>Changes in classification of hospital units</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(f)</cop_rqr_nm>
+      <cop_tx>(f) Changes in classification of hospital units. For purposes of exclusions from the prospective payment system under this section, the classification of a hospital unit is effective for the unit’s entire cost reporting period. Any change in the classification of a hospital unit is made only at the start of a cost reporting period.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0535</TAG_NM>
+        <TAG_HDG>Changes in classification</TAG_HDG>
+      </TAG>
+      <TAG>
+        <TAG_NM>C-0735</TAG_NM>
+        <TAG_HDG>Changes in classification of hospital units</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§412.25(g)</cop_rqr_nm>
+      <cop_tx>(g) CAH units not meeting applicable requirements. If a psychiatric or rehabilitation unit of a CAH does not meet the requirements of §485.647 with respect to a cost reporting period, no payment may be made to the CAH for services furnished in that unit for that period. Payment to the CAH for services in the unit may resume only after the start of the first cost reporting period beginning after the unit has demonstrated to CMS that the unit meets the requirements of §485.647.</cop_tx>
+      <COMMENT>See Appendix B of the CAMCAH.</COMMENT>
+      <TAG>
+        <TAG_NM>C-0535</TAG_NM>
+        <TAG_HDG>Changes in classification</TAG_HDG>
+      </TAG>
+    </COP_ELE>
+  </COP>
+</CRSWLK>
