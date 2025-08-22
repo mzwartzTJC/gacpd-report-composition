@@ -44,10 +44,10 @@
           <fo:block-container absolute-position="absolute">
             <xsl:choose> 
               <xsl:when test = "REPORT/ORG = 'JCI'">
-                <fo:block><fo:external-graphic src="stylesheets\images\JCI_logo_RGB_TM.png"  content-width = "120" content-height = "24" fox:alt-text="Joint Commission International Logo"/></fo:block>
+                <fo:block><fo:external-graphic src="/app/stylesheets/images/JC_logo_CMYK_TM.jpg"  content-width = "120" content-height = "24" fox:alt-text="Joint Commission International Logo"/></fo:block>
               </xsl:when>
               <xsl:otherwise>
-                <fo:block><fo:external-graphic src="stylesheets\images\327660034JC_logo_RGB_TM.svg"  content-width = "120" content-height = "24" fox:alt-text="Joint Commission Logo"/></fo:block>
+                <fo:block><fo:external-graphic src="/app/stylesheets/images/JC_logo_CMYK_TM.jpg"  content-width = "120" content-height = "24" fox:alt-text="Joint Commission Logo"/></fo:block>
               </xsl:otherwise>
             </xsl:choose>
           </fo:block-container>

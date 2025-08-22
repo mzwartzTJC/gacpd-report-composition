@@ -46,7 +46,7 @@
             <!--Header infromation--> 
             <fo:static-content flow-name="xsl-region-before" role="artifact">
             <fo:block-container absolute-position="absolute">
-                <fo:block><fo:external-graphic src="images/JC_logo_CMYK_TM.jpg" content-width = "120" content-height = "24" fox:alt-text="Joint Commission Logo"/></fo:block>
+                <fo:block><fo:external-graphic src="/app/stylesheets/images/JC_logo_CMYK_TM.jpg" content-width = "120" content-height = "24" fox:alt-text="Joint Commission Logo"/></fo:block>
             </fo:block-container>
                 <fo:block start-indent="2.5in" font-family="Satoshi" color="#1f336b" text-align="left" font-size="11pt">Prepublication Requirements <fo:inline color="black" font-style="italic">continued</fo:inline></fo:block>
                 <fo:block start-indent="2.5in" font-family="Inter" text-align="left" font-size="10pt"><xsl:value-of select="REPORT/POST_DT"/></fo:block>
@@ -81,7 +81,7 @@
             <fo:flow flow-name = "xsl-region-body" font-family="Inter" font-size="10pt" space-after="5pt">
             
                 <fo:block-container absolute-position="absolute" top="0.25in">
-                    <fo:block><fo:external-graphic src="images/JC_logo_CMYK_TM.jpg" content-width = "160" content-height = "32" fox:alt-text="Joint Commission Logo"/></fo:block>
+                    <fo:block><fo:external-graphic src="/app/stylesheets/images/JC_logo_CMYK_TM.jpg" content-width = "160" content-height = "32" fox:alt-text="Joint Commission Logo"/></fo:block>
                 </fo:block-container>
                 <fo:block-container float="right" absolute-position="absolute" left="3.25in" top="0in">
                     <fo:block font-size= "36pt" color="#1f336b" font-family="Satoshi" font-weight="bold">Prepublication Requirements</fo:block>
@@ -92,7 +92,7 @@
                 <fo:block-container background-color="#fbc24f" height="80" space-before="7pt" role="artifact"><fo:block></fo:block></fo:block-container>
 
                 <fo:block-container float="left" absolute-position="absolute" top="1.65in">
-                    <fo:block start-indent="0.10in"><fo:external-graphic src="images/tjc-requirement.png" fox:alt-text="Joint Commission Requirement" content-width = "65" content-height = "57.5" /></fo:block>
+                    <fo:block start-indent="0.10in"><fo:external-graphic src="/app/stylesheets/images/tjc-requirement.png" fox:alt-text="Joint Commission Requirement" content-width = "65" content-height = "57.5" /></fo:block>
                 </fo:block-container>
                 <fo:block-container float="left" absolute-position="absolute" left="1.25in" top="1.75in">
                     <fo:block font-size= "18pt" color="#1f336b" role="H1" font-family="Satoshi" font-weight="bold"><xsl:value-of select="REPORT/TITLE"/></fo:block>
@@ -137,7 +137,7 @@
                                                     <xsl:if test="DOC">
                                                         <fo:block keep-with-previous.within-page="always" margin="5pt">
                                                             <fo:inline baseline-shift="-1.5pt">
-                                                                <fo:external-graphic src="url('file:///C:/Users/MZwartz/OneDrive%20-%20The%20Joint%20Commission/Desktop/GitHub/XML_stylesheets/images/doc_icon.png')" content-height="10pt" fox:alt-text="Documentation icon"/>
+                                                                <fo:external-graphic src="/app/stylesheets/images/doc_icon.png" content-height="10pt" fox:alt-text="Documentation icon"/>
                                                             </fo:inline>  
                                                             <fo:inline>  Documentation is required.</fo:inline>
                                                         </fo:block>
@@ -158,7 +158,7 @@
                                                     <xsl:if test="DOC">
                                                         <fo:block keep-with-previous.within-page="always" margin="5pt">
                                                             <fo:inline baseline-shift="-1.5pt">
-                                                                <fo:external-graphic src="url('file:///C:/Users/MZwartz/OneDrive%20-%20The%20Joint%20Commission/Desktop/GitHub/XML_stylesheets/images/doc_icon.png')" content-height="10pt" fox:alt-text="Documentation icon"/>
+                                                                <fo:external-graphic src="/app/stylesheets/images/doc_icon.png" content-height="10pt" fox:alt-text="Documentation icon"/>
                                                             </fo:inline>  
                                                             <fo:inline>  Documentation is required.</fo:inline>
                                                         </fo:block>

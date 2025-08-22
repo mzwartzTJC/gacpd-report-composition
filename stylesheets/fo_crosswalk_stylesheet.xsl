@@ -11,11 +11,24 @@
     
     <xsl:template match="/">
         <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:fox="http://xmlgraphics.apache.org/fop/extensions" xml:lang="en">
+                        
             <fo:layout-master-set>
+                <fo:simple-page-master master-name="title_page" page-height="8.5in" page-width="11in" margin-top="0.75in" margin-bottom="0.25in" margin-left="0.25in" margin-right="0.25in">
+                    <fo:region-body margin-bottom="0.6in"/>
+                    <fo:region-after extent="0.6in"/>
+                </fo:simple-page-master>
+
                 <fo:simple-page-master master-name="crswlk" page-height="8.5in" page-width="11in" margin="0.25in">
                     <fo:region-body margin-bottom="0.6in"/>
                     <fo:region-after extent="0.6in"/>
                 </fo:simple-page-master>
+                
+                <fo:page-sequence-master master-name="sequence">
+                    <fo:repeatable-page-master-alternatives>
+                        <fo:conditional-page-master-reference master-reference="title_page" page-position="first"/>
+                        <fo:conditional-page-master-reference master-reference="crswlk" page-position="rest"/>
+                    </fo:repeatable-page-master-alternatives>
+                </fo:page-sequence-master>
             </fo:layout-master-set>
             
             <fo:declarations>
@@ -29,7 +42,7 @@
                 </x:xmpmeta>
             </fo:declarations>
             
-            <fo:page-sequence master-reference="crswlk" id="main-sequence">
+            <fo:page-sequence master-reference="sequence" id="main-sequence">
                 <fo:title>TJC Crosswalk</fo:title>
                 <!--Footer information -->
                 <fo:static-content flow-name = "xsl-region-after" role="artifact">
@@ -58,10 +71,14 @@
                 
                 <!-- Title and Logo -->
                 <fo:flow flow-name = "xsl-region-body">
-                    
-                    <fo:block>
-                        <fo:external-graphic src="../../../stylesheets/images/327660034JC_logo_RGB_TM.svg"  content-width = "180" content-height = "36" fox:alt-text="Joint Commission Logo"/>
-                    </fo:block>
+                    <fo:block-container position="absolute" top="-1.25in">
+                        <fo:block>
+                            <fo:external-graphic src="/app/stylesheets/images/327660034JC_logo_RGB_TM.svg"  
+                                             content-width = "140pt" 
+                                             scaling="uniform"
+                                             fox:alt-text="Joint Commission Logo"/>
+                        </fo:block></fo:block-container>
+                 
                     <fo:block font-size="16pt" text-align="center">
                         <xsl:value-of select="CRSWLK/title_text"/>
                     </fo:block>
@@ -107,7 +124,7 @@
                                         <fo:table table-layout="fixed" width = "100%">  
                                             <fo:table-column column-width="40%"/>
                                             <fo:table-column column-width="60%"/>
-                                            <fo:table-header><fo:table-row  border="1pt solid black" keep-with-next.within-page="always" background-color="#E0E0E0">
+                                            <fo:table-header><fo:table-row border-top="1pt solid black" border-bottom="1pt solid black" keep-with-next.within-page="always" background-color="#E0E0E0">
                                                     <xsl:choose>
                                                         <xsl:when test="//ix_id = 2180">
                                                             <fo:table-cell number-columns-spanned="2" padding="1pt">
@@ -164,7 +181,7 @@
                                                 <xsl:choose>
                                                     <xsl:when test="STD or COMMENT">
                                                         <xsl:for-each select="STD">
-                                                            <fo:table-row keep-with-next.within-page="always" border="1pt solid black" background-color="#E0E0E0">
+                                                            <fo:table-row keep-with-next.within-page="always" border-top="1pt solid black" border-bottom="1pt solid black" background-color="#E0E0E0">
                                                                 <fo:table-cell role="TH" number-columns-spanned="2">
                                                                     <fo:block padding="1pt" font-size="8pt" font-weight="bold" start-indent="2pt"><xsl:value-of select="std_lbl"/></fo:block>
                                                                 </fo:table-cell>
@@ -185,7 +202,7 @@
                                                         </xsl:for-each>
                                                         <xsl:choose>
                                                             <xsl:when test="STD and COMMENT">
-                                                                <fo:table-row border="1pt solid black">
+                                                                <fo:table-row border-top="1pt solid black" border-bottom="1pt solid black">
                                                                     <fo:table-cell number-columns-spanned="3" role="TD" padding="1pt" background-color="#F0F0F9">
                                                                         <xsl:call-template name="tag_text">
                                                                             <xsl:with-param name="txt" select="COMMENT"/>
@@ -194,7 +211,7 @@
                                                                 </fo:table-row>
                                                             </xsl:when>
                                                             <xsl:when test="COMMENT">
-                                                                <fo:table-row border="1pt solid black">
+                                                                <fo:table-row border-top="1pt solid black" border-bottom="1pt solid black">
                                                                     <fo:table-cell number-columns-spanned="3" role="TH" padding="1pt" background-color="#F0F0F9">
                                                                         <xsl:call-template name="tag_text">
                                                                             <xsl:with-param name="txt" select="COMMENT"/>

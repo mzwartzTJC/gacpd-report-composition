@@ -49,7 +49,7 @@
         <fo:static-content flow-name="xsl-region-before" role="artifact">
           <fo:block-container absolute-position="absolute" top="-0.5in" left="0in" width="100%" height="2.5in">
             <fo:block><fo:external-graphic 
-              src="stylesheets\images\327660034JC_logo_RGB_TM.svg" 
+              src="/app/stylesheets/images/JC_logo_CMYK_TM.jpg"
               content-width="1.75in"
               fox:alt-text="Joint Commission Logo"/>
             </fo:block>
@@ -172,7 +172,7 @@
                         <xsl:if test="DOC">
                           <fo:block keep-with-previous.within-page="always" margin="3pt">
                             <fo:inline baseline-shift="-1.5pt">
-                              <fo:external-graphic src="stylesheets\images\doc_icon.png" content-height="10pt" fox:alt-text="Documentation icon"/>
+                              <fo:external-graphic src="/app/stylesheets/images/doc_icon.png" content-height="10pt" fox:alt-text="Documentation icon"/>
                             </fo:inline>  
                             <fo:inline>  Documentation is required.</fo:inline>
                           </fo:block>

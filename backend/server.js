@@ -23,7 +23,7 @@ app.post('/generate-pdf', upload.single('xmlFile'), (req, res) => {
     const fopJarPath = path.join(__dirname, 'fop-2.10', 'fop', 'build', 'fop-2.10.jar');
     const fopLib = path.join(__dirname, 'fop-2.10', 'fop', 'lib', '*');
 
-    const fopCmd = `java -cp "${fopJarPath};${fopLib}" org.apache.fop.cli.Main -xml "${xmlPath}" -xsl "${xslPath}" -pdf "${outputPdf}"`;
+    const fopCmd = `java -cp "${fopJarPath}:${fopLib}" org.apache.fop.cli.Main -xml "${xmlPath}" -xsl "${xslPath}" -pdf "${outputPdf}"`;
 
     exec(fopCmd, (error, stdout, stderr) => {
       
@@ -38,7 +38,7 @@ app.post('/generate-pdf', upload.single('xmlFile'), (req, res) => {
 
       res.download(outputPdf, (err) => {
         fs.unlinkSync(xmlPath);
-        //fs.unlinkSync(outputPdf);
+        fs.unlinkSync(outputPdf);
         if (err) {
           console.error(`Error downloading file: ${err}`);
         }
