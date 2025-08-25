@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
@@ -6,7 +7,14 @@ const { exec } = require('child_process');
 const { v4: uuidv4 } = require('uuid');
 
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 5000;
+
+app.use(cors());
+
+app.get('/api/message', (req, res) => {
+  res.json('Hello from the backend!'); 
+});
+
 
 // Multer setup for XML file upload
 const upload = multer({ dest: 'uploads/' });
@@ -18,7 +26,7 @@ app.post('/generate-pdf', upload.single('xmlFile'), (req, res) => {
     }
   
     const xmlPath = req.file.path;
-    const xslPath = path.join(__dirname, '..', 'stylesheets', 'fo_crosswalk_stylesheet.xsl');
+    const xslPath = path.join(__dirname, 'stylesheets', 'fo_crosswalk_stylesheet.xsl');
     const outputPdf = path.join(__dirname, '..', `output-${uuidv4()}.pdf`);
     const fopJarPath = path.join(__dirname, 'fop-2.10', 'fop', 'build', 'fop-2.10.jar');
     const fopLib = path.join(__dirname, 'fop-2.10', 'fop', 'lib', '*');
@@ -50,10 +58,6 @@ app.post('/generate-pdf', upload.single('xmlFile'), (req, res) => {
   }
 });
 
-app.get('/', (req, res) => {
-  res.send('Hello World! This server is live.');
-});
-
-app.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
