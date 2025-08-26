@@ -74,16 +74,10 @@ const ReportForm = ({
 
       {pdfUrl && (
         <Box sx={{ mt: 4 }}>
-          <Typography variant="h6">Report Preview:</Typography>
-          <iframe
-            src={pdfUrl}
-            title="Report Preview"
-            width="100%"
-            height="600px"
-            style={{ border: '1px solid #ccc' }}
-          />
-        <Button
+          <Button
           variant="outlined"
+          aria-label="Download accessible PDF report"
+          title="Download accessible PDF report"
           sx={{ mt: 2 }}
           onClick={() => {
             const link = document.createElement('a');
@@ -93,9 +87,19 @@ const ReportForm = ({
             link.click();
             link.remove();
           }}
-        >
-        Download PDF
-        </Button>
+          disabled={!pdfUrl}
+          >
+            Download PDF
+          </Button>
+          
+          <Typography variant="h6">Report Preview:</Typography>
+          <iframe
+            src={pdfUrl}
+            title="Report Preview"
+            width="100%"
+            height="600px"
+            style={{ border: '1px solid #ccc' }}
+          />
       </Box>
     )}
   </>
