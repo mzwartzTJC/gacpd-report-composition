@@ -54,7 +54,7 @@ app.post('/generate-pdf', upload.single('xmlFile'), (req, res) => {
         return res.status(500).send('PDF generation failed. Check server logs for details.');
       }
 
-      res.download(outputPdf, (err) => {
+      res.download(outputPdf, `${reportType}-accessible-report.pdf`, (err) => {
         fs.unlinkSync(xmlPath);
         fs.unlinkSync(outputPdf);
         if (err) {

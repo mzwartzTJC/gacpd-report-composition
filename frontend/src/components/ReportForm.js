@@ -5,7 +5,10 @@ import {
 } from '@mui/material';
 
 const ReportForm = ({
-  reportType, setOption,
+  reportType, setReportType,
+  effectiveDate, setEffectiveDate, 
+  program, setProgram,
+  crosswalkName, setCrosswalkName,
   fileName, fileContent, setFileContent,
   handleFileChange,
   showXmlEditor, setShowXmlEditor,
@@ -13,20 +16,64 @@ const ReportForm = ({
   pdfUrl
 }) => (
   <>
-    <Typography variant="body1" sx={{ mt: 2 }}>Select a report type:</Typography>
+    <FormControl fullWidth sx={{ width: '35%', mt: 2 }}>
+      <InputLabel id="effectice-date-label">Choose an Effective date</InputLabel>
+      <Select
+        labelId="effectice-date-label"
+        value={effectiveDate}
+        label="Choose an Effective date"
+        onChange={(e) => setEffectiveDate(e.target.value)}
+      >
+        <MenuItem value="date5">01/18/2026</MenuItem>
+        <MenuItem value="date4">01/01/2026</MenuItem>
+        <MenuItem value="date3">08/01/2025</MenuItem>
+        <MenuItem value="date2">07/01/2025</MenuItem>
+        <MenuItem value="date1">01/01/2025</MenuItem>
+      </Select>
+    </FormControl>
 
+    <Box sx={{display: 'flex', gap: 2, mb: 2}}>
       <FormControl fullWidth sx={{ mt: 2 }}>
-        <InputLabel id="dropdown-label">Choose an Option</InputLabel>
+        <InputLabel id="report-type-label">Choose a Report Type</InputLabel>
         <Select
-          labelId="dropdown-label"
+          labelId="report-type-label"
           value={reportType}
-          label="Choose an Option"
-          onChange={(e) => setOption(e.target.value)}
+          label="Choose a Report Type"
+          onChange={(e) => setReportType(e.target.value)}
         >
           <MenuItem value="crosswalk">Crosswalk Report</MenuItem>
           <MenuItem value="NPG">NPG/NPSG Report</MenuItem>
         </Select>
       </FormControl>
+      
+      <FormControl fullWidth sx={{ mt: 2 }}>
+        <InputLabel id="program-label">Choose an Program</InputLabel>
+        <Select
+          labelId="program-label"
+          value={program}
+          label="Choose a Report Type"
+          onChange={(e) => setProgram(e.target.value)}
+        >
+          <MenuItem value="HAP">Hospital</MenuItem>
+          <MenuItem value="CAH">Critical Access Hospital</MenuItem>
+        </Select>
+      </FormControl>
+      {reportType === 'crosswalk' && (
+        <FormControl fullWidth sx={{ mt: 2 }}>
+          <InputLabel id="crosswalk-label">Choose an Crosswalk</InputLabel>
+          <Select
+            labelId="crosswalk-label"
+            value={crosswalkName}
+            label="Choose a Report Type"
+            onChange={(e) => setCrosswalkName(e.target.value)}
+          >
+            <MenuItem value="HAP">CMS HAP to JC HAP</MenuItem>
+            <MenuItem value="CAH">CMS CAH to JC CAH</MenuItem>
+            <MenuItem value="DPU">CMS HAP to JC CAH</MenuItem>
+          </Select>
+        </FormControl>
+      )}
+    </Box>
 
       <Box display="flex" flexDirection="column" gap={2} sx={{ mt: 3 }}>
         <input 
@@ -38,7 +85,7 @@ const ReportForm = ({
         />
       
         <label htmlFor="upload-file">
-          <Button variant="contained" component="span">Upload File</Button>
+          <Button variant="contained" component="span">Get Data</Button>
         </label>
       
         {fileName && (

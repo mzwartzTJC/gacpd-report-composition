@@ -8,7 +8,10 @@ import {Container, Typography} from '@mui/material';
 
 function App() {
 //set variables
-const [reportType, setOption] = useState('');
+const [reportType, setReportType] = useState('');
+const [effectiveDate, setEffectiveDate] = useState('');
+const [program, setProgram] = useState('');
+const [crosswalkName, setCrosswalkName] = useState('');
 const [fileName, setFileName] = useState('');
 const [fileContent, setFileContent] = useState('');
 const [showXmlEditor, setShowXmlEditor] = useState(false);
@@ -25,7 +28,6 @@ const handleFileChange = (event) => {
     const reader = new FileReader();
     reader.onload = (e) => {
       setFileContent(e.target.result);
-      setShowXmlEditor(true);
     };
     reader.readAsText(file);
     }
@@ -47,7 +49,13 @@ const handleFileChange = (event) => {
 
         <ReportForm
           reportType={reportType}
-          setOption={setOption}
+          setReportType={setReportType}
+          effectiveDate={effectiveDate}
+          setEffectiveDate={setEffectiveDate}
+          program={program}
+          setProgram={setProgram}
+          crosswalkName={crosswalkName}
+          setCrosswalkName={setCrosswalkName}
           fileName={fileName}
           fileContent={fileContent}
           setFileContent={setFileContent}

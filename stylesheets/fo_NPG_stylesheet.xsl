@@ -47,7 +47,7 @@
         
           <!--Header infromation --> 
         <fo:static-content flow-name="xsl-region-before" role="artifact">
-          <fo:block-container absolute-position="absolute" top="-0.5in" left="0in" width="100%" height="2.5in">
+          <fo:block-container absolute-position="absolute" width="100%" height="2.5in">
             <fo:block><fo:external-graphic 
               src="/app/stylesheets/images/JC_logo_CMYK_TM.jpg"
               content-width="1.75in"
@@ -101,7 +101,13 @@
         <fo:flow flow-name = "xsl-region-body" font-family="Inter-Regular" font-size="10pt" space-after="5pt">
   
           <xsl:for-each select="REPORT/PROGRAM/CHAPTER/GOAL">
-            <fo:block-container page-break-before = "always" border-top="1pt solid black" background-color="#F4F6F8" padding-top = "10pt" padding-bottom="10pt" padding-left="2pt" padding-right="2pt" margin-top="5pt" margin-bottom="10pt">
+            <fo:block-container border-top="1pt solid black" background-color="#F4F6F8" padding-top = "10pt" padding-bottom="10pt" padding-left="2pt" padding-right="2pt" margin-top="5pt" margin-bottom="10pt">
+            <xsl:attribute name="page-break-before">
+              <xsl:choose>
+                <xsl:when test="../CHAPTER_LBL = 'NPG'">always</xsl:when>
+                <xsl:otherwise>auto</xsl:otherwise>
+              </xsl:choose>    
+            </xsl:attribute>
               <fo:block keep-with-next.within-page="always" font-family="Satoshi-Bold" font-size="16pt" ><xsl:value-of select="GOAL_HDR"/></fo:block>
               <fo:block>
                 <xsl:call-template name="tag_text">
