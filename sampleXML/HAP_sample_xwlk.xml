@@ -1,0 +1,303 @@
+﻿<?xml-stylesheet href="crosswalk_stylesheet.xsl" type="text/xsl" ?>
+<CRSWLK>
+  <ix_nm>HAP Deemed</ix_nm>
+  <ix_id>3068</ix_id>
+  <efc_dt>January 01, 2026</efc_dt>
+  <title_text>Hospital Crosswalk</title_text>
+  <crswlk_desc>Medicare Hospital Requirements to 2026 Joint Commission Hospital Standards &amp; EPs</crswlk_desc>
+  <run_date>September 17, 2025</run_date>
+  <COP>
+    <cop_nm>§482.11</cop_nm>
+    <cop_seq_qt>40</cop_seq_qt>
+    <cop_ttl_ds>Condition of Participation: Compliance with Federal, State and Local Laws</cop_ttl_ds>
+    <COP_ELE>
+      <cop_rqr_nm>§482.11</cop_rqr_nm>
+      <cop_tx>§482.11 Condition of Participation: Compliance with Federal, State and Local Laws</cop_tx>
+      <TAG>
+        <TAG_NM>A-0020</TAG_NM>
+        <TAG_HDG>Condition of Participation: Compliance with Federal, State and Local Laws</TAG_HDG>
+        <COP_ELE_TX>
+          <ELE_TX_TYP>1</ELE_TX_TYP>
+          <ELE_TX>Interpretive Guidelines §482.11
+
+The hospital must ensure that all applicable Federal, State and local law requirements are met.</ELE_TX>
+        </COP_ELE_TX>
+        <COP_ELE_TX>
+          <ELE_TX_TYP>9</ELE_TX_TYP>
+          <ELE_TX>Interview
+- CEO or appropriate individual designated by the hospital to determine if the hospital is in compliance with Federal laws related to patient health and safety. (For example, ask if the hospital was cited since its last survey for any violation of Section 504 of the Rehabilitation Act of 1973 related to denying people with disabilities access to care. If so, verify that satisfactory corrections have been made to bring the hospital into compliance with that law.)
+
+Document Review
+
+General
+- Prior to the survey, determine whether the hospital has a current license issued by the state or local authority in which it operates, or, if it is located within a State that does not license hospitals, verify that the responsible State agency has approved the hospital as meeting the State’s established standards for the licensing of hospitals.
+- Verify the hospital has established and follows procedures for determining that personnel are properly licensed, certified, and/or permitted as required by the state.  
+- Verify that the hospital has an established process which is followed to determine that staff and personnel meet all standards (such as continuing education, basic qualifications, hold permits) required by State and local laws or regulations. 
+
+Personnel/Credential File 
+- Review a sample of personnel files to verify that licensure and/or other required credentials information is up to date.
+- Verify State licensure compliance of the direct care personnel as well as administrators and supervisory personnel.
+- When telemedicine is used and the practitioner and patient are located in different states is the practitioner providing the patient care service licensed and/or meets the other applicable standards that are required by State or local laws in both the state where the practitioner is located and state where the patient is located.</ELE_TX>
+        </COP_ELE_TX>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§482.11(a)</cop_rqr_nm>
+      <cop_tx>(a) The hospital must be in compliance with applicable Federal laws related to the health and safety of patients.</cop_tx>
+      <TAG>
+        <TAG_NM>A-0021</TAG_NM>
+        <TAG_HDG>Condition of Participation: Compliance with Federal, State and Local Laws</TAG_HDG>
+        <COP_ELE_TX>
+          <ELE_TX_TYP>2</ELE_TX_TYP>
+          <ELE_TX>Survey Procedures §482.11(a)
+
+Interview the CEO, or appropriate individual designated by the hospital, to determine whether the hospital is in compliance with Federal laws related to patient health and safety. (For example, ask if the hospital was cited since its last survey for any violation of section 504 of the Rehabilitation Act of 1973 related to denying people with disabilities access to care. If so, verify that satisfactory corrections have been made to bring the hospital into compliance with that law.) Refer or report noted noncompliance with Federal laws and regulations to the appropriate agency having jurisdiction (e.g., accessibility issues, blood-borne pathogens, standard precautions, and TB control to OSHA; hazardous chemical/waste issues to EPA; etc.)</ELE_TX>
+        </COP_ELE_TX>
+        <COP_ELE_TX>
+          <ELE_TX_TYP>9</ELE_TX_TYP>
+          <ELE_TX>Interview
+- CEO or appropriate individual designated by the hospital to determine if the hospital is in compliance with Federal laws related to patient health and safety. (For example, ask if the hospital was cited since its last survey for any violation of Section 504 of the Rehabilitation Act of 1973 related to denying people with disabilities access to care. If so, verify that satisfactory corrections have been made to bring the hospital into compliance with that law.)
+
+Document Review
+
+General
+- Prior to the survey, determine whether the hospital has a current license issued by the state or local authority in which it operates, or, if it is located within a State that does not license hospitals, verify that the responsible State agency has approved the hospital as meeting the State’s established standards for the licensing of hospitals.
+- Verify the hospital has established and follows procedures for determining that personnel are properly licensed, certified, and/or permitted as required by the state.  
+- Verify that the hospital has an established process which is followed to determine that staff and personnel meet all standards (such as continuing education, basic qualifications, hold permits) required by State and local laws or regulations. 
+
+Personnel/Credential File 
+- Review a sample of personnel files to verify that licensure and/or other required credentials information is up to date.
+- Verify State licensure compliance of the direct care personnel as well as administrators and supervisory personnel.
+- When telemedicine is used and the practitioner and patient are located in different states is the practitioner providing the patient care service licensed and/or meets the other applicable standards that are required by State or local laws in both the state where the practitioner is located and state where the patient is located.</ELE_TX>
+        </COP_ELE_TX>
+      </TAG>
+      <STD>
+        <std_lbl>LD.13.01.01</std_lbl>
+        <std_tx>The hospital complies with law and regulation.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>1</mc_tx_seq_qt>
+          <mc_body_tx>The hospital provides care, treatment, and services in accordance with licensure requirements and federal, state, and local laws, rules, and regulations.
+Note: For hospitals that use Joint Commission accreditation for deemed status purposes: The hospital meets the Centers for Medicare &amp; Medicaid Services’ (CMS) definition of a hospital in accordance with 42 CFR 482.1(a)(1) and (b). (Refer to https://www.ecfr.gov/ for the language of this CMS requirement)</mc_body_tx>
+        </EP>
+      </STD>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§482.11(b)</cop_rqr_nm>
+      <cop_tx>(b) The hospital must be--</cop_tx>
+      <TAG>
+        <TAG_NM>A-0022</TAG_NM>
+        <TAG_HDG>Condition of Participation: Compliance with Federal, State and Local Laws</TAG_HDG>
+        <COP_ELE_TX>
+          <ELE_TX_TYP>2</ELE_TX_TYP>
+          <ELE_TX>Survey Procedures §482.11(b) 
+
+Prior to the survey, determine whether the hospital has a current license by the state or local authority in which it operates, or, if it is located within a State that does not license hospitals, verify that the responsible State agency has approved the hospital as meeting the State’s established standards for the licensing of hospitals.</ELE_TX>
+        </COP_ELE_TX>
+        <COP_ELE_TX>
+          <ELE_TX_TYP>1</ELE_TX_TYP>
+          <ELE_TX>Interpretive Guidelines §482.11(b)
+
+Hospitals applying for initial Medicare certification as a hospital or hospitals currently participating in Medicare must, among other things, meet the statutory definition of a hospital under section 1861(e) of the Act. Section 1861(e)(7) of the Act further requires that a hospital located in a state which provides for the licensing of hospitals, the hospital must be licensed in accordance with state law or approved as meeting standards for licensing as established by the agency of the State or locality responsible for the licensing of hospitals.
+
+While a facility may have a license from a state to operate as a hospital or may have been approved by a state as a hospital under state or local standards and authorities, that facility may still not meet the Medicare definition of a hospital as per the Act. The criteria used by a state to determine that a hospital meets the requirements for state licensure as a hospital is not the same criteria used to define a hospital for the purpose of participation in Medicare, and each state has its own criteria and standards for licensure.
+
+The definition of a hospital and the issue of whether the facility is Primarily Engaged are issues not applicable to a Critical Access Hospital (CAH).</ELE_TX>
+        </COP_ELE_TX>
+        <COP_ELE_TX>
+          <ELE_TX_TYP>9</ELE_TX_TYP>
+          <ELE_TX>Interview
+- CEO or appropriate individual designated by the hospital to determine if the hospital is in compliance with Federal laws related to patient health and safety. (For example, ask if the hospital was cited since its last survey for any violation of Section 504 of the Rehabilitation Act of 1973 related to denying people with disabilities access to care. If so, verify that satisfactory corrections have been made to bring the hospital into compliance with that law.)
+
+Document Review
+
+General
+- Prior to the survey, determine whether the hospital has a current license issued by the state or local authority in which it operates, or, if it is located within a State that does not license hospitals, verify that the responsible State agency has approved the hospital as meeting the State’s established standards for the licensing of hospitals.
+- Verify the hospital has established and follows procedures for determining that personnel are properly licensed, certified, and/or permitted as required by the state.  
+- Verify that the hospital has an established process which is followed to determine that staff and personnel meet all standards (such as continuing education, basic qualifications, hold permits) required by State and local laws or regulations. 
+
+Personnel/Credential File 
+- Review a sample of personnel files to verify that licensure and/or other required credentials information is up to date.
+- Verify State licensure compliance of the direct care personnel as well as administrators and supervisory personnel.
+- When telemedicine is used and the practitioner and patient are located in different states is the practitioner providing the patient care service licensed and/or meets the other applicable standards that are required by State or local laws in both the state where the practitioner is located and state where the patient is located.</ELE_TX>
+        </COP_ELE_TX>
+      </TAG>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§482.11(b)(1)</cop_rqr_nm>
+      <cop_tx>(1) Licensed; or</cop_tx>
+      <TAG>
+        <TAG_NM>A-0022</TAG_NM>
+        <TAG_HDG>Condition of Participation: Compliance with Federal, State and Local Laws</TAG_HDG>
+        <COP_ELE_TX>
+          <ELE_TX_TYP>2</ELE_TX_TYP>
+          <ELE_TX>Survey Procedures §482.11(b) 
+
+Prior to the survey, determine whether the hospital has a current license by the state or local authority in which it operates, or, if it is located within a State that does not license hospitals, verify that the responsible State agency has approved the hospital as meeting the State’s established standards for the licensing of hospitals.</ELE_TX>
+        </COP_ELE_TX>
+        <COP_ELE_TX>
+          <ELE_TX_TYP>1</ELE_TX_TYP>
+          <ELE_TX>Interpretive Guidelines §482.11(b)
+
+Hospitals applying for initial Medicare certification as a hospital or hospitals currently participating in Medicare must, among other things, meet the statutory definition of a hospital under section 1861(e) of the Act. Section 1861(e)(7) of the Act further requires that a hospital located in a state which provides for the licensing of hospitals, the hospital must be licensed in accordance with state law or approved as meeting standards for licensing as established by the agency of the State or locality responsible for the licensing of hospitals.
+
+While a facility may have a license from a state to operate as a hospital or may have been approved by a state as a hospital under state or local standards and authorities, that facility may still not meet the Medicare definition of a hospital as per the Act. The criteria used by a state to determine that a hospital meets the requirements for state licensure as a hospital is not the same criteria used to define a hospital for the purpose of participation in Medicare, and each state has its own criteria and standards for licensure.
+
+The definition of a hospital and the issue of whether the facility is Primarily Engaged are issues not applicable to a Critical Access Hospital (CAH).</ELE_TX>
+        </COP_ELE_TX>
+        <COP_ELE_TX>
+          <ELE_TX_TYP>9</ELE_TX_TYP>
+          <ELE_TX>Interview
+- CEO or appropriate individual designated by the hospital to determine if the hospital is in compliance with Federal laws related to patient health and safety. (For example, ask if the hospital was cited since its last survey for any violation of Section 504 of the Rehabilitation Act of 1973 related to denying people with disabilities access to care. If so, verify that satisfactory corrections have been made to bring the hospital into compliance with that law.)
+
+Document Review
+
+General
+- Prior to the survey, determine whether the hospital has a current license issued by the state or local authority in which it operates, or, if it is located within a State that does not license hospitals, verify that the responsible State agency has approved the hospital as meeting the State’s established standards for the licensing of hospitals.
+- Verify the hospital has established and follows procedures for determining that personnel are properly licensed, certified, and/or permitted as required by the state.  
+- Verify that the hospital has an established process which is followed to determine that staff and personnel meet all standards (such as continuing education, basic qualifications, hold permits) required by State and local laws or regulations. 
+
+Personnel/Credential File 
+- Review a sample of personnel files to verify that licensure and/or other required credentials information is up to date.
+- Verify State licensure compliance of the direct care personnel as well as administrators and supervisory personnel.
+- When telemedicine is used and the practitioner and patient are located in different states is the practitioner providing the patient care service licensed and/or meets the other applicable standards that are required by State or local laws in both the state where the practitioner is located and state where the patient is located.</ELE_TX>
+        </COP_ELE_TX>
+      </TAG>
+      <STD>
+        <std_lbl>LD.13.01.01</std_lbl>
+        <std_tx>The hospital complies with law and regulation.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>2</mc_tx_seq_qt>
+          <mc_body_tx>The hospital is licensed or approved as meeting the standards for licensing established by the state or responsible locality, in accordance with law and regulation to provide the care, treatment, or services for which the hospital is seeking accreditation from Joint Commission.</mc_body_tx>
+        </EP>
+      </STD>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§482.11(b)(2)</cop_rqr_nm>
+      <cop_tx>(2)  Approved as meeting standards for licensing established by the agency of the State or locality responsible for licensing hospitals.</cop_tx>
+      <TAG>
+        <TAG_NM>A-0022</TAG_NM>
+        <TAG_HDG>Condition of Participation: Compliance with Federal, State and Local Laws</TAG_HDG>
+        <COP_ELE_TX>
+          <ELE_TX_TYP>2</ELE_TX_TYP>
+          <ELE_TX>Survey Procedures §482.11(b) 
+
+Prior to the survey, determine whether the hospital has a current license by the state or local authority in which it operates, or, if it is located within a State that does not license hospitals, verify that the responsible State agency has approved the hospital as meeting the State’s established standards for the licensing of hospitals.</ELE_TX>
+        </COP_ELE_TX>
+        <COP_ELE_TX>
+          <ELE_TX_TYP>1</ELE_TX_TYP>
+          <ELE_TX>Interpretive Guidelines §482.11(b)
+
+Hospitals applying for initial Medicare certification as a hospital or hospitals currently participating in Medicare must, among other things, meet the statutory definition of a hospital under section 1861(e) of the Act. Section 1861(e)(7) of the Act further requires that a hospital located in a state which provides for the licensing of hospitals, the hospital must be licensed in accordance with state law or approved as meeting standards for licensing as established by the agency of the State or locality responsible for the licensing of hospitals.
+
+While a facility may have a license from a state to operate as a hospital or may have been approved by a state as a hospital under state or local standards and authorities, that facility may still not meet the Medicare definition of a hospital as per the Act. The criteria used by a state to determine that a hospital meets the requirements for state licensure as a hospital is not the same criteria used to define a hospital for the purpose of participation in Medicare, and each state has its own criteria and standards for licensure.
+
+The definition of a hospital and the issue of whether the facility is Primarily Engaged are issues not applicable to a Critical Access Hospital (CAH).</ELE_TX>
+        </COP_ELE_TX>
+        <COP_ELE_TX>
+          <ELE_TX_TYP>9</ELE_TX_TYP>
+          <ELE_TX>Interview
+- CEO or appropriate individual designated by the hospital to determine if the hospital is in compliance with Federal laws related to patient health and safety. (For example, ask if the hospital was cited since its last survey for any violation of Section 504 of the Rehabilitation Act of 1973 related to denying people with disabilities access to care. If so, verify that satisfactory corrections have been made to bring the hospital into compliance with that law.)
+
+Document Review
+
+General
+- Prior to the survey, determine whether the hospital has a current license issued by the state or local authority in which it operates, or, if it is located within a State that does not license hospitals, verify that the responsible State agency has approved the hospital as meeting the State’s established standards for the licensing of hospitals.
+- Verify the hospital has established and follows procedures for determining that personnel are properly licensed, certified, and/or permitted as required by the state.  
+- Verify that the hospital has an established process which is followed to determine that staff and personnel meet all standards (such as continuing education, basic qualifications, hold permits) required by State and local laws or regulations. 
+
+Personnel/Credential File 
+- Review a sample of personnel files to verify that licensure and/or other required credentials information is up to date.
+- Verify State licensure compliance of the direct care personnel as well as administrators and supervisory personnel.
+- When telemedicine is used and the practitioner and patient are located in different states is the practitioner providing the patient care service licensed and/or meets the other applicable standards that are required by State or local laws in both the state where the practitioner is located and state where the patient is located.</ELE_TX>
+        </COP_ELE_TX>
+      </TAG>
+      <STD>
+        <std_lbl>LD.13.01.01</std_lbl>
+        <std_tx>The hospital complies with law and regulation.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>2</mc_tx_seq_qt>
+          <mc_body_tx>The hospital is licensed or approved as meeting the standards for licensing established by the state or responsible locality, in accordance with law and regulation to provide the care, treatment, or services for which the hospital is seeking accreditation from Joint Commission.</mc_body_tx>
+        </EP>
+      </STD>
+    </COP_ELE>
+    <COP_ELE>
+      <cop_rqr_nm>§482.11(c)</cop_rqr_nm>
+      <cop_tx>(c) The hospital must assure that personnel are licensed or meet other applicable standards that are required by State or local laws.</cop_tx>
+      <TAG>
+        <TAG_NM>A-0023</TAG_NM>
+        <TAG_HDG>Condition of Participation: Compliance with Federal, State and Local Laws</TAG_HDG>
+        <COP_ELE_TX>
+          <ELE_TX_TYP>1</ELE_TX_TYP>
+          <ELE_TX>Interpretive Guidelines §482.11(c)
+
+All staff that are required by the State to be licensed must possess a current license. The hospital must assure that these personnel are in compliance with the State’s licensure laws. The laws requiring licensure vary from state to state. Examples of healthcare professionals that a state may require to be licensed could include: nurses, MD/DOs, physician assistants, dieticians, x-ray technologists, dentists, physical therapists, occupational therapists, respiratory therapists and hospital administrators.
+
+All staff must meet all applicable standards required by State or local law for hospital personnel. This would include at a minimum:
+
+• Certification requirements;
+• Minimum qualifications;
+• Training/education requirements; and
+• Permits (such as food handlers permits).
+
+When telemedicine is used and the practitioner and patient are located in different states, the practitioner providing the patient care service must be licensed and/or meet the other applicable standards that are required by State or local laws in both the state where the practitioner is located and the state where the patient is located.</ELE_TX>
+        </COP_ELE_TX>
+        <COP_ELE_TX>
+          <ELE_TX_TYP>2</ELE_TX_TYP>
+          <ELE_TX>Survey Procedures §482.11(c)
+
+• Verify for those personnel required to be licensed, certified, and/or permitted by the State, that the hospital has established, and follows procedures for determining that personnel are properly licensed, certified, and/or permitted.
+
+• Verify that staff and personnel are licensed, certified, and/or permitted in accordance with State and local requirements.
+
+• Verify that staff and personnel meet all standards (such as continuing education, basic qualifications, etc.) required by State and local laws or regulations. Verify that the hospital has a mechanism established and enforced to ensure compliance.
+
+• Review a sample of personnel files to verify that licensure and/or other required credentials information is up to date. Verify State licensure compliance of the direct care personnel as well as administrators and supervisory personnel.</ELE_TX>
+        </COP_ELE_TX>
+        <COP_ELE_TX>
+          <ELE_TX_TYP>9</ELE_TX_TYP>
+          <ELE_TX>Interview
+- CEO or appropriate individual designated by the hospital to determine if the hospital is in compliance with Federal laws related to patient health and safety. (For example, ask if the hospital was cited since its last survey for any violation of Section 504 of the Rehabilitation Act of 1973 related to denying people with disabilities access to care. If so, verify that satisfactory corrections have been made to bring the hospital into compliance with that law.)
+
+Document Review
+
+General
+- Prior to the survey, determine whether the hospital has a current license issued by the state or local authority in which it operates, or, if it is located within a State that does not license hospitals, verify that the responsible State agency has approved the hospital as meeting the State’s established standards for the licensing of hospitals.
+- Verify the hospital has established and follows procedures for determining that personnel are properly licensed, certified, and/or permitted as required by the state.  
+- Verify that the hospital has an established process which is followed to determine that staff and personnel meet all standards (such as continuing education, basic qualifications, hold permits) required by State and local laws or regulations. 
+
+Personnel/Credential File 
+- Review a sample of personnel files to verify that licensure and/or other required credentials information is up to date.
+- Verify State licensure compliance of the direct care personnel as well as administrators and supervisory personnel.
+- When telemedicine is used and the practitioner and patient are located in different states is the practitioner providing the patient care service licensed and/or meets the other applicable standards that are required by State or local laws in both the state where the practitioner is located and state where the patient is located.</ELE_TX>
+        </COP_ELE_TX>
+      </TAG>
+      <STD>
+        <std_lbl>HR.11.01.03</std_lbl>
+        <std_tx>The hospital determines how staff function within the organization.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>1</mc_tx_seq_qt>
+          <mc_body_tx>All staff who provide patient care, treatment, and services are qualified and possess a current license, certification, or registration, in accordance with law and regulation.</mc_body_tx>
+        </EP>
+      </STD>
+      <STD>
+        <std_lbl>MS.17.01.03</std_lbl>
+        <std_tx>The hospital collects information regarding each physician's or other licensed practitioner’s current license status, training, experience, competence, and ability to perform the requested privilege.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>3</mc_tx_seq_qt>
+          <mc_body_tx>The credentialing process requires that the hospital verifies in writing and from the primary source whenever feasible, or from a credentials verification organization, the following information for the applicant: 
+- Current licensure at the time of initial granting, renewal, and revision of privileges and at the time of license expiration 
+- Relevant training 
+- Current competence</mc_body_tx>
+        </EP>
+      </STD>
+      <STD>
+        <std_lbl>MS.17.02.01</std_lbl>
+        <std_tx>The decision to grant or deny a privilege(s) and/or to renew an existing privilege(s) is an objective, evidence-based process.</std_tx>
+        <EP>
+          <mc_tx_seq_qt>9</mc_tx_seq_qt>
+          <mc_body_tx>All physicians and other licensed practitioners who provide care, treatment, and services possess a current license, certification, or registration, as required by law and regulation.</mc_body_tx>
+        </EP>
+      </STD>
+    </COP_ELE>
+  </COP>
+</CRSWLK>

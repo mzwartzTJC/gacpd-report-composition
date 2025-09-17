@@ -1,0 +1,1723 @@
+﻿<REPORT>
+  <RUN_DT>September 16, 2025</RUN_DT>
+  <EFC_DT>January 01, 2026</EFC_DT>
+  <PROGRAM>
+    <PROGRAM_CD>HAP</PROGRAM_CD>
+    <PROGRAM_NM>Hospital</PROGRAM_NM>
+    <CHAPTER>
+      <CHAPTER_LBL>NPG</CHAPTER_LBL>
+      <CHAPTER_NM>National Performance Goals</CHAPTER_NM>
+      <GOAL>
+        <GOAL_HDR>Goal 1</GOAL_HDR>
+        <GOAL_TX>The hospital ensures that the correct patient receives the correct care at the correct time.</GOAL_TX>
+        <STANDARD>
+          <STANDARD_NM>NPG.01.01.01</STANDARD_NM>
+          <STD_TX>The hospital has a process in place to correctly identify patients when providing care, treatment, and services.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.01.01.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital has a process in place to correctly identify patients when providing care, treatment, and services. This includes using at least two patient identifiers. The hospital does not use the patient's room number or physical location as an identifier.
+	Note: Examples of patient identifiers may include but are not limited to the following: 
+	- Assigned identification number (for example, medical record number)
+	- Telephone number or another person-specific identifier
+	- Electronic identification technology coding, such as bar coding or RFID, that includes two or more person-specific identifiers</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital labels containers used for blood and other specimens in the presence of the patient.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The hospital uses distinct methods of identification for newborn patients.
+	Note: Examples of methods to prevent misidentification may include the following:
+	- Distinct naming systems that include using the mother’s first and last names and the newborn’s gender (for example: “Smith, Judy Girl” or “Smith, Judy Girl A” and “Smith, Judy Girl B" for multiples)
+	- Standardized practices for identification banding (for example, using two body sites and/or bar coding for identification)
+	- Communication tools used among staff (for example, visually alerting staff with signage noting newborns with similar names)</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.01.02.01</STANDARD_NM>
+          <STD_TX>The hospital reports critical results of tests and diagnostic procedures on a timely basis.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.01.02.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital develops and implements written procedures for managing the critical results of tests and diagnostic procedures that address the following:
+	- The definition of critical results of tests and diagnostic procedures
+	- By whom and to whom critical results of tests and diagnostic procedures are reported
+	- The acceptable length of time between the availability and reporting of critical results of tests and diagnostic procedures</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital evaluates the timeliness of reporting the critical results of tests and diagnostic procedures.</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.01.03.01</STANDARD_NM>
+          <STD_TX>The hospital manages the flow of patients throughout the hospital.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.01.03.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital measures and sets goals for the components of the patient flow process, including the following:
+	- Available supply of patient beds
+	- Throughput of areas where patients receive care, treatment, and services (such as inpatient units, laboratory, operating rooms, telemetry, radiology, and the postanesthesia care unit)
+	- Safety of areas where patients receive care, treatment, and services
+	- Efficiency of the nonclinical services that support patient care and treatment (such as housekeeping and transportation)
+	- Access to support services (such as case management and social work)</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital measures and sets goals for mitigating and managing the boarding of patients who come through the emergency department. (Refer to NPG.01.05.02, EP 1; NPG.08.01.01, EPs 1 and 2)
+	Note: Boarding is the practice of holding patients in the emergency department or another temporary location after the decision to admit or transfer has been made. The hospital should set its goals with attention to patient acuity and best practice.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The individuals who manage patient flow processes review measurement results to determine whether goals were achieved, and leaders take action to improve patient flow processes when goals are not achieved.
+	Note: At a minimum, leaders include members of the medical staff and governing body, the chief executive officer and other senior managers, the nurse executive, clinical leaders, and staff members in leadership positions within the organization. (See the Glossary for the definition of leader.)</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.01.04.01</STANDARD_NM>
+          <STD_TX>The hospital has a process for handoff communication.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.01.04.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital follows a process to receive or share patient information when the patient is referred to internal providers of care, treatment, and services.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital's process for handoff communication provides the opportunity for discussion between the giver and receiver of patient information.
+	Note: Such information may include the patient’s condition, care, treatment, medications, services, and any recent or anticipated changes to any of these.</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.01.05.01</STANDARD_NM>
+          <STD_TX>The hospital improves the safety of clinical alarm systems.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.01.05.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital identifies the most important alarm signals to manage based on the following:
+	- Input from the medical staff and clinical departments
+	- Risk to patients if the alarm signal is not attended to or if it malfunctions
+	- Whether specific alarm signals are needed or unnecessarily contribute to alarm noise and alarm fatigue
+	- Potential for patient harm based on internal incident history
+	- Published best practices and guidelines</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital establishes policies and procedures for managing the alarms identified in NPG.01.05.01, EP 1, that, at a minimum, address the following:
+	- Clinically appropriate settings for alarm signals
+	- When alarm signals can be disabled
+	- When alarm parameters can be changed
+	- Who in the organization has the authority to set alarm parameters
+	- Who in the organization has the authority to change alarm parameters
+	- Who in the organization has the authority to set alarm parameters to “off”
+	- Monitoring and responding to alarm signals
+	- Checking individual alarm signals for accurate settings, proper operation, and detectability</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.01.05.02</STANDARD_NM>
+          <STD_TX>The hospital recognizes and responds to changes in a patient’s condition.
+Note: Hospitals are not required to create rapid response teams or medical emergency teams in order to meet this standard. The existence of these types of teams does not mean that all of the elements of performance are automatically achieved.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.01.05.02</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital develops and implements written criteria describing early warning signs of a change or deterioration in a patient’s condition and the appropriate action to take.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.01.05.03</STANDARD_NM>
+          <STD_TX>Resuscitative services are available throughout the hospital.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.01.05.03</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital provides resuscitative services based on national standards of care, guidelines, and the hospital’s policies, procedures, or protocols.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>Resuscitation equipment is available for use based on the needs of the population served.
+	Note: For example, if the hospital has a pediatric population, pediatric resuscitation equipment should be available.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The hospital provides education and training to staff involved in the provision of resuscitative services. The hospital determines which staff complete this education and training based on their job responsibilities and hospital policies and procedures. The education and training are provided at the following intervals:
+	- At orientation
+	- A periodic basis thereafter, as determined by the hospital
+	- When staff responsibilities change
+	Note 1: Topics may cover resuscitation procedures or protocols; use of cardiopulmonary resuscitation techniques, devices, or equipment; and roles and responsibilities during resuscitation events.
+	Note 2: The hospital determines the format and content of education and training (for example, a skills day, a mock code).</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.01.05.04</STANDARD_NM>
+          <STD_TX>The hospital develops and implements processes for post-resuscitation care.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.01.05.04</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital develops and implements policies, procedures, or protocols based on current scientific literature for interdisciplinary post–cardiac arrest care.
+	Note 1: Post–cardiac arrest care is aimed at identifying, treating, and mitigating acute pathophysiological processes after cardiac arrest and includes evaluation for targeted temperature management and other aspects of critical care management.
+	Note 2: This requirement does not apply to hospitals that do not provide post–cardiac arrest care.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital develops and implements policies, procedures, or protocols based on current scientific literature to determine the neurological prognosis for patients who remain comatose after cardiac arrest.
+	Note 1: Because any single method of neuroprognostication has an intrinsic error rate, current guidelines recommend that multiple testing modalities be incorporated into the hospital’s routine procedures and protocols to improve decision-making accuracy.
+	Note 2: This requirement does not apply to hospitals that do not provide post–cardiac arrest care.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.01.05.05</STANDARD_NM>
+          <STD_TX>The hospital reviews resuscitation cases to identify opportunities for improvement.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.01.05.05</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>An interdisciplinary committee reviews cases and data to identify and suggest practice and system improvements in resuscitation performance.
+	Note 1: Review examples could include the following:
+	- How often early warning signs of clinical deterioration were present prior to in-hospital cardiac arrest in patients in nonmonitored or non–critical care units
+	- Timeliness of staff’s response to a cardiac arrest
+	- Quality of cardiopulmonary resuscitation (CPR)
+	- Post–cardiac arrest care processes
+	- Outcomes following cardiac arrest
+	Note 2: The review functions may be designated to an existing interdisciplinary committee.</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.01.06.01</STANDARD_NM>
+          <STD_TX>The hospital conducts a preprocedure verification process.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.01.06.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital implements a preprocedure process to verify the correct procedure, for the correct patient, at the correct site.
+	Note: The patient is involved in the verification process when possible.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital identifies the items that must be available for the procedure and uses a standardized list to verify their availability. At a minimum, these items include the following:
+	- Relevant documentation (for example, history and physical, signed procedure consent form, nursing assessment, preanesthesia assessment)
+	- Labeled, properly displayed diagnostic and radiology test results (for example, radiology images and scans, pathology and biopsy reports)
+	- Any required blood products, implants, devices, and/or special equipment for the procedure
+	Note: The expectation of this element of performance is that the standardized list is available and is used consistently during the preprocedure verification. It is not necessary to document that the standardized list was used for each patient.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.01.06.02</STANDARD_NM>
+          <STD_TX>The hospital marks the procedure site.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.01.06.02</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital identifies those procedures that require marking of the incision or insertion site. At a minimum, sites are marked when there is more than one possible location for the procedure and when performing the procedure in a different location would negatively affect quality or safety.
+	Note: For spinal procedures, in addition to preoperative skin marking of the general spinal region, special intraoperative imaging techniques may be used for locating and marking the exact vertebral level.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The procedure site is marked before the procedure is performed and, if possible, with the patient involved.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The procedure site is marked by a licensed practitioner who is ultimately accountable for the procedure and will be present when the procedure is performed. In limited circumstances, the licensed practitioner may delegate site marking to an individual who is permitted by the organization to participate in the procedure and has the following qualifications:
+	- An individual in a medical postgraduate education program who is being supervised by the licensed practitioner performing the procedure, who is familiar with the patient, and who will be present when the procedure is performed
+	- A licensed individual who performs duties requiring a collaborative agreement or supervisory agreement with the licensed practitioner performing the procedure (that is, an advanced practice registered nurse or physician assistant), who is familiar with the patient, and who will be present when the procedure is performed
+	Note: The hospital's leaders define the limited circumstances (if any) in which site marking may be delegated to an individual meeting these qualifications.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>The method of marking the site and the type of mark is unambiguous and is used consistently throughout the hospital.
+	Note: The mark is made at or near the procedure site and is sufficiently permanent to be visible after skin preparation and draping. Adhesive markers are not the sole means of marking the site.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 5</EP_LBL>
+            <EP_TX>A written, alternative process is in place for patients who refuse site marking or when it is technically or anatomically impossible or impractical to mark the site (for example, mucosal surfaces, perineum).
+	Note: Examples of other situations that involve alternative processes include the following:
+	- Minimal access procedures treating a lateralized internal organ, whether percutaneous or through a natural orifice
+	- Teeth
+	- Premature infants, for whom the mark may cause a permanent tattoo</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.01.06.03</STANDARD_NM>
+          <STD_TX>The hospital performs a time-out before the procedure.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.01.06.03</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital conducts a time-out immediately before starting the invasive procedure or making the incision.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The time-out has the following characteristics:
+	- It is standardized, as defined by the hospital.
+	- It is initiated by a designated member of the team.
+	- It involves the immediate members of the procedure team, including the individual performing the procedure, the anesthesia providers, the circulating nurse, the operating room technician, and other active participants who will be participating in the procedure from the beginning.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>When two or more procedures are being performed on the same patient, and the person performing the procedure changes, the hospital performs a time-out before each procedure is initiated.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>During the time-out, the team members agree, at a minimum, on the following:
+	- Correct patient identity
+	- Correct site
+	- Procedure to be done</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 5</EP_LBL>
+            <EP_TX>The hospital documents the completion of the time-out.
+	Note: The hospital determines the amount and type of documentation.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+      </GOAL>
+      <GOAL>
+        <GOAL_HDR>Goal 2</GOAL_HDR>
+        <GOAL_TX>The governing body and leadership team foster a culture of safety.</GOAL_TX>
+        <STANDARD>
+          <STANDARD_NM>NPG.02.01.01</STANDARD_NM>
+          <STD_TX>The mission, vision, and goals guide the hospital’s actions.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.02.01.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The governing body, senior managers, and leaders of the organized medical staff work together to create the hospital’s mission, vision, and goals, which guide the leaders’ actions. The mission, vision, and goals are communicated to staff and the population(s) served.</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.02.02.01</STANDARD_NM>
+          <STD_TX>The hospital addresses conflicts of interest and ethics.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.02.02.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The governing body, senior managers, and leaders of the organized medical staff work together to define in writing conflicts of interest that could affect safety and quality of care, treatment, and services.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The governing body, senior managers, and leaders of the organized medical staff work together to develop a written policy that defines how conflicts of interest will be addressed.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>Conflicts of interest are disclosed as defined by the hospital.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>Senior managers and leaders of the organized medical staff work with the governing body to develop and implement an ongoing process for managing conflict among leadership groups that has the potential to adversely affect patient safety or quality of care.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 5</EP_LBL>
+            <EP_TX>The hospital develops and implements a process that allows staff, patients, and families to address ethical issues or issues prone to conflict.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.02.03.01</STANDARD_NM>
+          <STD_TX>The hospital’s leaders design work processes to focus individuals on safety and quality issues.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.02.03.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The leaders implement a hospitalwide patient safety program as follows:
+	- One or more qualified individuals or an interdisciplinary group manage the safety program.
+	- All departments, programs, and services within the hospital participate in the safety program.
+	- The scope of the safety program includes the full range of safety issues, from potential or no-harm errors (sometimes referred to as close calls [“near misses”] or good catches) to hazardous conditions and sentinel events.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The leaders encourage external reporting of significant adverse events, including voluntary reporting programs in addition to mandatory programs.
+	Note: Examples of voluntary programs include Joint Commission's Sentinel Event Database and the US Food and Drug Administration (FDA) MedWatch.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>As part of the safety program, the leaders create procedures for responding to system or process failures.
+	Note: Responses might include continuing to provide care, treatment, and services to those affected; containing the risk to others; and preserving factual information for subsequent analysis.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>The leaders provide and encourage the use of systems for internal reporting of a system or process failure, or the results of a proactive risk assessment, without the risk of retaliation.
+	Note: This EP is intended to minimize staff reluctance to report errors in order to help an organization understand the source and results of system and process failures. The EP does not conflict with holding individuals accountable for errors due to negligence.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 5</EP_LBL>
+            <EP_TX>The hospital conducts thorough and credible comprehensive systematic analyses (for example, root cause analyses) in response to sentinel events as described in the "Sentinel Event Policy" (SE) chapter of this manual.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 6</EP_LBL>
+            <EP_TX>The leaders make support systems available for staff who have been involved in an adverse or sentinel event.
+	Note: Support systems recognize that health care workers who are involved in sentinel events  may be negatively affected by the event and require support. Support systems provide staff with help and support as well as additional resources through the human resources function or an employee assistance program. Support systems also focus on the process rather than blaming the involved individuals.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 7</EP_LBL>
+            <EP_TX>At least every 18 months, the hospital selects one high-risk process and conducts a proactive risk assessment.
+	Note: For suggested components, refer to the Proactive Risk Assessment section at the beginning of this chapter.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 8</EP_LBL>
+            <EP_TX>To improve safety and to reduce the risk of medical errors, the hospital analyzes and uses information about system or process failures and the results of proactive risk assessments.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 9</EP_LBL>
+            <EP_TX>Communication processes are effective in doing the following:
+	- Fostering the safety of the patient and their quality of care
+	- Supporting a culture of safety and quality
+	- Meeting the needs of internal and external users
+	- Informing those who work in the hospital of changes in the environment
+	- Disseminating lessons learned from comprehensive systematic analyses (for example, root cause analyses), system or process failures, and proactive risk assessments to all affected staff</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 10</EP_LBL>
+            <EP_TX>Leaders evaluate the effectiveness of communication methods.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 11</EP_LBL>
+            <EP_TX>Leaders regularly evaluate the culture of safety and quality using valid and reliable tools. Possible issues are identified by the culture of safety evaluation. Proposed improvements are prioritized and implemented.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 12</EP_LBL>
+            <EP_TX>Leaders develop a code of conduct that defines acceptable behavior and behaviors that undermine a culture of safety.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 13</EP_LBL>
+            <EP_TX>Leaders create and implement a process for managing behaviors that undermine a culture of safety.</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.02.04.01</STANDARD_NM>
+          <STD_TX>The hospital has a workplace violence prevention program.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.02.04.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital has a workplace violence prevention program led by a designated individual and developed by a multidisciplinary team that includes the following:
+	- Policies and procedures to prevent and respond to workplace violence
+	- A process to report incidents in order to analyze incidents and trends
+	- A process for follow-up and support to victims and witnesses affected by workplace violence, including trauma and psychological counseling, if necessary
+	- Reporting of workplace violence incidents to the governing body</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>As part of its workplace violence prevention program, the hospital provides training, education, and resources (at time of hire, annually, and whenever changes occur regarding the workplace violence prevention program) to leaders, staff, and licensed practitioners. The hospital determines what aspects of training are appropriate for individuals based on their roles and responsibilities. The training, education, and resources address prevention, recognition, response, and reporting of workplace violence as follows:
+	- What constitutes workplace violence
+	- Education on the roles and responsibilities of leaders, clinical staff, security personnel, and external law enforcement
+	- Training in de-escalation, nonphysical intervention skills, physical intervention techniques, and response to emergency incidents
+	- Reporting process for workplace violence incidents</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The hospital conducts an annual worksite analysis related to its workplace violence prevention program. The hospital takes actions to mitigate or resolve the workplace violence safety and security risks based on findings from the analysis.
+	Note: A worksite analysis includes a proactive analysis of the worksite, an investigation of the hospital’s workplace violence incidents, and an analysis of how the program’s policies and procedures, training, education, and environmental design reflect best practices and conform to applicable laws and regulations.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+      </GOAL>
+      <GOAL>
+        <GOAL_HDR>Goal 3</GOAL_HDR>
+        <GOAL_TX>The hospital has an emergency management program.</GOAL_TX>
+        <STANDARD>
+          <STANDARD_NM>NPG.03.01.01</STANDARD_NM>
+          <STD_TX>Hospital leaders provide oversight and support of the emergency management program.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.03.01.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital’s senior leaders provide oversight and support for the following emergency management program activities:
+	- Allocation of resources for the emergency management program
+	- Review of emergency management program documents
+	- Review of the emergency operations plan, policies and procedures, and training and education that support the emergency management program
+	- Review of after-action reports (AARs) and improvement plans
+	Note 1: The hospital defines who the members of the senior leadership group are as well as their roles and responsibilities for emergency management–related activities.
+	Note 2: An AAR provides a detailed critical summary or analysis of a planned exercise or actual emergency or disaster incident. The report summarizes what took place during the event, analyzes the actions taken by participants, and identifies areas needing improvement.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital’s senior leaders identify a qualified individual to lead the emergency management program who has defined responsibilities that include, but are not limited to, the following:
+	- Developing and maintaining the emergency operations plan and policies and procedures
+	- Implementing the four phases of emergency management (mitigation, preparedness, response, and recovery)
+	- Implementing emergency management activities across the six critical areas (communications, staffing, patient clinical and support services, safety and security, resources and assets, and utilities)
+	- Coordinating the emergency management exercises and developing after-action reports
+	- Collaborating across clinical and operational areas to implement organizationwide emergency management
+	- Identifying and collaborating with community response partners
+	Note: Education, training, and experience in emergency management should be taken into account when considering the qualifications of the individual(s) who leads the program.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The hospital has a multidisciplinary committee that oversees the emergency management program. The committee includes the emergency program lead and other participants identified by the hospital; meeting frequency, goals, and responsibilities are defined by the committee.
+	Note 1: Other multidisciplinary committee participants may include representatives from senior leadership, nursing services, medical staff, pharmacy services, infection prevention and control, facilities engineering, security, and information technology.
+	Note 2: The multidisciplinary committee that oversees the emergency management program may be incorporated into an existing committee.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>The multidisciplinary committee provides input and assists in the coordination of the preparation, development, implementation, evaluation, and maintenance of the hospital’s emergency management program. The activities include, but are not limited to, the following:
+	- Hazard vulnerability analysis
+	- Emergency operations plan, policies, and procedures
+	- Continuity of operations plan
+	- Training and education
+	- Planning and coordinating incident response exercises (for example, seminars; workshops; tabletop exercises; functional exercises; full-scale, community-based exercises)
+	- After-action reports (AARs) and improvement plans
+	Note: An AAR provides a detailed critical summary or analysis of a planned exercise or actual emergency or disaster incident. The report summarizes what took place during the event, analyzes the actions taken by participants, and specifies areas needing improvement.</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.03.02.01</STANDARD_NM>
+          <STD_TX>The hospital develops an emergency operations plan based on an all-hazards approach.
+Note: The hospital considers its prioritized hazards identified as part of its hazards vulnerability analysis when developing an emergency operations plan.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.03.02.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital’s incident command structure describes the overall incident command operations, including specific incident command roles and responsibilities. The incident command structure is flexible and scalable to respond to varying types and degrees of emergencies or disaster incidents.
+	Note: The incident command structure may include facilities, equipment, staff, procedures, and communications within a defined organizational structure.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital identifies the individual(s) who has the authority to activate the hospital’s emergency operations plan and/or the hospital’s incident command.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The hospital identifies its primary and alternate sites for incident command operations and determines how it will maintain and support operations at these sites.
+	Note 1: Alternate command center sites may include the use of virtual command centers.
+	Note 2: Maintaining and supporting operations at alternate sites include having appropriate supplies, resources, communications, and information technology capabilities.</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.03.02.02</STANDARD_NM>
+          <STD_TX>The hospital has a communications plan that addresses how it will initiate and maintain communications during an emergency.
+Note: The hospital considers prioritized hazards identified as part of its hazard vulnerability analysis when developing an emergency response communications plan.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.03.02.02</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital’s communications plan describes how it will establish and maintain communications to deliver coordinated messages and information during an emergency or disaster incident to the following individuals:
+	- Staff and volunteers (including individuals providing care at alternate sites)
+	- Patients and family members, including people with disabilities and other access and functional needs
+	- Community partners (such as the fire department, emergency medical services, the police, the public health department)
+	- Relevant authorities (federal, state, tribal, regional, and local emergency preparedness staff)
+	- Media and other stakeholders
+	Note: Examples of means of communication include text messaging, phone system alerts, e-mail, social media, and augmentative and alternative communication for those with difficulties communicating using speech.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The emergency response communications plan identifies the hospital’s warning and notification alerts specific to emergency and disaster events and the procedures to follow when an emergency or disaster incident occurs.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.03.02.03</STANDARD_NM>
+          <STD_TX>The hospital has a staffing plan for managing all staff and volunteers during an emergency or disaster incident.
+Note: The hospital considers its prioritized hazards identified as part of its hazard vulnerability analysis when developing a staffing plan.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.03.02.03</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital's staffing plan describes in writing how it will manage volunteer licensed practitioners when the emergency operations plan has been activated and the hospital is unable to meet its patient needs. The hospital does the following:
+	- Verifies and documents the identity of all volunteer licensed practitioners
+	- Completes primary source verification of licensure as soon as the immediate situation is under control or within 72 hours from the time the volunteer licensed practitioner presents to the organization
+	- Provides oversight of the care, treatment, and services provided by volunteer licensed practitioners
+	Note: If primary source verification of licensure cannot be completed within 72 hours, the hospital documents the reason(s) it could not be performed.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital identifies the individual(s) responsible for granting disaster privileges to volunteer physicians and other licensed practitioners and has a process for granting these privileges. This is documented in the medical staff bylaws, rules and regulations, or policies and procedures.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The emergency response staffing plan describes how it will provide employee assistance and support, which includes the following:
+	- Staff support needs (for example, housing, transportation)
+	- Family support needs of staff (for example, child care, elder care)
+	- Mental health and wellness needs</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.03.02.04</STANDARD_NM>
+          <STD_TX>The hospital has a plan for providing patient care and clinical support during an emergency or disaster incident.
+Note: The hospital considers its prioritized hazards identified as part of its hazard vulnerability analysis when developing a plan for patient care and clinical support.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.03.02.04</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital’s plan for providing patient care and clinical support includes written procedures for managing individuals that may present during a disaster or emergency that are not in need of medical care (such as visitors).</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital coordinates with the local medical examiner’s office, local mortuary services, and other local, regional, or state services when there is a surge of unidentified or deceased patients.</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.03.02.05</STANDARD_NM>
+          <STD_TX>The hospital has a plan for safety and security measures to take during an emergency or disaster incident.
+Note: The hospital considers its prioritized hazards identified as part of its hazard vulnerability analysis when developing a plan for safety and security.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.03.02.05</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital has a plan for safety and security measures. The plan describes the roles that community security agencies (for example, police, sheriff, National Guard) will have in the event of an emergency and how the hospital will coordinate security activities with these agencies.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.03.02.06</STANDARD_NM>
+          <STD_TX>The hospital has a plan for managing resources and assets during an emergency or disaster incident.
+Note: The hospital considers its prioritized hazards identified as part of its hazard vulnerability analysis when developing a plan for resources and assets.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.03.02.06</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital’s plan for managing its resources and assets describes in writing the actions the hospital will take to sustain the needs of the hospital for up to 96 hours based on calculations of current resource consumptions.
+	Note 1: Hospitals are not required to remain fully functional for 96 hours or stockpile 96 hours’ worth of supplies.
+	Note 2: The 96-hour time frame provides a framework for hospitals to evaluate their capability to be self-sufficient for at least 96 hours. For example, if a hospital loses electricity and has backup generators, the emergency response plan for resources and assets establishes how much fuel is on hand and how long those generators can be operated before determining next steps. The plan may also address conservation of resources and assets, such as rationing existing resources, canceling noncritical procedures, or redirecting resources.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.03.03.01</STANDARD_NM>
+          <STD_TX>The hospital has a disaster recovery plan.
+Note: The hospital considers its prioritized hazards identified as part of its hazard vulnerability analysis when developing a disaster recovery plan.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.03.03.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital has a disaster recovery plan that describes in writing its strategies for when and how it will do the following:
+	- Conduct hospitalwide damage assessments
+	- Restore critical systems and essential services
+	- Return to full operations</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital’s disaster recovery plan describes in writing how the hospital will address family reunification and coordinate with its local community partners to help locate and assist with the identification of adults and unaccompanied children.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.03.04.01</STANDARD_NM>
+          <STD_TX>The hospital has an emergency management education and training program.
+Note: The hospital considers its prioritized hazards identified as part of its hazard vulnerability analysis when developing education and training.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.03.04.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital requires that incident command staff participate in education and training specific to their duties and responsibilities in the incident command structure.
+	Note: The hospital may choose to develop its own training, or it may require incident command staff to take an incident command–related course(s) such as those offered by the Federal Emergency Management Agency.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.03.05.01</STANDARD_NM>
+          <STD_TX>The hospital plans and conducts exercises to test its emergency operations plan and response procedures.
+Note: The hospital considers its prioritized hazards identified as part of its hazard vulnerability analysis when developing emergency exercises.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.03.05.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>Each accredited freestanding outpatient care building that provides patient care, treatment, and services is required to conduct at least one operations-based or discussion-based exercise per year to test its emergency response procedures, if not conducted in conjunction with the hospital’s emergency exercises. Exercises and actual emergency or disaster incidents are documented.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.03.06.01</STANDARD_NM>
+          <STD_TX>The hospital evaluates its emergency management program, emergency operations plan, and continuity of operations plans.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.03.06.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The after-action reports, identified opportunities for improvement, and recommended actions to improve the emergency management program are forwarded to senior hospital leaders for review.</EP_TX>
+          </EP>
+        </STANDARD>
+      </GOAL>
+      <GOAL>
+        <GOAL_HDR>Goal 4</GOAL_HDR>
+        <GOAL_TX>The hospital prioritizes health care equity.</GOAL_TX>
+        <STANDARD>
+          <STANDARD_NM>NPG.04.01.01</STANDARD_NM>
+          <STD_TX>Improving health care equity for the hospital’s patients is a quality and safety priority.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.04.01.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital designates an individual(s) to lead activities to improve health care equity for the hospital's patients.
+	Note: Leading the hospital’s activities to improve health care equity may be an individual’s primary role or part of a broader set of responsibilities.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital assesses the patient’s health-related social needs (HRSNs) and provides information about community resources and support services.
+	Note 1: Hospitals determine which HRSNs to include in the patient assessment. Examples of a patient’s HRSNs may include the following:
+	- Access to transportation
+	- Difficulty paying for prescriptions or medical bills
+	- Education and literacy
+	- Food insecurity
+	- Housing insecurity
+	Note 2: HRSNs may be identified for a representative sample of the hospital’s patients or for all the hospital’s patients.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The hospital identifies health care disparities in its patient population by stratifying quality and safety data using the sociodemographic characteristics of the hospital’s patients.
+	Note 1: Hospitals may focus on areas with known health care disparities identified in the scientific literature (for example, organ transplantation, maternal care, diabetes management) or select measures that affect all patients (for example, experience of care and communication).
+	Note 2: Hospitals determine which sociodemographic characteristics to use for stratification analyses. Examples of sociodemographic characteristics may include the following:
+	- Age
+	- Gender
+	- Preferred language
+	- Race and ethnicity
+	- Veterans
+	- Patients in rural communities
+	- Physical, mental, and cognitive disabilities</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>The hospital develops a written action plan that describes how it will improve health care equity by addressing at least one of the health care disparities identified in its patient population.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 5</EP_LBL>
+            <EP_TX>The hospital acts when it does not achieve or sustain the goal(s) in its action plan to improve health care equity.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 6</EP_LBL>
+            <EP_TX>At least annually, the hospital informs key stakeholders, including leaders, licensed practitioners, and staff, about its progress to improve health care equity.</EP_TX>
+          </EP>
+        </STANDARD>
+      </GOAL>
+      <GOAL>
+        <GOAL_HDR>Goal 5</GOAL_HDR>
+        <GOAL_TX>The hospital prioritizes infection prevention and control.</GOAL_TX>
+        <STANDARD>
+          <STANDARD_NM>NPG.05.01.01</STANDARD_NM>
+          <STD_TX>The hospital implements its infection prevention and control program through surveillance, prevention, and control activities.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.05.01.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>To prioritize the program’s activities, the hospital identifies risks for infection, contamination, and exposure that pose a risk to patients and staff based on the following:
+	- Its geographic location, community, and population served
+	- The care, treatment, and services it provides
+	- The analysis of surveillance activities and other infection control data
+	- Relevant infection control issues identified by the local, state, or federal public health authorities that could impact the hospital
+	Note: Risks may include organisms with a propensity for transmission within health care facilities based on published reports and the occurrence of clusters of patients (for example, norovirus, respiratory syncytial virus, influenza, measles, organisms with antimicrobial resistance such as Carbapenem-resistant Enterobacterales [CRE] and Candida auris).</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital reviews identified risks at least annually or whenever significant changes in risk occur.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.05.02.01</STANDARD_NM>
+          <STD_TX>The hospital implements processes to support preparedness for high-consequence infectious diseases or special pathogens.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.05.02.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital develops and implements protocols for high-consequence infectious diseases or special pathogens. The protocols are readily available for use at the point of care and address the following:
+	- Identify: Procedures for screening at the points of entry to the hospital for respiratory symptoms, fever, rash, and travel history to identify or initiate evaluation for high-consequence infectious diseases or special pathogens
+	- Isolate: Procedures for transmission-based precautions
+	- Inform: Procedures for informing public health authorities and key hospital staff
+	- Required personal protective equipment and proper donning and doffing techniques
+	- Infection control procedures to support continued and safe provision of care while the patient is in isolation and to reduce exposure among staff, patients, and visitors using the hierarchy of controls
+	- Procedures for managing waste and cleaning and disinfecting patient care spaces, surfaces, and equipment
+	Note 1: Points of entry may include the emergency department, urgent care, and ambulatory clinics.
+	Note 2: See the Glossary for a definition of hierarchy of controls.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital develops and implements education and training and assesses competencies for staff who will implement protocols for high-consequence infectious diseases or special pathogens.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.05.03.01</STANDARD_NM>
+          <STD_TX>The hospital complies with either the current Centers for Disease Control and Prevention hand hygiene guidelines and/or the current World Health Organization hand hygiene guidelines.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.05.03.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital implements a program that follows categories IA, IB, and IC of either the current Centers for Disease Control and Prevention and/or the current World Health Organization hand hygiene guidelines. The program sets goals for improving compliance with hand hygiene based on established goals.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+      </GOAL>
+      <GOAL>
+        <GOAL_HDR>Goal 6</GOAL_HDR>
+        <GOAL_TX>The hospital prioritizes pain management and safe prescribing practices.</GOAL_TX>
+        <STANDARD>
+          <STANDARD_NM>NPG.06.01.01</STANDARD_NM>
+          <STD_TX>Pain assessment and pain management, including safe opioid prescribing, are identified as an organizational priority.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.06.01.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital has a leader or leadership team that is responsible for pain management and safe opioid prescribing, as well as developing and monitoring performance improvement activities.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital provides nonpharmacologic pain treatment modalities.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The hospital provides staff with educational resources and programs to improve pain assessment, pain management, and the safe use of opioid medications based on the identified needs of its patient population.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>The hospital provides information to staff on available services for consultation and referral of patients with complex pain management needs.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 5</EP_LBL>
+            <EP_TX>The hospital identifies opioid treatment programs that can be used for patient referrals.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 6</EP_LBL>
+            <EP_TX>The hospital facilitates licensed practitioner and pharmacist access to the prescription drug monitoring program databases.
+	Note: This element of performance is applicable in any state that has a prescription drug monitoring program database, whether querying is voluntary or is mandated by state regulations for all patients prescribed opioids.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 7</EP_LBL>
+            <EP_TX>Hospital leaders work with clinical staff to identify and acquire the equipment needed to monitor patients who are at high risk for adverse outcomes from opioid treatment.</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.06.02.01</STANDARD_NM>
+          <STD_TX>The hospital assesses and manages the patient’s pain and minimizes the risks associated with treatment.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.06.02.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital has defined criteria to screen, assess, and reassess pain that are consistent with the patient’s age, condition, and ability to understand.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital screens patients for pain during emergency department visits and at the time of admission.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The hospital treats the patient’s pain or refers the patient for treatment.
+	Note: Treatment strategies for pain may include nonpharmacologic, pharmacologic, or a combination of approaches.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>The hospital develops a pain treatment plan based on evidence-based practices and the patient’s clinical condition, past medical history, and pain management goals.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 5</EP_LBL>
+            <EP_TX>The hospital involves the patient in the pain management treatment planning process through the following:
+	- Developing realistic expectations and measurable goals that the patient understands for the degree, duration, and reduction of pain
+	- Discussing the objectives used to evaluate treatment progress (for example, relief of pain, improved physical and psychosocial function)
+	- Providing education on pain management, treatment options, and safe use of opioid and nonopioid medications when prescribed</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 6</EP_LBL>
+            <EP_TX>The hospital monitors patients identified as being high risk for adverse outcomes related to opioid treatment.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 7</EP_LBL>
+            <EP_TX>The hospital reassesses and responds to the patient’s pain through the following:
+	- Evaluation and documentation of response(s) to pain intervention(s)
+	- Progress toward pain management goals, including functional ability (for example, ability to take a deep breath, turn in bed, walk with improved pain control)
+	- Side effects of treatment
+	- Risk factors for adverse events caused by the treatment</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 8</EP_LBL>
+            <EP_TX>The hospital educates the patient and family on discharge plans related to pain management, including the following:
+	- Pain management plan of care
+	- Side effects of pain management treatment
+	- Daily living activities, including the home environment, that might exacerbate pain or reduce effectiveness of the pain management plan of care and strategies to address these issues
+	- Safe use, storage, and disposal of opioids when prescribed</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.06.03.01</STANDARD_NM>
+          <STD_TX>The hospital collects data on pain assessment and management.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.06.03.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital analyzes data collected on pain assessment and pain management to identify areas that need change to increase safety and quality for patients.</EP_TX>
+          </EP>
+        </STANDARD>
+      </GOAL>
+      <GOAL>
+        <GOAL_HDR>Goal 7</GOAL_HDR>
+        <GOAL_TX>The hospital respects the patient’s right to safe, informed care.</GOAL_TX>
+        <STANDARD>
+          <STANDARD_NM>NPG.07.01.01</STANDARD_NM>
+          <STD_TX>The hospital respects the patient's right to receive information in a manner the patient understands.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.07.01.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital respects the patient’s right to and need for effective communication.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital provides interpreting and translation services, as necessary.
+	Note: For hospitals that elect Joint Commission's Primary Care Medical Home option: Language interpreting options may include trained bilingual staff, contract interpreting services, or employed language interpreters. These options may be provided in person or via telephone or video. The documents translated, and the languages into which they are translated, are dependent on the primary care medical home's patient population.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The hospital communicates with the patient who has vision, speech, hearing, or cognitive impairments in a manner that meets the patient's needs.</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.07.02.01</STANDARD_NM>
+          <STD_TX>The hospital honors the patient's right to give or withhold informed consent.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.07.02.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital develops and implements a written policy on informed consent that describes the following:
+	- Specific care, treatment, and services that require informed consent
+	- Circumstances that would allow for exceptions to obtaining informed consent
+	- Process used to obtain informed consent
+	- Physicians or other licensed practitioners permitted to conduct the informed consent discussion in accordance with law and regulation
+	- How informed consent is documented in the patient record
+	Note: Documentation may be recorded in a form, in progress notes, or elsewhere in the record.
+	- When a surrogate decision-maker may give informed consent</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The informed consent process includes a discussion about the following:
+	- Patient's proposed care, treatment, and services.
+	- Potential benefits, risks, and side effects of the patient's proposed care, treatment, and services; the likelihood of the patient achieving their goals; and any potential problems that might occur during recuperation.
+	- Reasonable alternatives to the patient's proposed care, treatment, and services. The discussion encompasses risks, benefits, and side effects related to the alternatives and the risks related to not receiving the proposed care, treatment, and services.</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.07.03.01</STANDARD_NM>
+          <STD_TX>The hospital assesses the patient who may be a victim of possible abuse, neglect, and exploitation.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.07.03.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital uses written criteria to identify those patients who may be victims of physical assault, sexual assault, sexual molestation, domestic abuse, elder or child abuse, neglect, and exploitation. Patients are evaluated upon entry into the hospital and on an ongoing basis.
+	Note: Criteria can be based on age, sex, and circumstance.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>To assist with referrals of possible victims of abuse, neglect, and exploitation, the hospital maintains a list of private and public community agencies that can provide or arrange for assessment and care.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The hospital educates staff about how to recognize signs of possible abuse, neglect, and exploitation and about their roles in follow-up.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>The hospital internally reports cases of possible abuse, neglect, and exploitation.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 5</EP_LBL>
+            <EP_TX>When the hospital serves a population of patients who need protective services (for example, guardianship or advocacy services, conservatorship, child or adult protective services), it provides resources to help the family and the courts determine the patient’s needs for such services.</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.07.04.01</STANDARD_NM>
+          <STD_TX>The hospital treats the patient in a dignified and respectful manner.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.07.04.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital respects the patient’s cultural and personal values, beliefs, and preferences.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital accommodates the patient’s right to religious and other spiritual services.</EP_TX>
+          </EP>
+        </STANDARD>
+      </GOAL>
+      <GOAL>
+        <GOAL_HDR>Goal 8</GOAL_HDR>
+        <GOAL_TX>The hospital reduces the risk for suicide.</GOAL_TX>
+        <STANDARD>
+          <STANDARD_NM>NPG.08.01.01</STANDARD_NM>
+          <STD_TX>The hospital reduces the risk for suicide.
+Note: EPs 2–7 apply to patients in psychiatric distinct part units in hospitals or patients being evaluated or treated for behavioral health conditions as their primary reason for care in hospitals. In addition, EPs 3–7 apply to all patients who express suicidal ideation during the course of care.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.08.01.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>For psychiatric hospitals and psychiatric units in general hospitals: The hospital conducts an environmental risk assessment that identifies features in the physical environment that could be used to attempt suicide and takes necessary action to minimize the risk(s) (for example, removal of anchor points, door hinges, and hooks that can be used for hanging).
+	
+	For nonpsychiatric units in hospitals: The organization implements procedures to mitigate the risk of suicide for patients at high risk for suicide, such as one-to-one monitoring, removing objects that pose a risk for self-harm if they can be removed without adversely affecting the patient’s medical care, assessing objects brought into a room by visitors, and using safe transportation procedures when moving patients to other parts of the hospital.
+	
+	Note: Nonpsychiatric units in hospitals do not need to be ligature resistant. Nevertheless, these facilities should routinely assess clinical areas to identify objects that could be used for self-harm and remove those objects, when possible, from the area around a patient who has been identified as high risk for suicide. This information can be used for training staff who monitor high-risk patients (for example, developing checklists to help staff remember which equipment should be removed when possible).</EP_TX>
+            <DOC>Documentation Required</DOC>
+            <COP>§482.13(c)(2)</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital screens all patients for suicidal ideation who are being evaluated or treated for behavioral health conditions as their primary reason for care using a validated screening tool.
+	Note: Joint Commission requires screening for suicidal ideation using a validated tool for patients age 12 and above.</EP_TX>
+            <COP>§482.13(c)(2)</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The hospital uses an evidence-based process to conduct a suicide assessment of patients who have screened positive for suicidal ideation. The assessment directly asks about suicidal ideation, plan, intent, suicidal or self-harm behaviors, risk factors, and protective factors.
+	Note: EPs 2 and 3 can be satisfied through the use of a single process or instrument that simultaneously screens patients for suicidal ideation and assesses the severity of suicidal ideation.</EP_TX>
+            <COP>§482.13(c)(2)</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>The hospital documents patients’ overall level of risk for suicide and the plan to mitigate the risk for suicide.</EP_TX>
+            <COP>§482.13(c)(2)</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 5</EP_LBL>
+            <EP_TX>The hospital follows written policies and procedures addressing the care of patients identified as at risk for suicide. At a minimum, these should include the following:
+	- Training and competence assessment of staff who care for patients at risk for suicide
+	- Guidelines for reassessment
+	- Monitoring patients who are at high risk for suicide</EP_TX>
+            <DOC>Documentation Required</DOC>
+            <COP>§482.13(c)(2)</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 6</EP_LBL>
+            <EP_TX>The hospital follows written policies and procedures for counseling and follow-up care at discharge for patients identified as at risk for suicide.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 7</EP_LBL>
+            <EP_TX>The hospital monitors implementation and effectiveness of policies and procedures for screening, assessment, and management of patients at risk for suicide and takes action as needed to improve compliance.</EP_TX>
+            <COP>§482.13(c)(2)</COP>
+          </EP>
+        </STANDARD>
+      </GOAL>
+      <GOAL>
+        <GOAL_HDR>Goal 9</GOAL_HDR>
+        <GOAL_TX>The hospital develops and implements safe transplant practices.</GOAL_TX>
+        <STANDARD>
+          <STANDARD_NM>NPG.09.01.01</STANDARD_NM>
+          <STD_TX>The hospital uses standardized procedures for managing tissues.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.09.01.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital develops and implements standardized written procedures for the acquisition, receipt, storage, and issuance of tissues.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital confirms that tissue suppliers are registered with the US Food and Drug Administration (FDA) as a tissue establishment and maintain a state license when required.
+	Note 1: This element of performance does not apply to autologous tissue- or cellular-based products considered tissue for the purposes of these standards but classified as medical devices by the FDA.
+	Note 2: The supplier’s FDA registration status may also be checked annually using the FDA's online database: https://www.fda.gov/vaccines-blood-biologics/biologics-establishment-registration/find-tissue-establishment.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The hospital follows the tissue suppliers’ or manufacturers’ written directions for transporting, handling, storing, and using tissue.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>The hospital maintains daily records to demonstrate that tissues requiring a controlled environment are stored at the required temperatures.
+	Note 1: Types of tissue storage include room temperature, refrigerated, frozen (for example, deep freezing colder than -40°C), and liquid nitrogen storage.
+	Note 2: Tissues requiring no greater control than “ambient temperature” (defined as the temperature of the immediate environment) for storage would not require temperature monitoring.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 5</EP_LBL>
+            <EP_TX>The hospital continuously monitors the temperature of refrigerators, freezers, nitrogen tanks, and other storage equipment used to store tissues.
+	Note 1: Continuous temperature recording is not required but may be available with some continuous temperature monitoring systems.
+	Note 2: For tissue stored at room temperature, continuous temperature monitoring is not required.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 6</EP_LBL>
+            <EP_TX>Refrigerators, freezers, nitrogen tanks, and other storage equipment used to store tissues at a controlled temperature have functional alarms and an emergency backup plan.
+	Note: For tissue stored at room temperature, alarm systems are not required.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 7</EP_LBL>
+            <EP_TX>In Department of Defense hospitals, Veterans Affairs medical centers, and other federally administered health care agencies, notification to the organ procurement organization of patients who have died or whose death is imminent is done according to procedures approved by the respective agency.</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.09.02.01</STANDARD_NM>
+          <STD_TX>The hospital traces all tissues bi-directionally.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.09.02.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital’s records allow any tissue to be traced from the donor or tissue supplier to the recipient(s) or other final disposition, including discard, and from the recipient(s) or other final disposition back to the donor or tissue supplier.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital identifies, in writing, the materials and related instructions used to prepare or process tissues.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.09.03.01</STANDARD_NM>
+          <STD_TX>The hospital investigates adverse events related to tissue use or donor infections.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.09.03.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital has a written procedure to investigate tissue adverse events, including disease transmission or other complications that are suspected of being directly related to the use of tissue. The procedure includes the following at a minimum:
+	- Investigating disease transmission or other complications that are suspected of being directly related to the use of tissue
+	- Reporting a post-transplant infection or adverse event related to the use of tissue to the tissue supplier as soon as the hospital becomes aware
+	- Sequestering tissue whose integrity may have been compromised or that is reported by the tissue supplier as a suspected cause of infection
+	- Identifying and informing tissue recipients of infection risk when donors are subsequently found to have human immunodeficiency virus (HIV), human T-lymphotropic virus-I/II (HTLV-I/II), viral hepatitis, or other infectious agents known to be transmitted through tissue</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+      </GOAL>
+      <GOAL>
+        <GOAL_HDR>Goal 10</GOAL_HDR>
+        <GOAL_TX>The hospital performs waived testing in a safe and consistent manner.
+Note: Waived tests are categorized by the Clinical Laboratory Improvement Amendments as “simple laboratory examinations and procedures that have an insignificant risk of an erroneous result.” The Food and Drug Administration (FDA) determines which tests meet these criteria when it reviews a manufacturer’s application for test system waiver. The list of FDA-approved waived tests can be accessed at the following link: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfClia/analyteswaived.cfm</GOAL_TX>
+        <STANDARD>
+          <STANDARD_NM>NPG.10.01.01</STANDARD_NM>
+          <STD_TX>Policies and procedures for waived tests are established, current, approved, and readily available.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.10.01.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The person from the hospital whose name appears on the Clinical Laboratory Improvement Amendments of 1988 (CLIA '88) certificate, or a qualified designee, establishes written policies and procedures for waived testing that address the following:
+	- Clinical usage and limitations of the test methodology
+	- Need for confirmatory testing (for example, recommendations made by the manufacturer for rapid tests) and result follow-up recommendations (for example, a recommendation to repeat the test when results are higher or lower than the reportable range of the test)
+	- Specimen type, collection, and identification and required labeling
+	- Specimen preservation, if applicable
+	- Instrument maintenance and function checks, such as calibration
+	- Storage conditions for test components
+	- Reagent use, including not using a reagent after its expiration date
+	- Quality control (including frequency and type) and corrective action when quality control is unacceptable
+	- Test performance
+	- Result reporting, including not reporting individual patient results unless quality control is acceptable
+	- Equipment performance evaluation
+	Note 1: Policies and procedures for waived testing are made available to testing personnel.
+	Note 2: The designee should be knowledgeable by virtue of training, experience, and competence about the waived testing performed.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>Policies or procedures for each waived test are consistent with manufacturers’ instructions for use and include specific operational policies (that is, detailed quality control protocols and any other institution-specific procedures regarding the test or instrument).</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.10.02.01</STANDARD_NM>
+          <STD_TX>Staff performing waived tests are competent.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.10.02.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>Staff who perform waived testing have been trained for each test that they are authorized to perform. The training for each waived test is documented.
+	Note: This includes training on the use and maintenance of instruments.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>Competence for waived testing is assessed according to hospital policy at defined intervals but at least at the time of orientation and annually thereafter. Competency is assessed using at least two of the following methods per person per test:
+	- Performance of a test on a blind specimen
+	- Periodic observation of routine work by the supervisor or qualified designee
+	- Monitoring of each user's quality control performance
+	- Use of a written test specific to the test assessed
+	This competency is documented.
+	Note 1: When a licensed practitioner performs waived testing that does not involve an instrument and the test falls within their specialty, the hospital may use the medical staff credentialing and privileging process to document evidence of training and competency in lieu of annual competency assessment. In this circumstance, individual privileges include the specific waived tests appropriate to the scope of practice that they are authorized to perform. At the discretion of the person from the hospital whose name appears on the Clinical Laboratory Improvement Amendments of 1988 (CLIA '88) certificate or according to hospital policy, more stringent competency requirements may be implemented.
+	Note 2: Provider-performed microscopy (PPM) procedures are not waived tests.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+      </GOAL>
+      <GOAL>
+        <GOAL_HDR>Goal 11</GOAL_HDR>
+        <GOAL_TX>The hospital maintains workplace and patient safety.</GOAL_TX>
+        <STANDARD>
+          <STANDARD_NM>NPG.11.01.01</STANDARD_NM>
+          <STD_TX>The hospital manages security risks.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.11.01.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital controls access to and from areas it identifies as security sensitive.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital develops and implements written policies and procedures to follow in the event of a security incident, including an infant or pediatric abduction.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The hospital develops and implements a process(es) for continually monitoring, internally reporting, and investigating the following:
+	- Injuries to patients or others within the hospital's facilities and grounds
+	- Occupational illnesses and staff injuries
+	- Incidents of damage to its property or the property of others
+	- Safety and security incidents involving patients, staff, or others within its facilities, including those related to workplace violence
+	- Hazardous materials and waste spills and exposures
+	- Fire safety management problems, deficiencies, and failures
+	- Medical or laboratory equipment management problems, failures, and use errors
+	- Utility systems management problems, failures, or use errors
+	Note 1: All the incidents and issues listed above may be reported to staff in quality assessment, improvement, or other functions. A summary of such incidents may also be shared with the person designated to coordinate safety management activities.
+	Note 2: Review of incident reports often requires that legal processes be followed to preserve confidentiality. Opportunities to improve care, treatment, and services, or to prevent similar incidents, are not lost as a result of following the legal process.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>The hospital coordinates administrative and clinical decisions for patients under legal or correctional restrictions on the following:
+	- Use of seclusion and restraint for nonclinical purposes
+	- Imposition of disciplinary restrictions
+	- Restriction of rights
+	- Plan for discharge and continuing care, treatment, and services
+	- Length of stay</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.11.02.01</STANDARD_NM>
+          <STD_TX>The hospital assesses and manages the patient's risks for falls.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.11.02.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital implements fall risk reduction interventions based on the patient population, setting, and individual patient's assessed risks.</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.11.03.01</STANDARD_NM>
+          <STD_TX>The hospital manages utility systems.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.11.03.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital develops and implements written procedures for responding to utility system disruptions. The procedures include but are not limited to shutting off a malfunctioning system and notifying staff in the affected areas.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital develops and implements a policy to provide emergency backup for essential medication dispensing equipment identified by the hospital, such as automatic dispensing cabinets, medication carousels, and central medication robots.
+	Note: Examples of emergency backup can include emergency power, battery-based indoor generators, or other actions describing how dispensing and administration of medications will continue when emergency backup is needed.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The hospital develops and implements a policy to provide emergency backup for essential refrigeration for medications identified by the hospital, such as designated refrigerators and freezers.
+	Note: Examples of emergency backup can include emergency power, battery-based indoor generators, or other actions describing how refrigeration of medications will continue when emergency backup is needed.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+      </GOAL>
+      <GOAL>
+        <GOAL_HDR>Goal 12</GOAL_HDR>
+        <GOAL_TX>The hospital is staffed to meet the needs of the patients it serves, and staff are competent to provide safe, quality care.</GOAL_TX>
+        <STANDARD>
+          <STANDARD_NM>NPG.12.01.01</STANDARD_NM>
+          <STD_TX>The hospital’s leadership team ensures that there is qualified ancillary staff required to meet the needs of the population served and determines how staff function within the organization.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.12.01.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>Leaders provide for an adequate number and mix of qualified individuals to support safe, quality care, treatment, and services.
+	Note 1: The number and mix of individuals is appropriate to the scope and complexity of the services offered. Services may include but are not limited to the following:
+	- Rehabilitation services
+	- Emergency services
+	- Outpatient services
+	- Respiratory services
+	- Pharmaceutical services, including emergency pharmaceutical services
+	- Diagnostic and therapeutic radiology services
+	Note 2: Emergency services staff are qualified in emergency care.</EP_TX>
+            <COP>§482.25(a)(2), §482.26, §482.26(a), §482.54(b)(2), §482.55(b)(2), §482.57(a)(2)</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 6</EP_LBL>
+            <EP_TX>The hospital has a medical record service that has administrative responsibility for medical records. The hospital employs adequate staff to support the prompt completion, filing, and retrieval of records.</EP_TX>
+            <COP>§482.24(a)</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 7</EP_LBL>
+            <EP_TX>The hospital has dietetic services that are directed and adequately staffed by qualified personnel.
+	Note: For hospitals that provide dietetic services through contracted services, the contracted service has a dietician who serves the hospital on a full-time, part-time, or consultative basis and acts as a liaison to hospital medical staff for recommendations on dietetic policies that affect patient care, treatment, and services.</EP_TX>
+            <DOC>Documentation Required</DOC>
+            <COP>§482.28</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 8</EP_LBL>
+            <EP_TX>The hospital has a full-time employee, qualified through education, training, or experience, who serves as director to oversee the daily management of food and dietetic services.</EP_TX>
+            <DOC>Documentation Required</DOC>
+            <COP>§482.28(a)(1)(i), §482.28(a)(1)(ii), §482.28(a)(1)(iii)</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 9</EP_LBL>
+            <EP_TX>The hospital has a qualified dietitian on a full-time, part-time, or consultative basis.</EP_TX>
+            <COP>§482.28(a)(2)</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 10</EP_LBL>
+            <EP_TX>The hospital has a pharmacy that is directed by a registered pharmacist. If the hospital does not have a pharmacy, it has a drug storage area under competent supervision, as defined by the hospital.
+	Note: The pharmacy or drug storage area is administered in accordance with accepted professional principles.</EP_TX>
+            <DOC>Documentation Required</DOC>
+            <COP>§482.25</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 11</EP_LBL>
+            <EP_TX>The hospital has a full-time, part-time, or consulting pharmacist who is responsible for developing, supervising, and coordinating all pharmacy services activities.</EP_TX>
+            <COP>§482.25(a)(1)</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 12</EP_LBL>
+            <EP_TX>The hospital's governing body, based on the recommendation of the medical staff and nursing leaders, appoints an infection preventionist(s) or infection control professional(s) qualified through education, training, experience, or certification in infection prevention to be responsible for the infection prevention and control program.</EP_TX>
+            <COP>§482.42(a)(1)</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 13</EP_LBL>
+            <EP_TX>The surgical services include but are not limited to the following staff:
+	- An experienced registered nurse or doctor of medicine or osteopathy who supervises the operating rooms
+	- Licensed practical nurses (LPNs) and surgical technologists (operating room technicians) who serve as scrub nurses, if under the supervision of a registered nurse
+	- Qualified registered nurses who perform circulating duties in the operating room
+	Note: In accordance with applicable state laws and approved medical staff policies and procedures, LPNs and surgical technologists may assist in circulatory duties under the supervision of a qualified registered nurse who is immediately available to respond to emergencies.</EP_TX>
+            <COP>§482.51(a)(1), §482.51(a)(2), §482.51(a)(3)</COP>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.12.02.01</STANDARD_NM>
+          <STD_TX>The nurse executive directs the implementation of a nurse staffing plan(s).</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.12.02.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The nurse executive, who is a licensed registered nurse, is responsible for the operation of nursing services, including determining the following:
+	- Nursing policies and procedures
+	- Types and numbers of nursing and other staff necessary to provide nursing care for all areas of the hospital</EP_TX>
+            <DOC>Documentation Required</DOC>
+            <COP>§482.23(a)</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The nurse executive assumes an active leadership role with the hospital’s governing body, senior leadership, medical staff, management, and other clinical leaders in the hospital’s decision-making structure and process.
+	Note 1: The nurse executive possesses a postgraduate degree in nursing or a related field, the knowledge and skills associated with an advanced degree, or a written plan to obtain these qualifications.
+	Note 2: A related field may include health care administration or business administration.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>A registered nurse directly provides or supervises the nursing services provided by other staff to patients 24 hours a day, 7 days a week. The hospital has a licensed practical nurse or registered nurse on duty at all times.
+	Note 1: For hospitals that use Joint Commission accreditation for deemed status purposes: A registered nurse is immediately available for the provision of care of any patient.
+	Note 2: For hospitals that use Joint Commission accreditation for deemed-status purposes: Rural hospitals with a 24-hour nursing waiver granted under 42 CFR 488.54(c) are not required to have 24-hour nursing services.</EP_TX>
+            <COP>§482.23, §482.23(b)(1)</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 5</EP_LBL>
+            <EP_TX>There must be an adequate number of licensed registered nurses, licensed practical (vocational) nurses, and other staff to provide nursing care to all patients, as needed. 
+	Note: There are supervisors and staff for each department or nursing unit to make certain a registered nurse is immediately available for the care of any patient.</EP_TX>
+            <COP>§482.23(b)</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 7</EP_LBL>
+            <EP_TX>The hospital has policies and procedures that establish which outpatient departments, if any, are not required to have a registered nurse present. The policies and procedures meet the following requirements:
+	- Establish criteria that such outpatient departments need to meet, taking into account the types of services delivered, the general level of acuity of patients served by the department, and established standards of practice for the services delivered
+	- Describe alternative staffing plans
+	- Are approved by the director of nursing
+	- Are reviewed at least once every three years</EP_TX>
+            <DOC>Documentation Required</DOC>
+            <COP>§482.23(b)(7), §482.23(b)(7)(i), §482.23(b)(7)(ii), §482.23(b)(7)(iii), §482.23(b)(7)(iv)</COP>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.12.03.01</STANDARD_NM>
+          <STD_TX>For psychiatric hospitals that use Joint Commission accreditation for deemed status purposes: The psychiatric hospital develops and implements staffing plans according to law and regulation.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.12.03.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>For psychiatric hospitals that use Joint Commission accreditation for deemed status purposes: The psychiatric hospital does the following:
+	- Is primarily engaged in providing, by or under the supervision of a doctor of medicine or osteopathy, psychiatric services for the diagnosis and treatment of mentally ill persons.
+	- Meets the Medicare Conditions of Participation specified in 42 CFR 482.1 through 482.23 and 42 CFR 482.25 through 482.57.
+	- Meets the staffing requirements specified in 42 CFR 482.62.</EP_TX>
+            <COP>§482.60(a), §482.60(b), §482.60(d)</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>For psychiatric hospitals that use Joint Commission accreditation for deemed status purposes: The hospital makes certain a registered professional nurse is available 24 hours a day.</EP_TX>
+            <COP>§482.62(d)(2)</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>For psychiatric hospitals that use Joint Commission accreditation for deemed status purposes: The number of qualified therapists, support personnel, and consultants is adequate to provide therapeutic activities consistent with each patient's active treatment program.</EP_TX>
+            <COP>§482.62(g)(2)</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>For psychiatric hospitals that use Joint Commission accreditation for deemed status purposes: There is an adequate number of qualified professional, technical, and consultative staff (including but not limited to doctors of medicine and/or osteopathy, registered nurses, licensed practical nurses, and mental health workers) to do the following:
+	- Evaluate patients
+	- Formulate written individualized, comprehensive treatment plans
+	- Provide active treatment measures
+	- Engage in discharge planning
+	- Provide the nursing care necessary under each patient’s active treatment program
+	- Maintain progress notes on each patient
+	- Provide essential psychiatric services</EP_TX>
+            <COP>§482.62, §482.62(a)(1), §482.62(a)(2), §482.62(a)(3), §482.62(a)(4), §482.62(d), §482.62(d)(2)</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 5</EP_LBL>
+            <EP_TX>For psychiatric hospitals that use Joint Commission accreditation for deemed status purposes: Doctors of medicine or osteopathy and other appropriate professional staff are available to provide necessary medical and surgical diagnostic and treatment services. If medical and surgical diagnostic and treatment services are not available within the hospital, the hospital has an agreement with an outside source for these services to ensure that they are immediately available, or the hospital establishes an agreement for transferring patients to a general hospital that participates in the Medicare program.</EP_TX>
+            <DOC>Documentation Required</DOC>
+            <COP>§482.62(c)</COP>
+          </EP>
+          <EP>
+            <EP_LBL>EP 6</EP_LBL>
+            <EP_TX>For psychiatric hospitals that use Joint Commission accreditation for deemed status purposes: The hospital has a director of social services who monitors and evaluates the quality and appropriateness of social services.
+	Note: Social services are provided in accordance with accepted standards of practice and established policies and procedures.</EP_TX>
+            <COP>§482.62(f)</COP>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.12.04.01</STANDARD_NM>
+          <STD_TX>The hospital verifies that staff complete all requirements for employment and practice within their scope of practice.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.12.04.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital obtains a criminal background check on the applicant as required by law and regulation or hospital policy. Criminal background checks are documented.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>Staff comply with applicable health screening as required by law and regulation or hospital policy. Health screening compliance is documented.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>Staff who provide patient care, treatment, and services practice within the scope of their license, certification, or registration, in accordance with law and regulation.</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.12.05.01</STANDARD_NM>
+          <STD_TX>The hospital provides education and training and evaluates staff competence.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.12.05.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital orients staff on the following:
+	- Relevant hospitalwide and unit-specific policies and procedures
+	- Their specific job duties, including those related to infection prevention and control and assessing and managing pain
+	- Sensitivity to cultural diversity based on their job duties and responsibilities
+	- Patient rights, including ethical aspects of care, treatment, or services and the process used to address ethical issues based on their job duties and responsibilities
+	Completion of this orientation is documented.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital evaluates staff performance once every three years, or more frequently as required by hospital policy or in accordance with law and regulation. Staff are evaluated based on performance expectations that reflect their job responsibilities. This evaluation is documented.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.12.06.01</STANDARD_NM>
+          <STD_TX>The hospital evaluates staffing during performance improvement activities.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.12.06.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>When the hospital identifies undesirable patterns, trends, or variations in its performance related to the safety or quality of care (for example, as identified in the analysis of data or a single undesirable event), it includes the adequacy of staffing, including nurse staffing, in its analysis of possible causes.
+	Note 1: Adequacy of staffing includes the number, skill mix, and competency of all staff. In their analysis, hospitals may also wish to examine issues such as processes related to workflow; competency assessment; credentialing; supervision of staff; and orientation, training, and education.
+	Note 2: Hospitals may find value in using the staffing effectiveness indicators (which include National Quality Forum Nursing Sensitive Measures) to help identify potential staffing issues.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>When analysis reveals a problem with the adequacy of staffing, the leaders responsible for the hospitalwide patient safety program (as addressed at NPG.02.03.01, EP 1) are informed, in a manner determined by the safety program, of the results of this analysis and actions taken to resolve the identified problem(s).</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>At least once a year, the leaders responsible for the hospitalwide patient safety program review a written report on the results of any analyses related to the adequacy of staffing and any actions taken to resolve identified problems.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>At least once a year, the leaders provide governance with written reports that include results of the analyses related to the adequacy of staffing.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+      </GOAL>
+      <GOAL>
+        <GOAL_HDR>Goal 13</GOAL_HDR>
+        <GOAL_TX>The hospital safely performs imaging services.</GOAL_TX>
+        <STANDARD>
+          <STANDARD_NM>NPG.13.01.01</STANDARD_NM>
+          <STD_TX>The hospital defines and verifies qualifications and education requirements for imaging services staff.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.13.01.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>Technologists who perform diagnostic computed tomography (CT) exams have advanced-level certification by the American Registry of Radiologic Technologists (ARRT) or the Nuclear Medicine Technology Certification Board (NMTCB) in computed tomography or have one of the following qualifications:
+	- State licensure that permits them to perform diagnostic CT exams and documented training on the provision of diagnostic CT exams
+	- Registration and certification in radiography by ARRT and documented training on the provision of diagnostic CT exams
+	- Certification in nuclear medicine technology by ARRT or NMTCB and documented training on the provision of diagnostic CT exams
+	Note 1: This element of performance does not apply to CT exams performed for therapeutic radiation treatment planning or delivery or for calculating attenuation coefficients for nuclear medicine studies.
+	Note 2: This element of performance does not apply to dental cone beam CT radiographic imaging studies performed for diagnosis of conditions affecting the maxillofacial region or to obtain guidance for the treatment of such conditions.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital verifies and documents that diagnostic medical physicists who support computed tomography (CT) services have board certification in diagnostic radiologic physics or radiologic physics by the American Board of Radiology, in diagnostic imaging physics by the American Board of Medical Physics, or in diagnostic radiological physics by the Canadian College of Physicists in Medicine or meet all of the following requirements:
+	- A graduate degree in physics, medical physics, biophysics, radiologic physics, medical health physics, or a closely related science or engineering discipline from an accredited college or university
+	- College coursework in the biological sciences with at least one course in biology or radiation biology and one course in anatomy, physiology, or a similar topic related to the practice of medical physics
+	- Documented experience in a clinical CT environment conducting at least 10 CT performance evaluations under the direct supervision of a board-certified medical physicist
+	Note: This element of performance does not apply to dental cone beam CT radiographic imaging studies performed for diagnosis of conditions affecting the maxillofacial region or to obtain guidance for the treatment of such conditions.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The hospital verifies and documents that individuals who perform diagnostic computed tomography (CT) examinations participate in ongoing education that includes annual training on the following:
+	- Radiation dose optimization techniques and tools for pediatric and adult patients addressed in the Image Gently® and Image Wisely® campaigns
+	- Safe procedures for operation of the types of CT equipment they will use
+	Note 1: Information on the Image Gently and Image Wisely initiatives can be found online at https://www.imagegently.org and https://www.imagewisely.org, respectively.
+	Note 2: This element of performance does not apply to CT systems used for therapeutic radiation treatment planning or delivery or for calculating attenuation coefficients for nuclear medicine studies.
+	Note 3: This element of performance does not apply to dental cone beam CT radiographic imaging studies performed for diagnosis of conditions affecting the maxillofacial region or to obtain guidance for the treatment of such conditions.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>The hospital verifies and documents that technologists who perform magnetic resonance imaging (MRI) examinations participate in ongoing education, including annual training on safe MRI practices in the MRI environment that addresses the following:
+	- Patient screening criteria that address ferromagnetic items, electrically conductive items, medical implants and devices, and risk for nephrogenic systemic fibrosis
+	- Proper patient and equipment positioning activities to avoid thermal injuries
+	- Equipment and supplies that have been determined to be acceptable for use in the MRI environment (MR safe or MR conditional)
+	- MRI safety response procedures for patients who require urgent or emergent medical care
+	- MRI system emergency shutdown procedures, such as MRI system quench and cryogen safety procedures
+	- Patient hearing protection
+	- Management of patients with claustrophobia, anxiety, or emotional distress
+	Note: Terminology for defining the safety of items in the magnetic resonance environment is provided in ASTM F2503 Standard Practice for Marking Medical Devices and Other Items for Safety in the Magnetic Resonance Environment (http://www.astm.org).</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.13.02.01</STANDARD_NM>
+          <STD_TX>The hospital’s imaging services have a designated leader and follow current safe imaging practices.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.13.02.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital designates an individual to serve as the radiation safety officer who is responsible for making certain that radiologic services are provided in accordance with law, regulation, and hospital policy. This individual has the necessary authority and leadership support to do the following:
+	- Monitor and verify compliance with established radiation safety practices (including oversight of dosimetry monitoring).
+	- Provide recommendations for improved radiation safety.
+	- Intervene as needed to stop unsafe practices.
+	- Implement corrective action.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital provides radiology services that meet safety standards approved by nationally recognized professional organizations. At a minimum, diagnostic radiology services are maintained and available at all times the hospital provides services, including emergency services.
+	Note: If the hospital also provides other radiology services, such as therapeutic radiology, the requirements of this element of performance also apply to those services.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The hospital establishes or adopts diagnostic computed tomography (CT) imaging protocols based on current standards of practice that address key criteria, including the following:
+	- Clinical indication
+	- Contrast administration
+	- Age (to indicate whether the patient is pediatric or adult)
+	- Patient size and body habitus
+	- Expected radiation dose index range
+	Note: This element of performance does not apply to dental cone beam CT radiographic imaging studies performed for diagnosis of conditions affecting the maxillofacial region or to obtain guidance for the treatment of such conditions.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>Diagnostic computed tomography (CT) imaging protocols are reviewed and kept current with input from an interpreting physician, medical physicist, and lead imaging technologist to make certain that they adhere to current standards of practice and account for changes in CT imaging equipment. These reviews are conducted at time frames identified by the hospital. (For rehabilitation and psychiatric distinct part units in hospitals, refer to MS.17.01.03, EP 5, for supervision of radiologic services)
+	Note: This element of performance does not apply to dental cone beam CT radiographic imaging studies performed for diagnosis of conditions affecting the maxillofacial region or to obtain guidance for the treatment of such conditions.</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.13.03.01</STANDARD_NM>
+          <STD_TX>The hospital manages imaging safety risks.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.13.03.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital manages magnetic resonance imaging (MRI) safety risks associated with the following:
+	- Patients who may experience claustrophobia, anxiety, or emotional distress
+	- Patients who may require urgent or emergent medical care
+	- Patients with medical implants, devices, or imbedded metallic foreign objects (such as shrapnel)
+	- Ferromagnetic objects entering the MRI environment
+	- Acoustic noise</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital manages magnetic resonance imaging (MRI) safety risks by doing the following:
+	- Restricting access of everyone not trained in MRI safety or screened by staff trained in MRI safety from the scanner room and the area that immediately precedes the entrance to the MRI scanner room.
+	- Making sure that these restricted areas are controlled by and under the direct supervision of staff trained in MRI safety.
+	- Posting signage at the entrance to the MRI scanner room that conveys that potentially dangerous magnetic fields are present in the room. Signage should also indicate that the magnet is always on except in cases where the MRI system, by its design, can have its magnetic field routinely turned on and off by the operator.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>For hospitals that provide computed tomography (CT), positron emission tomography (PET), nuclear medicine (NM), or fluoroscopy services: The radiation safety officer, diagnostic medical physicist, or health physicist reviews the results of dosimetry monitoring at least quarterly to assess whether staff radiation exposure levels are “as low as reasonably achievable” (ALARA) and below regulatory limits.
+	Note 1: For the definition of ALARA, please refer to US Nuclear Regulatory Commission federal regulation 10 CFR 20.1003.
+	Note 2: This element of performance does not apply to dental cone beam CT radiographic imaging studies performed for diagnosis of conditions affecting the maxillofacial region or to obtain guidance for the treatment of such conditions.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>For diagnostic computed tomography (CT) services: At least annually, a diagnostic medical physicist does the following:
+	- Measures the radiation dose (in the form of volume computed tomography dose index [CTDIvol]) produced by each diagnostic CT imaging system for the following four CT protocols: adult brain, adult abdomen, pediatric brain, and pediatric abdomen. If one or more of these protocols is not used by the hospital, other commonly used CT protocols may be substituted.
+	- Verifies that the radiation dose (in the form of CTDIvol) produced and measured for each protocol tested is within 20 percent of the CTDIvol displayed on the CT console. The dates, results, and  verifications of these measurements are documented.
+	Note 1: This element of performance is only applicable for systems capable of calculating and displaying radiation doses.
+	Note 2: This element of performance does not apply to dental cone beam CT radiographic imaging studies performed for diagnosis of conditions affecting the maxillofacial region or to obtain guidance for the treatment of such conditions.
+	Note 3: Medical physicists are accountable for these activities. They may be assisted with the testing and evaluation of equipment performance by individuals who have the required training and skills, as determined by the physicist. (For more information, refer to HR.11.01.03, EP 1; HR.11.02.01, EP 2; NPG.12.04.01, EP 3)</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 5</EP_LBL>
+            <EP_TX>For diagnostic computed tomography (CT) services: At least annually, a diagnostic medical physicist conducts a performance evaluation of all CT imaging equipment. The evaluation results, along with recommendations for correcting any problems identified, are documented. The evaluation includes the use of phantoms to assess the following imaging metrics:
+	- Image uniformity
+	- Scout prescription accuracy
+	- Alignment light accuracy
+	- Table travel accuracy
+	- Radiation beam width
+	- High-contrast resolution
+	- Low-contrast detectability
+	- Geometric or distance accuracy
+	- CT number accuracy and uniformity
+	- Artifact evaluation
+	Note 1: This element of performance does not apply to dental cone beam CT radiographic imaging studies performed for diagnosis of conditions affecting the maxillofacial region or to obtain guidance for the treatment of such conditions.
+	Note 2: Medical physicists are accountable for these activities. They may be assisted with the testing and evaluation of equipment performance by individuals who have the required training and skills, as determined by the physicist. (For more information, refer to HR.11.01.03, EP 1; HR.11.02.01, EP 2; NPG.12.04.01, EP 3)</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 6</EP_LBL>
+            <EP_TX>At least annually, a diagnostic medical physicist or magnetic resonance imaging (MRI) scientist conducts a performance evaluation of all MRI imaging equipment. The evaluation results, along with recommendations for correcting any problems identified, are documented. The evaluation includes the use of phantoms to assess the following imaging metrics:
+	- Image uniformity for all radiofrequency (RF) coils used clinically
+	- Signal-to-noise ratio (SNR) for all coils used clinically
+	- Slice thickness accuracy
+	- Slice position accuracy
+	- Alignment light accuracy
+	- High-contrast resolution
+	- Low-contrast resolution (or contrast-to-noise ratio)
+	- Geometric or distance accuracy
+	- Magnetic field homogeneity
+	- Artifact evaluation
+	Note: Medical physicists or MRI scientists are accountable for these activities. They may be assisted with the testing and evaluation of equipment performance by individuals who have the required training and skills, as determined by the medical physicist or MRI scientist. (For more information, refer to HR.11.01.03, EP 1; HR.11.02.01, EP 2; NPG.12.04.01, EP 3)</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.13.04.01</STANDARD_NM>
+          <STD_TX>The hospital monitors quality improvement projects related to imaging safety.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.13.04.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital collects data on the following:
+	- Patient thermal injuries that occur during magnetic resonance imaging (MRI) exams
+	- Incidents where ferromagnetic objects unintentionally entered the MRI scanner room
+	- Injuries resulting from the presence of ferromagnetic objects in the MRI scanner room</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital reviews and analyzes incidents where the radiation dose index (computed tomography dose index [CTDIvol], dose length product [DLP], or size-specific dose estimate [SSDE]) from diagnostic CT examinations exceeded expected dose index ranges identified in imaging protocols. These incidents are then compared to external benchmarks.
+	Note 1: While the CTDIvol, DLP, and SSDE are useful indicators for monitoring radiation dose indices from the CT machine, they do not represent the patient’s radiation dose.
+	Note 2: This element of performance does not apply to dental cone beam CT radiographic imaging studies performed for diagnosis of conditions affecting the maxillofacial region or to obtain guidance for the treatment of such conditions.</EP_TX>
+          </EP>
+        </STANDARD>
+      </GOAL>
+      <GOAL>
+        <GOAL_HDR>Goal 14</GOAL_HDR>
+        <GOAL_TX>The hospital has a medication management program that focuses on safety.</GOAL_TX>
+        <STANDARD>
+          <STANDARD_NM>NPG.14.01.01</STANDARD_NM>
+          <STD_TX>The hospital safely manages pharmaceutical services.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.14.01.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>When an on-site pharmacy is not open 24 hours a day, 7 days a week, the following occurs:
+	- A health care professional, who the hospital determines is qualified, reviews the medication order in the pharmacist’s absence
+	- A pharmacist conducts a retrospective review of all medication orders during this period as soon as a pharmacist is available or the pharmacy opens</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>When automatic dispensing cabinets are used, the hospital develops and implements a policy that describes the types of medication overrides that will be reviewed for appropriateness and the frequency of the reviews. A 100% review of overrides is not required.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.14.02.01</STANDARD_NM>
+          <STD_TX>The hospital selects and procures medications.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.14.02.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital standardizes and limits the number of drug concentrations available to meet patient care needs.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital follows a process to communicate medication shortages and outages to staff who participate in medication management.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The hospital follows written medication substitution protocols to be used in the event of a medication shortage or outage and communicates the medication substitution protocols for shortages or outages to all affected staff.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.14.03.01</STANDARD_NM>
+          <STD_TX>The hospital labels all medications, medication containers, and other solutions on and off the sterile field in perioperative and other procedural settings.
+Note: Medication containers include syringes, medicine cups, and basins.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.14.03.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>In perioperative and other procedural settings both on and off the sterile field, the hospital labels medications and solutions that are not immediately administered. This applies even if there is only one medication being used.
+	Note: An immediately administered medication is one that an authorized staff member prepares or obtains, takes directly to a patient, and administers to that patient without any break in the process.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>In perioperative and other procedural settings both on and off the sterile field, labeling occurs when any medication or solution is transferred from the original packaging to another container.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>In perioperative and other procedural settings both on and off the sterile field, medication or solution labels include the following:
+	- Medication or solution name
+	- Strength
+	- Amount of medication or solution containing medication (if not apparent from the container)
+	- Diluent name and volume (if not apparent from the container)
+	- Expiration date and time
+	Note: The date and time are not necessary for short procedures, as defined by the hospital.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>The hospital verifies all medication or solution labels both verbally and visually. Verification is done by two individuals qualified to participate in the procedure whenever the person preparing the medication or solution is not the person who will be administering it.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 5</EP_LBL>
+            <EP_TX>The hospital labels each medication or solution as soon as it is prepared, unless it is immediately administered.
+	Note: An immediately administered medication is one that an authorized staff member prepares or obtains, takes directly to a patient, and administers to that patient without any break in the process.</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.14.04.01</STANDARD_NM>
+          <STD_TX>The hospital reduces the likelihood of patient harm associated with the use of anticoagulant therapy.
+Note: This requirement does not apply to routine situations in which short-term prophylactic anticoagulation is used for preventing venous thromboembolism (for example, related to procedures or hospitalization).</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.14.04.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital uses approved protocols and evidence-based practice guidelines for reversal of anticoagulation and management of bleeding events related to each anticoagulant medication.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital uses approved protocols and evidence-based practice guidelines for perioperative management of all patients on oral anticoagulants.
+	Note: Perioperative management may address the use of bridging medications, timing for stopping an anticoagulant, and timing and dosing for restarting an anticoagulant.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The hospital uses only oral unit-dose products, prefilled syringes, or premixed infusion bags when these types of products are available.
+	Note: For pediatric patients, prefilled syringe products should be used only if specifically designed for children.</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.14.05.01</STANDARD_NM>
+          <STD_TX>The hospital maintains and communicates accurate patient medication information.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.14.05.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital obtains information on the medications the patient is currently taking when they are admitted to the hospital or are seen in an outpatient setting. This information is documented in a list or other format that is useful to those who manage medications.
+	Note 1: Current medications include those taken at scheduled times and those taken on an as-needed basis. See the Glossary for a definition of medications.
+	Note 2: It is often difficult to obtain complete information on current medications from a patient. A good faith effort to obtain this information from the patient and/or other sources will be considered as meeting the intent of the EP.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The hospital defines the types of medication information (for example, name, dose, route, frequency, purpose) to be collected in non-24-hour settings.
+	Note: Examples of non-24-hour settings include the emergency department, primary care, outpatient radiology, ambulatory surgery, and diagnostic settings.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 3</EP_LBL>
+            <EP_TX>The hospital compares the medication information the patient brought to the hospital with the medications ordered for the patient by the hospital in order to identify and resolve discrepancies.
+	Note: Discrepancies include omissions, duplications, contraindications, unclear information, and changes. A qualified individual, identified by the hospital, does the comparison.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 4</EP_LBL>
+            <EP_TX>The hospital provides the patient (or family, caregiver, or support person as needed) with written information on the medications the patient should be taking when they are discharged from the hospital or at the end of an outpatient encounter (for example, name, dose, route, frequency, purpose).</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+          <EP>
+            <EP_LBL>EP 5</EP_LBL>
+            <EP_TX>The hospital explains the importance of managing medication information to the patient when they are discharged from the hospital or at the end of an outpatient encounter.
+	Note: Examples include instructing the patient to give a list to their primary care provider; to update the information when medications are discontinued, doses are changed, or new medications (including over-the-counter products) are added; and to carry medication information at all times in the event of emergency situations. (For information on patient education on medications, refer to Standards MM.16.01.01, PC.12.02.01, and PC.14.01.01.)</EP_TX>
+          </EP>
+        </STANDARD>
+        <STANDARD>
+          <STANDARD_NM>NPG.14.06.01</STANDARD_NM>
+          <STD_TX>The hospital has an active antibiotic stewardship program.</STD_TX>
+          <EP_SECT_LBL>Element(s) of performance for NPG.14.06.01</EP_SECT_LBL>
+          <EP>
+            <EP_LBL>EP 1</EP_LBL>
+            <EP_TX>The hospital has a multidisciplinary committee that oversees the antibiotic stewardship program.
+	Note 1: The committee may be composed of representatives from the medical staff, pharmaceutical services, the infection prevention and control program, nursing services, microbiology, information technology, and the quality assessment and performance improvement program.
+	Note 2: The committee may include part-time or consultant staff. Participation may occur on site or remotely.</EP_TX>
+          </EP>
+          <EP>
+            <EP_LBL>EP 2</EP_LBL>
+            <EP_TX>The antibiotic stewardship program monitors the hospital’s antibiotic use by analyzing data on days of therapy per 1,000 days present or 1,000 patient days or by reporting antibiotic use data to the National Healthcare Safety Network’s Antimicrobial Use Option of the Antimicrobial Use and Resistance Module.</EP_TX>
+            <DOC>Documentation Required</DOC>
+          </EP>
+        </STANDARD>
+      </GOAL>
+    </CHAPTER>
+  </PROGRAM>
+</REPORT>
