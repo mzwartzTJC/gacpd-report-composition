@@ -57,17 +57,17 @@
           <fo:block-container text-align="left" font-family="Satoshi-Bold" font-size="18pt">
             <xsl:choose>
               <xsl:when test="REPORT/PROGRAM/CHAPTER/CHAPTER_LBL = 'NPG'">
-                <fo:block start-indent="2.75in">National Performance Goals™</fo:block>
+                <fo:block start-indent="2.25in">National Performance Goals™</fo:block>
               </xsl:when>
               <xsl:when test="REPORT/PROGRAM/CHAPTER/CHAPTER_LBL = 'NPSG'">
-                <fo:block start-indent="2.75in">National Patient Safety Goals®</fo:block>
+                <fo:block start-indent="2.25in">National Patient Safety Goals®</fo:block>
               </xsl:when>
               <xsl:otherwise>
-                <fo:block start-indent="2.75in"><xsl:value-of select="REPORT/PROGRAM/CHAPTER/CHAPTER_LBL"/></fo:block>
+                <fo:block start-indent="2.25in"><xsl:value-of select="REPORT/PROGRAM/CHAPTER/CHAPTER_LBL"/></fo:block>
               </xsl:otherwise>
             </xsl:choose>
-            <fo:block start-indent="2.75in">Effective <xsl:value-of select="concat(substring-before(REPORT/EFC_DT, ' '), ' ', substring-after(REPORT/EFC_DT, ', '))" /> for the </fo:block>
-            <fo:block start-indent="2.75in"><xsl:value-of select="REPORT/PROGRAM/PROGRAM_NM"/> Program</fo:block>
+            <fo:block start-indent="2.25in">Effective <xsl:value-of select="concat(substring-before(REPORT/EFC_DT, ' '), ' ', substring-after(REPORT/EFC_DT, ', '))" /> for the </fo:block>
+            <fo:block start-indent="2.25in"><xsl:value-of select="REPORT/PROGRAM/PROGRAM_NM"/> Program</fo:block>
           </fo:block-container>
           <fo:block><fo:leader leader-pattern="rule" rule-thickness="1.5pt" color="gray" leader-length="100%"/></fo:block>
         </fo:static-content>
