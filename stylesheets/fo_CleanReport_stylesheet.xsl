@@ -59,7 +59,8 @@
             </xsl:choose>
           </fo:block-container>
           <fo:block-container text-align="left" font-family="Satoshi-Bold" font-size="18pt">
-            <fo:block start-indent="2.0in"><xsl:value-of select="REPORT/TITLE"/></fo:block>
+            <fo:block start-indent="2.0in" color = "#1F336B">Joint Commission Requirements for </fo:block>
+            <fo:block start-indent="2.0in" color = "#1F336B"><xsl:value-of select="REPORT/PROGRAM/PROGRAM_NM"/> Programs</fo:block>
           </fo:block-container>
           <fo:block><fo:leader leader-pattern="rule" rule-thickness="1.5pt" color="gray" leader-length="100%"/></fo:block>
         </fo:static-content>
