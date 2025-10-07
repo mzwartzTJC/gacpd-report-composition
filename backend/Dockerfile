@@ -13,7 +13,7 @@ WORKDIR /app
 COPY backend/ ./
 
 # Copy stylesheets and images
-COPY stylesheets/ /app/stylesheets/
+#COPY stylesheets/ /app/stylesheets/
 
 # Install Node.js dependencies
 RUN npm install

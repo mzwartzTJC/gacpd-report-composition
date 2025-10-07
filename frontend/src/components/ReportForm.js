@@ -43,6 +43,9 @@ const ReportForm = ({
         >
           <MenuItem value="crosswalk">Crosswalk Report</MenuItem>
           <MenuItem value="NPG">NPG/NPSG Report</MenuItem>
+          <MenuItem value="CleanReport">Clean Report</MenuItem>
+          <MenuItem value="prepub">Prepublication Report</MenuItem>
+          <MenuItem value="SPG">SPG Report</MenuItem>
         </Select>
       </FormControl>
       

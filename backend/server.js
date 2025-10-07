@@ -26,7 +26,8 @@ app.post('/generate-pdf', upload.single('xmlFile'), (req, res) => {
       'crosswalk': 'fo_crosswalk_stylesheet.xsl',
       'CleanReport': 'fo_CleanReport_stylesheet.xsl',
       'prepub': 'fo_prepub_stylesheet.xsl',
-      'NPG': 'fo_NPG_stylesheet.xsl'
+      'NPG': 'fo_NPG_stylesheet.xsl',
+      'SPG': 'fo_SPG_stylesheet.xsl'
     };
 
     const xslFile = xslMap[reportType];
