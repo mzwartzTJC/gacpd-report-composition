@@ -44,7 +44,7 @@
         
 
     <!--Footer information -->
-        <fo:static-content flow-name = "xsl-region-after" role="artifact">
+        <fo:static-content flow-name = "xsl-region-after" role="artifact" font-family="Inter" font-size="8pt">
           <fo:block><fo:leader leader-pattern="rule" rule-thickness="1pt" color="black" leader-length="100%"/></fo:block>
           <fo:table table-layout="fixed" width="100%">
             <fo:table-column column-width="30%"/>
@@ -53,13 +53,13 @@
             <fo:table-body>
               <fo:table-row>
                 <fo:table-cell display-align="center"> 
-                  <fo:block font-size="8pt" font-family="Inter" text-align="left"><xsl:value-of select="SPG_REPORT/TITLE"/></fo:block>
+                  <fo:block   text-align="left"><xsl:value-of select="SPG_REPORT/TITLE"/></fo:block>
                 </fo:table-cell>
                 <fo:table-cell display-align="center">
-                  <fo:block font-size="8pt" font-family="Inter" text-align="center">Page <fo:page-number/> of <fo:page-number-citation-last ref-id="spg_report"/></fo:block>
+                  <fo:block text-align="center">Page <fo:page-number/> of <fo:page-number-citation-last ref-id="spg_report"/></fo:block>
                 </fo:table-cell>
                 <fo:table-cell display-align="center">
-                  <fo:block font-size="8pt" font-family="Inter" text-align="right">© <xsl:value-of select="substring-after(SPG_REPORT/RUN_DT, ', ')"/> Joint Commission</fo:block>
+                  <fo:block text-align="right">© <xsl:value-of select="substring-after(SPG_REPORT/RUN_DT, ', ')"/> Joint Commission</fo:block>
                 </fo:table-cell>
               </fo:table-row>
             </fo:table-body>
@@ -68,16 +68,16 @@
 
 
         <!--Document Body-->        
-        <fo:flow flow-name = "xsl-region-body" font-family="Inter" font-size="10pt" space-after="5pt">
+        <fo:flow flow-name = "xsl-region-body" font-family="Inter" font-size="8pt" space-after="5pt">
             <xsl:for-each select="SPG_REPORT/COP">
                 <xsl:choose>
                     <xsl:when test="contains(COP_TTL, 'Condition of Participation:')">
-                        <fo:block font-family="Satoshi" font-weight="bold" font-size="18pt" keep-with-next="always"> 
+                        <fo:block font-family="Satoshi" font-weight="bold" font-size="18pt" break-before="page" keep-with-next="always" role="H1"> 
                             <xsl:value-of select="substring-after(COP_TTL, 'Condition of Participation: ')"/> (<xsl:value-of select="COP_NM"/>)
                         </fo:block>
                     </xsl:when>
                     <xsl:otherwise>
-                        <fo:block font-family="Satoshi" font-weight="bold" font-size="18pt" keep-with-next="always"> 
+                        <fo:block font-family="Satoshi" font-weight="bold" font-size="18pt" break-before="page" keep-with-next="always" role="H1"> 
                             <xsl:value-of select="COP_TTL"/> (<xsl:value-of select="COP_NM"/>)
                         </fo:block>
                     </xsl:otherwise>
@@ -85,7 +85,7 @@
 
                 <xsl:for-each select="SPG">
                     <fo:block keep-with-next="always"><fo:leader leader-pattern="rule" rule-thickness="2pt" color="black" leader-length="100%"/></fo:block>
-                    <fo:block keep-with-next="always" font-family="Satoshi" font-size="16pt" space-after="8pt">Survey Process</fo:block>
+                    <fo:block keep-with-next="always" font-family="Satoshi" font-size="16pt" space-after="8pt" role="H2">Survey Process</fo:block>
                 
                     <xsl:call-template name="tag_text">
                       <xsl:with-param name="txt" select="SPG_TXT"/>
@@ -111,7 +111,9 @@
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <xsl:for-each select ="EP">
-                                                <fo:block keep-with-next="always" space-before="8pt"><xsl:value-of select="STD_LBL"/>, EP <xsl:value-of select="EP_LBL"/></fo:block>
+                                                <fo:block keep-with-next="always" space-before="8pt" font-family="Satoshi" font-size="8pt" font-weight="bold">
+                                                    <xsl:value-of select="STD_LBL"/>, EP <xsl:value-of select="EP_LBL"/>
+                                                </fo:block>
                                                 <xsl:call-template name="tag_text">
                                                   <xsl:with-param name="txt" select="EP_TXT"/>
                                                 </xsl:call-template>
@@ -121,13 +123,17 @@
                                 </fo:table-cell>
                                 <fo:table-cell padding="5pt">
                                     <xsl:choose>
-                                        <xsl:when test="count(ELE) = 0">
+                                        <xsl:when test="count(COP_ELE) = 0">
                                             <fo:block></fo:block>
                                         </xsl:when>
                                         <xsl:otherwise>
-                                            <xsl:for-each select ="ELE">
-                                                <fo:block><xsl:value-of select="COP_ELE_NM"/></fo:block>
-                                                <fo:block linefeed-treatment="preserve" space-after="8pt" keep-with-previous="always"><xsl:value-of select="COP_TXT"/></fo:block>
+                                            <xsl:for-each select ="COP_ELE">
+                                                <fo:block keep-with-next="always" space-before="8pt" font-family="Satoshi" font-size="8pt" font-weight="bold">
+                                                    <xsl:value-of select="COP_ELE_NM"/>
+                                                </fo:block>
+                                                <fo:block linefeed-treatment="preserve" space-after="8pt" keep-with-previous="always">
+                                                    <xsl:value-of select="COP_TXT"/>
+                                                </fo:block>
                                             </xsl:for-each>
                                         </xsl:otherwise>
                                     </xsl:choose>
@@ -148,6 +154,12 @@
         <xsl:choose>
             <xsl:when test="contains($txt, $new_line)">
                 <xsl:choose>
+                    <!--Skip extra line breaks-->
+                    <xsl:when test="starts-with($txt, $new_line)">
+                        <xsl:call-template name="tag_text">
+                            <xsl:with-param name="txt" select="substring-after($txt, $new_line)"/>
+                        </xsl:call-template>
+                    </xsl:when>
                     <xsl:when test="starts-with(normalize-space($txt), $list_label)">
                         <!--recurring loop to create a list of list elements -->
                         <xsl:call-template name="create_list_list">
@@ -160,19 +172,25 @@
                         <xsl:if test="string-length(substring-before($txt, $new_line)) > 0">
                           <xsl:choose>
                             <xsl:when test="substring-before($txt, $new_line) = 'Interview'">
-                              <fo:block font-family="Satoshi" font-size="10pt" font-weight="bold" text-decoration="underline" space-before="8pt" keep-with-next="always"><xsl:value-of select="substring-before($txt, $new_line)"/></fo:block>
+                              <fo:block font-family="Satoshi" font-size="10pt" font-weight="bold" text-decoration="underline" space-before="8pt" keep-with-next="always" role="H3"><xsl:value-of select="substring-before($txt, $new_line)"/></fo:block>
                             </xsl:when>
                             <xsl:when test="substring-before($txt, $new_line) = 'Observation'">
-                              <fo:block font-family="Satoshi" font-size="10pt" font-weight="bold" text-decoration="underline" space-before="8pt" keep-with-next="always"><xsl:value-of select="substring-before($txt, $new_line)"/></fo:block>
+                              <fo:block font-family="Satoshi" font-size="10pt" font-weight="bold" text-decoration="underline" space-before="8pt" keep-with-next="always" role="H3"><xsl:value-of select="substring-before($txt, $new_line)"/></fo:block>
                             </xsl:when>
                             <xsl:when test="substring-before($txt, $new_line) = 'Document Review'">
-                              <fo:block font-family="Satoshi" font-size="10pt" font-weight="bold" text-decoration="underline" space-before="8pt" keep-with-next="always"><xsl:value-of select="substring-before($txt, $new_line)"/></fo:block>
+                              <fo:block font-family="Satoshi" font-size="10pt" font-weight="bold" text-decoration="underline" space-before="8pt" keep-with-next="always" role="H3"><xsl:value-of select="substring-before($txt, $new_line)"/></fo:block>
                             </xsl:when>
                             <xsl:when test="substring-before($txt, $new_line) = 'General'">
-                              <fo:block font-family="Satoshi" font-size="10pt" font-weight="bold" space-before="8pt" keep-with-next="always"><xsl:value-of select="substring-before($txt, $new_line)"/></fo:block>
+                              <fo:block font-family="Satoshi" font-size="10pt" font-weight="bold" space-before="8pt" keep-with-next="always" role="H3"><xsl:value-of select="substring-before($txt, $new_line)"/></fo:block>
+                            </xsl:when>
+                            <xsl:when test="substring-before($txt, $new_line) = 'Patient Health Record'">
+                              <fo:block font-family="Satoshi" font-size="10pt" font-weight="bold" space-before="8pt" keep-with-next="always" role="H3"><xsl:value-of select="substring-before($txt, $new_line)"/></fo:block>
                             </xsl:when>
                             <xsl:when test="starts-with(substring-before($txt, $new_line), 'Personnel/Credential File')">
-                              <fo:block font-family="Satoshi" font-size="10pt" font-weight="bold" space-before="8pt" keep-with-next="always"><xsl:value-of select="substring-before($txt, $new_line)"/></fo:block>
+                              <fo:block font-family="Satoshi" font-size="10pt" font-weight="bold" space-before="8pt" keep-with-next="always" role="H3"><xsl:value-of select="substring-before($txt, $new_line)"/></fo:block>
+                            </xsl:when>
+                            <xsl:when test="starts-with(substring-before($txt, $new_line), 'Credential File')">
+                              <fo:block font-family="Satoshi" font-size="10pt" font-weight="bold" space-before="8pt" keep-with-next="always" role="H3"><xsl:value-of select="substring-before($txt, $new_line)"/></fo:block>
                             </xsl:when>
                             
                             <xsl:otherwise>
@@ -214,6 +232,14 @@
         <xsl:param name="txt"/>
         <xsl:param name="list_txt"/>
         <xsl:choose>
+            <!--Skip extra line breaks-->
+            <xsl:when test="starts-with($txt, $new_line)">
+                <xsl:call-template name="create_list_list">
+                    <xsl:with-param name="txt" select="substring-after($txt, $new_line)"/>
+                    <xsl:with-param name="list_txt" select="$list_txt"/>
+                </xsl:call-template>
+            </xsl:when>
+            <!--Loop through list items -->
             <xsl:when test="starts-with(normalize-space($txt), $list_label) or starts-with(normalize-space($txt), $list_label2)">
                 <xsl:choose>
                     <xsl:when test="contains($txt, $new_line)">

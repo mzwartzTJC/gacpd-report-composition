@@ -12,6 +12,12 @@ WORKDIR /app
 # Copy backend files
 COPY backend/ ./
 
+# Copy fonts to system fonts directory
+COPY backend/fop-2.10/brand_fonts/ /usr/share/fonts/opentype/
+
+#Refresh font cache
+RUN fc-cache -f -v
+
 # Copy stylesheets and images
 #COPY stylesheets/ /app/stylesheets/
 

@@ -41,9 +41,15 @@ app.post('/generate-pdf', upload.single('xmlFile'), (req, res) => {
     const outputPdf = path.join(__dirname, '..', `output-${uuidv4()}.pdf`);
     const fopJarPath = path.join(__dirname, 'fop-2.10', 'fop', 'build', 'fop-2.10.jar');
     const fopLib = path.join(__dirname, 'fop-2.10', 'fop', 'lib', '*');
+    const fopConfigPath = path.join(__dirname, 'fop-2.10', 'fop', 'conf', 'fop.xconf');
 
-    const fopCmd = `java -cp "${fopJarPath}:${fopLib}" org.apache.fop.cli.Main -a -xml "${xmlPath}" -xsl "${xslPath}" -pdf "${outputPdf}"`;
-
+    const fopCmd = `java -cp "${fopJarPath}:${fopLib}" org.apache.fop.cli.Main \
+                   -c "${fopConfigPath}" \
+                   -d -a\
+                   -xml "${xmlPath}" \
+                   -xsl "${xslPath}" \
+                   -pdf "${outputPdf}"`;
+                   
     exec(fopCmd, (error, stdout, stderr) => {
       
       console.log('FOP stdout:', stdout);

@@ -17,7 +17,7 @@ the location of this file.
   <accessibility keep-empty-tags="false">true</accessibility>
 
   <!-- Base URL for resolving relative URLs -->
-  <base>../../..</base>
+  <base>../../</base>
   
   <!-- Source resolution in dpi (dots/pixels per inch) for determining the size of pixels in SVG and bitmap images, default: 72dpi -->
   <source-resolution>72</source-resolution>
@@ -31,7 +31,7 @@ the location of this file.
   <!-- Uses renderer mime type for renderers -->
   <renderers>
     <renderer mime="application/pdf">
-      <pdf-ua-mode>PDF/UA-1</pdf-ua-mode>
+      <!--<pdf-ua-mode>PDF/UA-1</pdf-ua-mode>-->
       <filterList>
         <!-- provides compression using zlib flate (default is on) -->
         <value>flate</value>
@@ -45,7 +45,8 @@ the location of this file.
         <!-- <value>ascii-hex</value> -->
       </filterList>
 
-      <fonts>
+       
+      <fonts> 
 
         <!-- embedded fonts -->
         <!--
@@ -81,10 +82,35 @@ the location of this file.
         </font>
         -->
 
+        <!-- register all the fonts found in a directory and all of its sub directories (use with care) -->
+         <directory recursive="true">../usr/share/fonts</directory>
+
         <!-- auto-detect fonts -->
         <auto-detect/>
-        
-      </fonts>
+      
+        <!--
+        <font embed-url="brand_fonts\Satoshi\SATOSHI-REGULAR.OTF" embedding-mode="subset">
+          <font-triplet name="Satoshi" style="normal" weight="normal"/>
+        </font>
+        <font embed-url="brand_fonts\Satoshi\SATOSHI-BOLD.OTF" embedding-mode="subset">
+          <font-triplet name="Satoshi" style="normal" weight="bold"/>
+        </font>
+        <font embed-url="brand_fonts\Satoshi\SATOSHI-ITALIC.OTF" embedding-mode="subset">
+          <font-triplet name="Satoshi" style="italic" weight="normal"/>
+        </font>
+          
+        <font embed-url="brand_fonts/Inter/INTER-REGULAR.OTF" embedding-mode="subset">
+          <font-triplet name="Inter-regular" style="normal" weight="normal"/>
+        </font>
+        <font embed-url="brand_fonts/Inter/INTER-BOLD.OTF" embedding-mode="subset">
+          <font-triplet name="Inter" style="normal" weight="bold"/>
+        </font>
+        <font embed-url="brand_fonts/Inter/INTER-ITALIC.OTF" embedding-mode="subset">
+          <font-triplet name="Inter" style="italic" weight="normal"/>
+        </font> 
+        -->
+    
+      </fonts> 
 
       <!-- This option lets you specify additional options on an XML handler -->
       <!--xml-handler namespace="http://www.w3.org/2000/svg">
@@ -103,7 +129,8 @@ the location of this file.
       <line-width-correction>2.5</line-width-correction>
       <resource-group-file>resources.afp</resource-group-file>
 
-      <fonts>
+      <fonts>      
+
       <!--
            Below is an example using raster font configuration using FOP builtin base-14 font metrics.
            for Times Roman, Helvetica and Courier.
@@ -245,7 +272,7 @@ the location of this file.
           <font-triplet name="Arial" style="normal" weight="normal"/>
           <font-triplet name="sans-serif" style="normal" weight="normal"/>
           <font-triplet name="any" style="normal" weight="normal"/>
-        </font>
+        </font> 
 
         <!-- Helvetica Italic -->
         <font>
@@ -268,7 +295,7 @@ the location of this file.
           <font-triplet name="Helvetica" style="italic" weight="normal"/>
           <font-triplet name="Arial" style="italic" weight="normal"/>
           <font-triplet name="sans-serif" style="italic" weight="normal"/>
-        </font>
+        </font> 
 
         <!-- Helvetica (Semi) Bold -->
         <font>
@@ -291,7 +318,7 @@ the location of this file.
           <font-triplet name="Helvetica" style="normal" weight="bold"/>
           <font-triplet name="Arial" style="normal" weight="bold"/>
           <font-triplet name="sans-serif" style="normal" weight="bold"/>
-        </font>
+        </font> 
 
         <!-- Helvetica Italic (Semi) Bold -->
         <font>
@@ -314,7 +341,7 @@ the location of this file.
           <font-triplet name="Helvetica" style="italic" weight="bold"/>
           <font-triplet name="Arial" style="italic" weight="bold"/>
           <font-triplet name="sans-serif" style="italic" weight="bold"/>
-        </font>
+        </font> 
 
         <!-- Courier -->
         <font>
@@ -403,7 +430,7 @@ the location of this file.
           <font-triplet name="Courier" style="italic" weight="bold"/>
           <font-triplet name="monospace" style="italic" weight="bold"/>
         </font>
-        
+      
          <!-- 
         Configure double-byte (CID Keyed font (Type 0)) AFP fonts with type="CIDKeyed".  
         
