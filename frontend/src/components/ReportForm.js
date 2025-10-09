@@ -16,6 +16,7 @@ const ReportForm = ({
   pdfUrl
 }) => (
   <>
+  {/*
     <FormControl fullWidth sx={{ width: '35%', mt: 2 }}>
       <InputLabel id="effectice-date-label">Choose an Effective date</InputLabel>
       <Select
@@ -31,9 +32,9 @@ const ReportForm = ({
         <MenuItem value="date1">01/01/2025</MenuItem>
       </Select>
     </FormControl>
-
+  */}
     <Box sx={{display: 'flex', gap: 2, mb: 2}}>
-      <FormControl fullWidth sx={{ mt: 2 }}>
+      <FormControl fullWidth={false} sx={{ width: '33%', mt: 2 }}>
         <InputLabel id="report-type-label">Choose a Report Type</InputLabel>
         <Select
           labelId="report-type-label"
@@ -48,7 +49,8 @@ const ReportForm = ({
           <MenuItem value="SPG">SPG Report</MenuItem>
         </Select>
       </FormControl>
-      
+    </Box> {/*remove this line if other options below are added*/}
+    {/*
       <FormControl fullWidth sx={{ mt: 2 }}>
         <InputLabel id="program-label">Choose an Program</InputLabel>
         <Select
@@ -77,7 +79,7 @@ const ReportForm = ({
         </FormControl>
       )}
     </Box>
-
+    */}
       <Box display="flex" flexDirection="column" gap={2} sx={{ mt: 3 }}>
         <input 
           accept='.xml' 
@@ -88,7 +90,7 @@ const ReportForm = ({
         />
       
         <label htmlFor="upload-file">
-          <Button variant="contained" component="span">Get Data</Button>
+          <Button variant="contained" component="span">Load XML</Button>
         </label>
       
         {fileName && (
