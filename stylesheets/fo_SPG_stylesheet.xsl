@@ -6,8 +6,10 @@
   <!--Global variables-->
   <xsl:variable name="list_label" select="'- '"/>
   <xsl:variable name="list_label2" select="'-- '"/>
+  <xsl:variable name="list_label3" select="'--- '"/>
   <xsl:variable name="new_line" select="'&#10;'"/>
   <xsl:variable name="list_break" select="'#'"/>
+  <xsl:variable name="note_indicator" select="'~'"/>
   
   <!-- Attribute Sets -->
   <xsl:attribute-set name="general-body">
@@ -73,12 +75,12 @@
                 <xsl:choose>
                     <xsl:when test="contains(COP_TTL, 'Condition of Participation:')">
                         <fo:block font-family="Satoshi" font-weight="bold" font-size="18pt" break-before="page" keep-with-next="always" role="H1"> 
-                            <xsl:value-of select="substring-after(COP_TTL, 'Condition of Participation: ')"/> (<xsl:value-of select="COP_NM"/>)
+                            <xsl:value-of select="../PROGRAM"/> <xsl:text> </xsl:text> <xsl:value-of select="substring-after(COP_TTL, 'Condition of Participation: ')"/> <xsl:text>  (</xsl:text><xsl:value-of select="COP_NM"/><xsl:text>)</xsl:text>
                         </fo:block>
                     </xsl:when>
                     <xsl:otherwise>
                         <fo:block font-family="Satoshi" font-weight="bold" font-size="18pt" break-before="page" keep-with-next="always" role="H1"> 
-                            <xsl:value-of select="COP_TTL"/> (<xsl:value-of select="COP_NM"/>)
+                            <xsl:value-of select="../PROGRAM"/><xsl:text> </xsl:text><xsl:value-of select="COP_TTL"/><xsl:text> (</xsl:text><xsl:value-of select="COP_NM"/><xsl:text>)</xsl:text>
                         </fo:block>
                     </xsl:otherwise>
                 </xsl:choose>
@@ -160,15 +162,15 @@
                             <xsl:with-param name="txt" select="substring-after($txt, $new_line)"/>
                         </xsl:call-template>
                     </xsl:when>
+                    <!--recurring loop to create a list of list elements -->
                     <xsl:when test="starts-with(normalize-space($txt), $list_label)">
-                        <!--recurring loop to create a list of list elements -->
                         <xsl:call-template name="create_list_list">
                             <xsl:with-param name="txt" select="$txt"/>
                             <xsl:with-param name="list_txt"/>
                         </xsl:call-template>
-                        
                     </xsl:when>
-                    <xsl:otherwise> <!-- if line isn't a list item -->
+                    <!-- if line isn't a list item -->
+                    <xsl:otherwise> 
                         <xsl:if test="string-length(substring-before($txt, $new_line)) > 0">
                           <xsl:choose>
                             <xsl:when test="substring-before($txt, $new_line) = 'Interview'">
@@ -192,19 +194,19 @@
                             <xsl:when test="starts-with(substring-before($txt, $new_line), 'Credential File')">
                               <fo:block font-family="Satoshi" font-size="10pt" font-weight="bold" space-before="8pt" keep-with-next="always" role="H3"><xsl:value-of select="substring-before($txt, $new_line)"/></fo:block>
                             </xsl:when>
-                            
+        
                             <xsl:otherwise>
                               <fo:block font-size="8pt"><xsl:value-of select="substring-before($txt, $new_line)"/></fo:block>
                             </xsl:otherwise>
                           </xsl:choose>
                         </xsl:if>
                         
+                        <!--Redefine txt for only what's left after the line break-->
                         <xsl:variable name="txt" select="substring-after($txt, $new_line)"/>
-                        
+                        <!--Loop back to top of template-->
                         <xsl:call-template name="tag_text">
                             <xsl:with-param name="txt" select="$txt"/>
                         </xsl:call-template>
-                        
                     </xsl:otherwise>
                 </xsl:choose>              
             </xsl:when>
@@ -240,8 +242,27 @@
                 </xsl:call-template>
             </xsl:when>
             <!--Loop through list items -->
-            <xsl:when test="starts-with(normalize-space($txt), $list_label) or starts-with(normalize-space($txt), $list_label2)">
+            <xsl:when test="starts-with(normalize-space($txt), $list_label) 
+                            or starts-with(normalize-space($txt), $list_label2) 
+                            or starts-with(normalize-space($txt), $list_label3)">
                 <xsl:choose>
+                <!--Retain note with bullet if the line after the note is also a bullet point.-->
+                    <xsl:when test="starts-with(normalize-space(substring-after($txt, $new_line)), 'Note')
+                                    and (starts-with(normalize-space(substring-after(substring-after($txt, $new_line), $new_line)), $list_label)
+                                    or starts-with(normalize-space(substring-after(substring-after($txt, $new_line), $new_line)), $list_label2)
+                                    or starts-with(normalize-space(substring-after(substring-after($txt, $new_line), $new_line)), $list_label3))">
+                        
+                        <xsl:variable name="list_txt" select="concat($list_txt, substring-before($txt, $new_line), $note_indicator, substring-before(substring-after($txt, $new_line), $new_line), $list_break)"/>
+                        <xsl:variable name="txt" select="substring-after(substring-after($txt, $new_line), $new_line)"/>
+
+                        <xsl:call-template name="create_list_list">
+                            <xsl:with-param name="txt" select="$txt"/>
+                            <xsl:with-param name="list_txt" select="$list_txt"/>
+                        </xsl:call-template>
+                    
+                    </xsl:when>
+
+                <!-- List items with no notes below -->
                     <xsl:when test="contains($txt, $new_line)">
                         <xsl:variable name="list_txt" select="concat($list_txt, substring-before($txt, $new_line), $list_break)"/>
                         <xsl:variable name="txt" select="substring-after($txt, $new_line)"/>
@@ -265,7 +286,7 @@
                     
                 </xsl:choose>
             </xsl:when>
-            
+
             <xsl:otherwise>
                 <!--call template to print list --> 
                 <fo:list-block>
@@ -292,7 +313,7 @@
             <!-- If the list contains multiple items, tag one, redfine variable, pass back through --> 
             <xsl:when test="string-length($list_txt)-string-length(translate($list_txt, $list_break, ''))>1">
                 <xsl:choose>
-                    <xsl:when test="starts-with(normalize-space($list_txt), $list_label2)">
+                    <xsl:when test="starts-with(normalize-space($list_txt), $list_label2) or starts-with(normalize-space($list_txt), $list_label3)">
                         <xsl:variable name="sublist_txt" select="concat($sublist_txt, substring-before($list_txt, $list_break), $list_break)"/>
                         <xsl:variable name="list_txt" select="substring-after($list_txt, $list_break)"/>
                         
@@ -312,11 +333,25 @@
                                     </fo:list-block>                 
                                 </fo:list-item-body></fo:list-item>
                         </xsl:if>
+
+                        <xsl:choose>
+                            <xsl:when test="contains(substring-after(substring-before($list_txt, $list_break), $list_label), $note_indicator)">
+                                <fo:list-item>
+                                    <fo:list-item-label><fo:block font-size="8pt" start-indent="10pt">•</fo:block></fo:list-item-label>
+                                    <fo:list-item-body>
+                                        <fo:block font-size="8pt" start-indent="20pt"><xsl:value-of select="substring-after(substring-before($list_txt, $note_indicator), $list_label)"/></fo:block>
+                                        <fo:block font-size="8pt" start-indent="20pt"><xsl:value-of select="substring-after(substring-before($list_txt, $list_break), $note_indicator)"/></fo:block>
+                                    </fo:list-item-body>
+                                </fo:list-item>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <fo:list-item>
+                                    <fo:list-item-label><fo:block font-size="8pt" start-indent="10pt">•</fo:block></fo:list-item-label>
+                                    <fo:list-item-body><fo:block font-size="8pt" start-indent="20pt"><xsl:value-of select="substring-after(substring-before($list_txt, $list_break), $list_label)"/></fo:block></fo:list-item-body>
+                                </fo:list-item>
+                            </xsl:otherwise>
+                        </xsl:choose>
                         
-                        <fo:list-item>
-                            <fo:list-item-label><fo:block font-size="8pt" start-indent="10pt">•</fo:block></fo:list-item-label>
-                            <fo:list-item-body><fo:block font-size="8pt" start-indent="20pt"><xsl:value-of select="substring-after(substring-before($list_txt, $list_break), $list_label)"/></fo:block></fo:list-item-body>
-                        </fo:list-item>
                         <xsl:variable name="list_txt" select="substring-after($list_txt, $list_break)"/>
                         
                         <xsl:call-template name="tag_list">
@@ -330,31 +365,48 @@
             <!-- Tag last list item --> 
             <xsl:otherwise>
                 <xsl:choose>
-                    <xsl:when test="starts-with(normalize-space($list_txt), $list_label2)">
+                    <xsl:when test="starts-with(normalize-space($list_txt), $list_label2) or starts-with(normalize-space($list_txt), $list_label3)">
                         <xsl:variable name="sublist_txt" select="concat($sublist_txt, $list_txt)"/>
-                        <fo:list-item><fo:list-item-label><fo:block></fo:block></fo:list-item-label><fo:list-item-body>
+                        <fo:list-item><fo:list-item-label><fo:block></fo:block></fo:list-item-label>
+                            <fo:list-item-body>
                                 <fo:list-block>
                                     <xsl:call-template name="tag_sublist">
                                         <xsl:with-param name="sublist_txt" select="$sublist_txt"/>
                                     </xsl:call-template>
                                 </fo:list-block>
-                            </fo:list-item-body></fo:list-item>
+                            </fo:list-item-body>
+                        </fo:list-item>
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:if test="string-length($sublist_txt)>1">
-                            <fo:list-item><fo:list-item-label><fo:block></fo:block></fo:list-item-label><fo:list-item-body>
+                            <fo:list-item><fo:list-item-label><fo:block></fo:block></fo:list-item-label>
+                                <fo:list-item-body>
                                     <fo:list-block>
                                         <xsl:call-template name="tag_sublist">
                                             <xsl:with-param name="sublist_txt" select="$sublist_txt"/>
                                         </xsl:call-template>
                                     </fo:list-block>
-                                </fo:list-item-body></fo:list-item>
+                                </fo:list-item-body>
+                            </fo:list-item>
                         </xsl:if>
-                        
-                        <fo:list-item>
-                            <fo:list-item-label><fo:block font-size="8pt" start-indent = "10pt">•</fo:block></fo:list-item-label>
-                            <fo:list-item-body><fo:block font-size="8pt" start-indent="20pt"><xsl:value-of select="substring-before(substring-after($list_txt, $list_label), $list_break)"/></fo:block></fo:list-item-body>
-                        </fo:list-item>
+
+                        <xsl:choose>
+                            <xsl:when test="contains(substring-after(substring-before($list_txt, $list_break), $list_label), $note_indicator)">
+                                <fo:list-item>
+                                    <fo:list-item-label><fo:block font-size="8pt" start-indent = "10pt">•</fo:block></fo:list-item-label>
+                                    <fo:list-item-body>
+                                        <fo:block font-size="8pt" start-indent="20pt"><xsl:value-of select="substring-after(substring-before($list_txt, $note_indicator), $list_label)"/></fo:block>
+                                        <fo:block font-size="8pt" start-indent="20pt"><xsl:value-of select="substring-after(substring-before($list_txt, $list_break), $note_indicator)"/></fo:block>
+                                    </fo:list-item-body>
+                                </fo:list-item>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <fo:list-item>
+                                    <fo:list-item-label><fo:block font-size="8pt" start-indent = "10pt">•</fo:block></fo:list-item-label>
+                                    <fo:list-item-body><fo:block font-size="8pt" start-indent="20pt"><xsl:value-of select="substring-before(substring-after($list_txt, $list_label), $list_break)"/></fo:block></fo:list-item-body>
+                                </fo:list-item>
+                            </xsl:otherwise>
+                        </xsl:choose>
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:otherwise>
@@ -363,31 +415,152 @@
     
     <xsl:template name="tag_sublist">
         <xsl:param name="sublist_txt"/>
+        <xsl:param name="sub_sublist_txt"/>
         <xsl:choose>
             <!-- If the list contains multiple items, tag one, redfine variable, pass back through --> 
             <xsl:when test="string-length($sublist_txt)-string-length(translate($sublist_txt, $list_break, ''))>1">
-                <fo:list-item start-indent="20pt">
-                    <fo:list-item-label><fo:block font-size="8pt" start-indent="30pt">•</fo:block></fo:list-item-label>
-                    <fo:list-item-body><fo:block font-size="8pt" start-indent="40pt"><xsl:value-of select="substring-after(substring-before($sublist_txt, $list_break), $list_label)"/></fo:block></fo:list-item-body>
-                </fo:list-item>
-                <xsl:variable name="sublist_txt" select="substring-after($sublist_txt, $list_break)"/>
-                
-                <xsl:call-template name="tag_sublist">
-                    <xsl:with-param name="sublist_txt" select="$sublist_txt"/>
-                </xsl:call-template>
-                
+                <xsl:choose>
+                    <xsl:when test="starts-with(normalize-space($sublist_txt), $list_label3)">
+                        <xsl:variable name="sub_sublist_txt" select="concat($sub_sublist_txt, substring-before($sublist_txt, $list_break), $list_break)"/>
+                        <xsl:variable name="sublist_txt" select="substring-after($sublist_txt, $list_break)"/>
+                        
+                        <xsl:call-template name="tag_sublist">
+                            <xsl:with-param name="sublist_txt" select="$sublist_txt"/>
+                            <xsl:with-param name="sub_sublist_txt" select="$sub_sublist_txt"/>
+                        </xsl:call-template>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:if test="string-length($sub_sublist_txt)>1">
+                            <fo:list-item><fo:list-item-label><fo:block></fo:block></fo:list-item-label>
+                                <fo:list-item-body>
+                                     <fo:list-block>
+                                        <xsl:call-template name="tag_sub_sublist">
+                                            <xsl:with-param name="sub_sublist_txt" select="$sub_sublist_txt"/>
+                                        </xsl:call-template>
+                                    </fo:list-block>                 
+                                </fo:list-item-body>
+                            </fo:list-item>
+                        </xsl:if>
+
+                        <fo:list-item>
+                            <xsl:choose>
+                                <xsl:when test="contains(substring-after(substring-before($sublist_txt, $list_break), $list_label2), $note_indicator)">
+                                    <fo:list-item-label><fo:block font-size="8pt" start-indent="30pt">•</fo:block></fo:list-item-label>
+                                    <fo:list-item-body>
+                                        <fo:block font-size="8pt" start-indent="40pt"><xsl:value-of select="substring-after(substring-before($sublist_txt, $note_indicator), $list_label2)"/></fo:block>
+                                        <fo:block font-size="8pt" start-indent="40pt"><xsl:value-of select="substring-after(substring-before($sublist_txt, $list_break), $note_indicator)"/></fo:block>
+                                    </fo:list-item-body>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <fo:list-item-label><fo:block font-size="8pt" start-indent="30pt">•</fo:block></fo:list-item-label>
+                                    <fo:list-item-body><fo:block font-size="8pt" start-indent="40pt"><xsl:value-of select="substring-after(substring-before($sublist_txt, $list_break), $list_label2)"/></fo:block></fo:list-item-body>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </fo:list-item>
+            
+                        <xsl:variable name="sublist_txt" select="substring-after($sublist_txt, $list_break)"/>
+                    
+                        <xsl:call-template name="tag_sublist">
+                            <xsl:with-param name="sublist_txt" select="$sublist_txt"/>
+                            <xsl:with-param name="sub_sublist_txt" select="''"/>
+                        </xsl:call-template>
+
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:when>
             <!-- Tag last list item --> 
             <xsl:otherwise>
-                <xsl:if test="starts-with(normalize-space($sublist_txt), $list_label2)">
-                    <fo:list-item start-indent="20pt">
-                        <fo:list-item-label><fo:block font-size="8pt" start-indent="30pt">•</fo:block></fo:list-item-label>
-                        <fo:list-item-body><fo:block font-size="8pt" start-indent="40pt"><xsl:value-of select="substring-before(substring-after($sublist_txt, $list_label), $list_break)"/></fo:block></fo:list-item-body>
-                    </fo:list-item>
-                </xsl:if>
+                <xsl:choose>
+                    <xsl:when test="starts-with(normalize-space($sublist_txt), $list_label3)">
+                        <xsl:variable name="sub_sublist_txt" select="concat($sub_sublist_txt, substring-before($sublist_txt, $list_break), $list_break)"/>
+                        <xsl:variable name="sublist_txt" select="substring-after($sublist_txt, $list_break)"/>
+                        
+                        <ul>
+                            <xsl:call-template name="tag_sub_sublist">
+                                <xsl:with-param name="sub_sublist_txt" select="$sub_sublist_txt"/>
+                            </xsl:call-template>
+                        </ul> 
+
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:if test="string-length($sub_sublist_txt)>1">
+                            <ul>
+                                <xsl:call-template name="tag_sub_sublist">
+                                    <xsl:with-param name="sub_sublist_txt" select="$sub_sublist_txt"/>
+                                </xsl:call-template>
+                            </ul> 
+                        </xsl:if>
+
+                        <fo:list-item>
+                            <xsl:choose>
+                                <xsl:when test="contains(substring-after(substring-before($sublist_txt, $list_break), $list_label2), $note_indicator)">
+                                    <fo:list-item-label><fo:block font-size="8pt" start-indent="30pt">•</fo:block></fo:list-item-label>
+                                    <fo:list-item-body>
+                                        <fo:block font-size="8pt" start-indent="40pt"><xsl:value-of select="substring-after(substring-before($sublist_txt, $note_indicator), $list_label2)"/></fo:block>
+                                        <fo:block font-size="8pt" start-indent="40pt"><xsl:value-of select="substring-after(substring-before($sublist_txt, $list_break), $note_indicator)"/></fo:block>
+                                    </fo:list-item-body>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <fo:list-item-label><fo:block font-size="8pt" start-indent="30pt">•</fo:block></fo:list-item-label>
+                                    <fo:list-item-body><fo:block font-size="8pt" start-indent="40pt"><xsl:value-of select="substring-after(substring-before($sublist_txt, $list_break), $list_label2)"/></fo:block></fo:list-item-body>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </fo:list-item>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:otherwise>
         </xsl:choose>
         
     </xsl:template>
+
+    <xsl:template name="tag_sub_sublist">
+        <xsl:param name="sub_sublist_txt"/>
+        <xsl:choose>
+        <!-- If the list contains multiple items, tag one, redfine variable, pass back through --> 
+        <xsl:when test="string-length($sub_sublist_txt)-string-length(translate($sub_sublist_txt, $list_break, ''))>1">
+            <fo:list-item start-indent="40pt">
+                <xsl:choose>
+                    <xsl:when test="contains(substring-after(substring-before($sub_sublist_txt, $list_break), $list_label3), $note_indicator)">
+                        <fo:list-item-label><fo:block start-indent="50pt">•</fo:block></fo:list-item-label>
+                        <fo:list-item-body>
+                            <fo:block start-indent="60pt"><xsl:value-of select="substring-after(substring-before($sub_sublist_txt, $note_indicator), $list_label3)"/></fo:block>
+                            <fo:block start-indent="60pt"><xsl:value-of select="substring-after(substring-before($sub_sublist_txt, $list_break), $note_indicator)"/></fo:block>
+                        </fo:list-item-body>    
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <fo:list-item-label><fo:block start-indent="50pt">•</fo:block></fo:list-item-label>
+                        <fo:list-item-body><fo:block start-indent="60pt"><xsl:value-of select="substring-after(substring-before($sub_sublist_txt, $list_break), $list_label3)"/></fo:block></fo:list-item-body>
+                    </xsl:otherwise>
+                </xsl:choose>  
+            </fo:list-item>
+            
+            <xsl:variable name="sub_sublist_txt" select="substring-after($sub_sublist_txt, $list_break)"/>
+        
+            <xsl:call-template name="tag_sub_sublist">
+                <xsl:with-param name="sub_sublist_txt" select="$sub_sublist_txt"/>
+            </xsl:call-template>
+        
+        </xsl:when>
+        <!-- Tag last list item --> 
+        <xsl:otherwise>
+            <fo:list-item start-indent="40pt">
+                <xsl:choose>
+                    <xsl:when test="contains(substring-after(substring-before($sub_sublist_txt, $list_break), $list_label3), $note_indicator)">
+                        <fo:list-item-label><fo:block start-indent="50pt">•</fo:block></fo:list-item-label>
+                        <fo:list-item-body>
+                            <fo:block start-indent="60pt"><xsl:value-of select="substring-after(substring-before($sub_sublist_txt, $note_indicator), $list_label3)"/></fo:block>
+                            <fo:block start-indent="60pt"><xsl:value-of select="substring-after(substring-before($sub_sublist_txt, $list_break), $note_indicator)"/></fo:block>
+                        </fo:list-item-body>    
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <fo:list-item-label><fo:block start-indent="50pt">•</fo:block></fo:list-item-label>
+                        <fo:list-item-body><fo:block start-indent="60pt"><xsl:value-of select="substring-after(substring-before($sub_sublist_txt, $list_break), $list_label3)"/></fo:block></fo:list-item-body>
+                    </xsl:otherwise>
+                </xsl:choose>  
+            </fo:list-item>
+        </xsl:otherwise>
+    </xsl:choose>
+    
+  </xsl:template>
     
 </xsl:stylesheet>
